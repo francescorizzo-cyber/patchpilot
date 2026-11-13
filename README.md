@@ -52,6 +52,7 @@ Read requests are sent only after you switch on **Experimental mode** (Connect s
 
 1. Download **PatchPilot-x.y.z.apk** from **[Releases](../../releases/latest)** on your Android phone.
 2. Open it and allow installing from this source when Android asks.
+   If **Google Play Protect** says *"App blocked to protect your device"*, tap **Install anyway**: it appears for every app downloaded outside Google Play from a developer it doesn't know yet.
 3. Connect the pedal with a **USB-C / OTG cable** and open PatchPilot → **Connect**.
 
 Requires **Android 8.0 or later** with **USB host (OTG)**.
@@ -116,6 +117,7 @@ Le richieste di lettura partono solo dopo aver attivato la **Modalità speriment
 
 1. Scarica **PatchPilot-x.y.z.apk** da **[Releases](../../releases/latest)** dal telefono Android.
 2. Aprilo e consenti l'installazione da questa fonte quando Android lo chiede.
+   Se **Google Play Protect** dice *"App bloccata per proteggere il tuo dispositivo"*, tocca **Installa comunque**: compare per ogni app scaricata fuori da Google Play da uno sviluppatore che non conosce ancora.
 3. Collega il pedale con un cavo **USB-C / OTG** e apri PatchPilot → **Collega**.
 
 Serve **Android 8.0 o successivo** con **USB host (OTG)**.
