@@ -4,7 +4,7 @@
 
 ## Italiano
 
-PatchPilot è sviluppata da Francesco Rizzo (ericiusdevelop@gmail.com).
+PatchPilot è sviluppata da Francesco Rizzo (autofonic.mixer@gmail.com).
 
 PatchPilot **non raccoglie, non salva su server e non condivide nessun dato personale**. Non richiede account, non contiene pubblicità, non usa strumenti di analisi e **non ha accesso a Internet**.
 
@@ -12,11 +12,11 @@ PatchPilot **non raccoglie, non salva su server e non condivide nessun dato pers
 - **File .ZD2**: se importi file di effetti, vengono copiati solo nella memoria privata dell'app sul tuo dispositivo.
 - **Condividi registro**: il registro esce dal telefono solo se scegli tu di inviarlo (es. per email); lo usiamo solo per correggere l'app.
 
-Domande: ericiusdevelop@gmail.com
+Domande: autofonic.mixer@gmail.com
 
 ## English
 
-PatchPilot is developed by Francesco Rizzo (ericiusdevelop@gmail.com).
+PatchPilot is developed by Francesco Rizzo (autofonic.mixer@gmail.com).
 
 PatchPilot **does not collect, store on servers or share any personal data**. It requires no account, contains no ads, uses no analytics and **has no internet access**.
 
@@ -24,4 +24,4 @@ PatchPilot **does not collect, store on servers or share any personal data**. It
 - **.ZD2 files**: if you import effect files, they are copied only into the app's private storage on your device.
 - **Share log**: the log leaves your phone only if you choose to send it (e.g. by email); we use it only to fix the app.
 
-Questions: ericiusdevelop@gmail.com
+Questions: autofonic.mixer@gmail.com

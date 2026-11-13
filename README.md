@@ -23,7 +23,7 @@ PatchPilot is made for players who use Android.
 
 > 🧪 **This is a beta.** It has been built carefully but **not yet tested on every pedal**.
 > 🙋 **Got one of these pedals?** Try it and send us the log from the app: [5-minute test guide](TEST.md#english) ·
-> write to **ericiusdevelop@gmail.com** · or **[open an issue](https://github.com/francescorizzo-cyber/patchpilot/issues/new)**.
+> write to **autofonic.mixer@gmail.com** · or **[open an issue](https://github.com/francescorizzo-cyber/patchpilot/issues/new)**.
 
 ## 🎚️ Supported pedals
 
@@ -87,7 +87,7 @@ PatchPilot nasce per chi usa Android.
 
 > 🧪 **È una beta.** È stata costruita con cura ma **non è ancora stata provata su tutti i pedali**.
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
-> scrivi a **ericiusdevelop@gmail.com** · oppure **[apri una segnalazione](https://github.com/francescorizzo-cyber/patchpilot/issues/new)**.
+> scrivi a **autofonic.mixer@gmail.com** · oppure **[apri una segnalazione](https://github.com/francescorizzo-cyber/patchpilot/issues/new)**.
 
 ## 🎚️ Pedali supportati
 
@@ -129,4 +129,4 @@ Nessun account, nessuna pubblicità, nessun dato raccolto, nessun accesso a Inte
 PatchPilot è un progetto indipendente, **non affiliato, approvato o sponsorizzato da Zoom Corporation**.
 Zoom, MultiStomp e Handy Guitar Lab sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
 
-Contatti: **ericiusdevelop@gmail.com**
+Contatti: **autofonic.mixer@gmail.com**

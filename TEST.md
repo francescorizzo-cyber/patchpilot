@@ -21,7 +21,7 @@ Keep the amp volume low and, if you can, back up the patches you care about firs
 | 5. Editor | **Editor** | Do the effects on/off match the pedal? |
 | 6. Tuner | **Accordatore** → *Accendi accordatore*, play a string → *Spegni accordatore* | Does the note match the pedal? |
 
-**Send the result:** **Registro** → *Condividi registro* → email to **ericiusdevelop@gmail.com**, with pedal model and firmware version.
+**Send the result:** **Registro** → *Condividi registro* → email to **autofonic.mixer@gmail.com**, with pedal model and firmware version.
 Even "step 1 does not work" is very useful!
 
 If something odd happens (sound changes, the pedal freezes, the cable disconnects): **stop**, unplug, and tell us.
@@ -45,7 +45,7 @@ Tieni basso il volume dell'amplificatore e, se puoi, fai prima un backup delle p
 | 5. Editor | **Editor** | Gli effetti accesi/spenti corrispondono al pedale? |
 | 6. Accordatore | **Accordatore** → *Accendi*, suona una corda → *Spegni* | La nota corrisponde a quella del pedale? |
 
-**Invia il risultato:** **Registro** → *Condividi registro* → email a **ericiusdevelop@gmail.com**, con modello e versione firmware del pedale.
+**Invia il risultato:** **Registro** → *Condividi registro* → email a **autofonic.mixer@gmail.com**, con modello e versione firmware del pedale.
 Anche «il passo 1 non funziona» è utilissimo!
 
 Se succede qualcosa di strano (cambia il suono, il pedale si blocca, il cavo si scollega): **fermati**, scollega e avvisaci.
