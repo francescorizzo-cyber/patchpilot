@@ -1,0 +1,45 @@
+name: "🎸 I tested it on my pedal / L'ho provato sul mio pedale"
+description: "Tell what works on your Zoom pedal · Dimmi cosa funziona sul tuo pedale Zoom"
+labels: ["pedal test"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Follow the [5-minute test guide](https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md) first. · Prima segui la [guida di prova in 5 minuti](https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#italiano).
+        PatchPilot **only reads** from the pedal: nothing is written. · PatchPilot **legge soltanto** dal pedale: non scrive niente.
+        📧 Send the MIDI log (**Registro → Condividi registro**) to autofonic.mixer@gmail.com, or attach it here. · Manda il registro MIDI ad autofonic.mixer@gmail.com, o allegalo qui.
+        🙏 G6, G11 and B6 owners: your log is especially precious! · Chi ha G6, G11 o B6: il vostro registro è preziosissimo!
+  - type: dropdown
+    id: pedal
+    attributes:
+      label: "Pedal / Pedale"
+      options: ["MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "G2 FOUR / G2X FOUR", "B2 FOUR", "G6", "G11", "B6"]
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: "Pedal firmware / Firmware del pedale"
+      placeholder: "e.g. 1.10"
+  - type: input
+    id: phone
+    attributes:
+      label: "Phone and Android version / Telefono e versione Android"
+      placeholder: "e.g. Pixel 7, Android 15"
+  - type: checkboxes
+    id: works
+    attributes:
+      label: "What works? · Cosa funziona?"
+      options:
+        - label: "Pedal recognized / Pedale riconosciuto (Collega)"
+        - label: "Patch list with names / Elenco patch con i nomi (Patch)"
+        - label: "Current patch shown / Patch corrente visualizzata (Editor)"
+        - label: "Effects and parameters correct / Effetti e parametri giusti (Editor)"
+        - label: "Effect names from .ZD2 files / Nomi effetti dai file .ZD2"
+        - label: "Tuner / Accordatore"
+        - label: "Log shared / Registro condiviso"
+  - type: textarea
+    id: notes
+    attributes:
+      label: "What doesn't work, and notes · Cosa non funziona, e note"
+      description: "Attach the MIDI log and screenshots if you can. · Allega il registro MIDI e foto dello schermo se puoi."

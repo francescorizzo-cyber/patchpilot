@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "✉️ Email (private) · Email (privata)"
+    url: "mailto:autofonic.mixer@gmail.com"
+    about: "For anything private, or to send the MIDI log. · Per le cose private, o per mandare il registro MIDI."
+  - name: "📖 5-minute test guide · Guida di prova in 5 minuti"
+    url: "https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md"
+    about: "How to test PatchPilot on your pedal. · Come provare PatchPilot sul tuo pedale."

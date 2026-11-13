@@ -1,0 +1,45 @@
+name: "🐞 Something doesn't work / Qualcosa non funziona"
+description: "Report a problem with PatchPilot · Segnala un problema"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! English or Italian, as you prefer. · Grazie! Scrivi in inglese o in italiano, come preferisci.
+        If you can, attach the MIDI log from **Registro → Condividi registro** (or email it to autofonic.mixer@gmail.com). · Se puoi, allega il registro da **Registro → Condividi registro** (o mandalo ad autofonic.mixer@gmail.com).
+  - type: dropdown
+    id: pedal
+    attributes:
+      label: "Pedal / Pedale"
+      options: ["MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "G2 FOUR / G2X FOUR", "B2 FOUR", "G6", "G11", "B6", "Demo mode / Modalità demo", "Other / Altro"]
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: "Pedal firmware / Firmware del pedale"
+      placeholder: "e.g. 1.10"
+  - type: input
+    id: phone
+    attributes:
+      label: "Phone and Android version / Telefono e versione Android"
+      placeholder: "e.g. Samsung A54, Android 14"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "PatchPilot version / Versione"
+      placeholder: "e.g. 0.6.3 (Collega tab / scheda Collega)"
+  - type: dropdown
+    id: cable
+    attributes:
+      label: "Connection / Collegamento"
+      options: ["USB-C to USB-C cable", "OTG adapter + USB cable", "USB hub", "Not connected / Non collegato"]
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happened? · Cosa è successo?"
+      description: "What you did, what you expected, what you got. Screenshots help a lot. · Cosa hai fatto, cosa ti aspettavi, cosa è successo. Le foto dello schermo aiutano molto."
+    validations:
+      required: true
