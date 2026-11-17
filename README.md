@@ -4,12 +4,15 @@
 
 # 🎛️ PatchPilot
 
-### Your multi-effects pedal, on your Android phone
+### Your multi-effects pedal, on your Android phone — and on Windows & Linux
 **MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · G2 FOUR · B2 FOUR · G6 · G11 · B6** — over a **USB cable**
 
 [![Download APK](https://img.shields.io/badge/⬇_Download-Android_APK-ffb547?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
+[![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
+[![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-on-google-play)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
+[![Donate](https://img.shields.io/badge/♥_Donate-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AutoFonicMixer)
 
 *[Italiano più sotto](#italiano)*
 
@@ -19,7 +22,7 @@
 
 PatchPilot connects your **Zoom-compatible multi-effects pedal** to your **Android phone or tablet** with a USB cable
 and shows what is inside: **patches, effects, parameters and the tuner**. The official editor apps exist only for iPhone:
-PatchPilot is made for players who use Android.
+PatchPilot is made for players who use Android — and it also runs on **Windows and Linux** computers.
 
 > 🧪 **This is a beta.** It has been built carefully but **not yet tested on every pedal**.
 > 🙋 **Got one of these pedals?** Try it and send us the log from the app: [5-minute test guide](TEST.md#english) ·
@@ -46,7 +49,7 @@ PatchPilot is made for players who use Android.
 ## 🛡️ Your pedal is safe
 
 The beta **only reads**. It **never writes, saves or deletes** anything in your pedal's memory: those commands are blocked in the code.
-Read requests are sent only after you switch on **Experimental mode** (Connect screen).
+Read requests are sent only after you switch on **reading from the pedal** (Connect screen).
 
 ## ⬇️ Install
 
@@ -57,7 +60,18 @@ Read requests are sent only after you switch on **Experimental mode** (Connect s
 
 Requires **Android 8.0 or later** with **USB host (OTG)**.
 
+### 💻 Windows and Linux
+
+- **Windows 10/11**: `PatchPilot-x.y.z-windows-x64-setup.exe` (installer) or `…-portatile.zip` (portable, no install). If SmartScreen warns you, click **More info → Run anyway**.
+- **Linux**: `PatchPilot-x.y.z-linux-x64.deb` (Ubuntu/Debian: `sudo apt install ./PatchPilot-….deb`) or `…-linux-x64.tar.gz` (unpack and run `PatchPilot/bin/PatchPilot`).
+- Java is included. Connect the pedal with its USB cable, then **Collega → Cerca dispositivi → Collega e identifica**. Close Guitar Lab first: the pedal's MIDI port works with one program at a time.
+
 > ℹ️ When PatchPilot arrives on **Google Play**, uninstall the APK first: the two versions are signed differently.
+
+## ♥ Support the project
+
+PatchPilot is free. If it helps you, a donation of any amount keeps it going: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
+The full features (writing and backing up patches) will come after testing on real pedals; donors will get an unlock code.
 
 ## 🛒 On Google Play
 
@@ -84,7 +98,7 @@ Zoom, MultiStomp and Handy Guitar Lab are trademarks of their respective owners,
 
 PatchPilot collega il tuo **multieffetto a pedale compatibile Zoom** al **telefono o tablet Android** con un cavo USB
 e ti mostra cosa contiene: **patch, effetti, parametri e accordatore**. Le app ufficiali esistono solo per iPhone:
-PatchPilot nasce per chi usa Android.
+PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e Linux**.
 
 > 🧪 **È una beta.** È stata costruita con cura ma **non è ancora stata provata su tutti i pedali**.
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
@@ -111,7 +125,7 @@ PatchPilot nasce per chi usa Android.
 ## 🛡️ Il tuo pedale è al sicuro
 
 La beta **legge soltanto**. **Non scrive, non salva e non cancella** nulla nella memoria del pedale: quei comandi sono bloccati nel codice.
-Le richieste di lettura partono solo dopo aver attivato la **Modalità sperimentale** (schermata Collega).
+Le richieste di lettura partono solo dopo aver attivato la **lettura dal pedale** (schermata Collega).
 
 ## ⬇️ Installazione
 
@@ -122,7 +136,18 @@ Le richieste di lettura partono solo dopo aver attivato la **Modalità speriment
 
 Serve **Android 8.0 o successivo** con **USB host (OTG)**.
 
+### 💻 Windows e Linux
+
+- **Windows 10/11**: `PatchPilot-x.y.z-windows-x64-setup.exe` (installatore) oppure `…-portatile.zip` (senza installazione). Se SmartScreen avvisa, clicca **Ulteriori informazioni → Esegui comunque**.
+- **Linux**: `PatchPilot-x.y.z-linux-x64.deb` (Ubuntu/Debian: `sudo apt install ./PatchPilot-….deb`) oppure `…-linux-x64.tar.gz` (scompatta e avvia `PatchPilot/bin/PatchPilot`).
+- Java è incluso. Collega il pedale con il suo cavo USB, poi **Collega → Cerca dispositivi → Collega e identifica**. Chiudi prima Guitar Lab: la porta MIDI del pedale funziona con un programma alla volta.
+
 > ℹ️ Quando PatchPilot arriverà su **Google Play**, disinstalla prima l'APK: le due versioni sono firmate in modo diverso.
+
+## ♥ Sostieni il progetto
+
+PatchPilot è gratuito. Se ti è utile, un'offerta libera, anche piccola, lo aiuta a crescere: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
+Le funzioni complete (scrittura e backup delle patch) arriveranno dopo le prove sui pedali reali; chi ha donato riceverà un codice di sblocco.
 
 ## 📄 Privacy e licenza
 
