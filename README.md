@@ -96,8 +96,9 @@ Model detection, patch list, editor view, tuner and a 3-song setlist stay free.
 If you buy now you support the project and you already have your code when the full version is switched on.
 
 1. Open PatchPilot and press **“Richiedi il codice via email”** (Android: bottom of the *Collega* tab; computer: *Sostieni ♥* tab). Your device code looks like `PP-ABCD-EFGH`.
-2. Pay **€4.99** with **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**.
-3. Send the email to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: you receive your **unlock code** by email, usually within a day.
+2. Pay **€4.99**, either way:
+   - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: type your device code when asked and the **unlock code appears right after the payment**.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: then send the email to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** and you receive your **unlock code** by email, usually within a day.
 
 One code per device. On Google Play (coming soon) the full version will be bought inside the app.
 Just want to say thanks? Any amount is welcome: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
@@ -203,8 +204,9 @@ valida per sempre su quel telefono o computer. Riconoscimento del pedale, elenco
 Se la compri adesso sostieni il progetto e hai già il tuo codice quando la versione completa verrà attivata.
 
 1. Apri PatchPilot e premi **«Richiedi il codice via email»** (Android: in fondo alla scheda *Collega*; computer: scheda *Sostieni ♥*). Il codice dispositivo ha la forma `PP-ABCD-EFGH`.
-2. Paga **4,99 €** con **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**.
-3. Invia l'email ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: ricevi il **codice di sblocco** per email, di solito entro un giorno.
+2. Paga **4,99 €**, come preferisci:
+   - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: scrivi il codice dispositivo quando viene chiesto e il **codice di sblocco appare subito dopo il pagamento**.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: poi invia l'email ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** e ricevi il **codice di sblocco** per email, di solito entro un giorno.
 
 Un codice per ogni dispositivo. Su Google Play (in arrivo) la versione completa si comprerà dentro l'app.
 Vuoi solo dire grazie? Qualsiasi offerta è benvenuta: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
