@@ -36,6 +36,15 @@ PatchPilot is made for players who use Android — and it also runs on **Windows
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
 | **G6 · G11 · B6** | ✅ | ⏳ later | ⏳ later | 🧪 limited support in the beta |
 
+### 🙋 Your pedal is not in the list? Become a tester
+
+Want PatchPilot to support your pedal, even from another brand? Help us learn how it talks.
+The next version of the Windows/Linux program has a **Tester** page: a guided recording that only **listens**.
+It sends your pedal nothing but the standard MIDI identity request, then records what the pedal sends while you
+change patch, turn a knob, switch an effect on and off. You save one text file and email it to us.
+
+It is not in the current download yet. In the meantime write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** with brand and model: we will tell you as soon as it is ready.
+
 ## 📱 What it does
 
 **One app for 10 pedals**, on Android, Windows and Linux — instead of a separate app for each pedal.
@@ -141,6 +150,15 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 | **MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **G6 · G11 · B6** | ✅ | ⏳ più avanti | ⏳ più avanti | 🧪 supporto limitato nella beta |
+
+### 🙋 Il tuo pedale non è in elenco? Diventa tester
+
+Vuoi che PatchPilot supporti il tuo pedale, anche di un'altra marca? Aiutaci a capire come parla.
+La prossima versione del programma per Windows e Linux ha la pagina **Tester**: una registrazione guidata che **ascolta soltanto**.
+Al pedale manda solo la richiesta di identità MIDI standard, poi registra quello che il pedale invia mentre
+cambi patch, giri una manopola, spegni e riaccendi un effetto. Alla fine salvi un file di testo e ce lo mandi per email.
+
+Non è ancora nel download attuale. Intanto scrivi a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** con marca e modello: ti avvisiamo appena è pronta.
 
 ## 📱 Cosa fa
 
