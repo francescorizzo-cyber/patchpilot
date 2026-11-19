@@ -27,6 +27,8 @@ PatchPilot is made for players who use Android — and it also runs on **Windows
 > 🙋 **Got one of these pedals?** Try it and send us the log from the app: [5-minute test guide](TEST.md#english) ·
 > write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · or **[open an issue](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
+> 🔜 **Coming in the next version:** [**all your patches at the same volume**](#-coming-in-the-next-version), [**songs split into sections that follow the tempo**](#-coming-in-the-next-version) and [**gradual transitions**](#-coming-in-the-next-version) between sounds.
+
 ## 🎚️ Supported pedals
 
 | Pedal | Model detection | Read patches & patch list | Tuner | Status |
@@ -75,6 +77,32 @@ It is not in the current download yet. In the meantime write to **[autofonic.mix
 - **Demo mode and sample data**: try everything without a pedal.
 
 *Coming after the tests on real pedals: changing patch from the app (also on several pedals at once) and editing parameters.*
+
+## 🔜 Coming in the next version
+
+Three features you will not find in other pedal editors.
+
+**🔊 All your patches at the same volume**
+No more jumps when you switch patch live: the clean one too quiet, the lead one too loud.
+Play the same riff with each patch for 6 seconds: PatchPilot measures how loud it **sounds to the ear**
+(LUFS, the broadcast loudness standard, with pauses ignored) and tells you the patch level that makes every patch even.
+Measure again after setting the levels, to check the result.
+*Windows and Linux. Your pedal's output goes into the computer: through the pedal itself if it works as a USB audio interface, or through an audio interface.
+The sound is only measured: it is never recorded or saved, and nothing is written to the pedal.*
+
+**🥁 Songs that follow the tempo**
+Give each song its tempo and split it into **sections**: intro, verse, chorus, solo… each one with its length in bars and its patch.
+In stage mode press **T**: one bar of count-in, then PatchPilot shows the beats, moves to the next section on its own
+when the bars are over, and in the last bar warns you **"GET READY: 1-03 Crunch"** before every patch change.
+A press of the button or of a **Bluetooth page-turner pedal** puts you back in time whenever you need it.
+It also shows the **delay times** for the song's tempo (1/4, dotted 1/8, 1/8).
+*Android, Windows and Linux. With a generic MIDI pedal the computer sends the patch of each section by itself.*
+
+**🌊 Gradual transitions**
+Instead of jumping from one sound to the next, the sound changes **little by little**, like a **virtual expression pedal**:
+from one value to another in the seconds you choose, or over a few bars for each section of the setlist.
+On Zoom pedals you can already preview the values halfway between two patches.
+*Windows and Linux, sent to a generic MIDI pedal (expression CC). On Zoom pedals sending will come after the tests on real pedals.*
 
 ## 🛡️ Your pedal is safe
 
@@ -147,6 +175,8 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
 > scrivi a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · oppure **[apri una segnalazione](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
+> 🔜 **In arrivo con la prossima versione:** [**tutte le patch allo stesso volume**](#-in-arrivo-con-la-prossima-versione), [**brani divisi in sezioni che seguono il tempo**](#-in-arrivo-con-la-prossima-versione) e [**passaggi graduali**](#-in-arrivo-con-la-prossima-versione) da un suono all'altro.
+
 ## 🎚️ Pedali supportati
 
 | Pedale | Riconoscimento | Lettura patch ed elenco | Accordatore | Stato |
@@ -195,6 +225,32 @@ Non è ancora nel download attuale. Intanto scrivi a **[autofonic.mixer@gmail.co
 - **Modalità demo e dati di esempio**: per provare tutto senza pedale.
 
 *In arrivo dopo le prove sui pedali reali: cambio patch dall'app (anche su più pedali insieme) e modifica dei parametri.*
+
+## 🔜 In arrivo con la prossima versione
+
+Tre funzioni che negli altri editor per pedali non trovi.
+
+**🔊 Tutte le patch allo stesso volume**
+Basta salti quando cambi patch dal vivo, con la pulita troppo bassa e quella da assolo troppo forte.
+Suoni lo stesso giro con ogni patch per 6 secondi: PatchPilot misura quanto è forte **come la sente l'orecchio**
+(LUFS, lo standard della radio e della TV, senza contare le pause) e ti dice il volume patch che le rende tutte uguali.
+Dopo aver impostato i volumi rimisuri e controlli il risultato.
+*Windows e Linux. L'uscita del pedale entra nel computer: dal pedale stesso se fa da scheda audio USB, oppure da una scheda audio.
+Il suono viene solo misurato: non viene mai registrato né salvato, e sul pedale non si scrive niente.*
+
+**🥁 Brani che seguono il tempo**
+Dai a ogni brano il suo tempo e dividilo in **sezioni**: intro, strofa, ritornello, assolo… ognuna con le sue battute e la sua patch.
+In modalità palco premi **T**: una battuta di conteggio, poi PatchPilot mostra i battiti, passa da solo alla sezione dopo
+quando finiscono le battute e nell'ultima battuta ti avvisa **«PREPARA: 1-03 Crunch»** prima di ogni cambio di patch.
+Un tocco sul pulsante o su un **pedale Bluetooth volta pagina** ti rimette a tempo quando serve.
+Mostra anche i **tempi del delay** per il tempo del brano (1/4, 1/8 puntato, 1/8).
+*Android, Windows e Linux. Con un pedale MIDI generico il computer manda da solo la patch di ogni sezione.*
+
+**🌊 Passaggi graduali**
+Invece di saltare da un suono all'altro, il suono cambia **piano piano**, come con un **pedale d'espressione virtuale**:
+da un valore a un altro nei secondi che scegli, oppure in qualche battuta per ogni sezione della scaletta.
+Sui pedali Zoom puoi già vedere in anteprima i valori a metà strada tra due patch.
+*Windows e Linux, verso un pedale MIDI generico (CC di espressione). Sui pedali Zoom l'invio arriverà dopo le prove sui pedali reali.*
 
 ## 🛡️ Il tuo pedale è al sicuro
 

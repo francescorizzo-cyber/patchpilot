@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PatchPilot – una sola app per 10 pedali Zoom: MS-50G+, MS-70CDR+, G2 FOUR, G6, G11, B6 (Android, Windows, Linux)</title>
 <meta name="description" content="PatchPilot collega il tuo Zoom MultiStomp+ (MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+), G2 FOUR, B2 FOUR, G6, G11 o B6 a un telefono Android o a un computer Windows / Linux: elenco patch, effetti e parametri, accordatore, backup delle patch, schede suono, scaletta e modalità palco. Beta in sola lettura.">
-<meta name="keywords" content="app Zoom MS-50G+ Android, editor MS-70CDR+ Android, app MS-60B+, app MS-80IR+, app MS-200D+, editor Zoom G2 FOUR, app B2 FOUR, app Zoom G6 Android, app G11, app B6, Handy Guitar Lab Android, editor Zoom MultiStomp Windows Linux, backup patch Zoom, scaletta pedale chitarra">
+<meta name="keywords" content="stesso volume tutte le patch, volume patch LUFS, scaletta con sezioni a tempo, pedale espressione virtuale, app Zoom MS-50G+ Android, editor MS-70CDR+ Android, app MS-60B+, app MS-80IR+, app MS-200D+, editor Zoom G2 FOUR, app B2 FOUR, app Zoom G6 Android, app G11, app B6, Handy Guitar Lab Android, editor Zoom MultiStomp Windows Linux, backup patch Zoom, scaletta pedale chitarra">
 <link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/it/">
 <link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/">
 <link rel="alternate" hreflang="it" href="https://francescorizzo-cyber.github.io/patchpilot/it/">
@@ -86,6 +86,14 @@
   },
   {
    "@type": "Question",
+   "name": "PatchPilot può mettere tutte le patch allo stesso volume?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In arrivo con la prossima versione, su Windows e Linux: suoni lo stesso giro con ogni patch, PatchPilot misura il volume percepito (LUFS) e ti dice il volume patch che le rende uguali. Il suono viene solo misurato, mai registrato."
+   }
+  },
+  {
+   "@type": "Question",
    "name": "PatchPilot è fatta da Zoom?",
    "acceptedAnswer": {
     "@type": "Answer",
@@ -136,6 +144,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <img src="../img/patchpilot-editor-pedali-zoom-android.jpg" width="1024" height="500" alt="PatchPilot: app editor per pedali multieffetto Zoom su telefono Android">
 
 <p class="note">🧪 <strong>È una beta.</strong> È fatta con cura, e la lettura dei MultiStomp+ coincide con altri progetti provati su pedali veri, ma PatchPilot <strong>non è ancora stata provata su tutti i pedali</strong>. Ne hai uno? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#italiano">Provala e mandaci il registro</a>.</p>
+<p class="note" style="border-left-color:var(--green)">🔜 <strong>In arrivo con la prossima versione:</strong> <a href="#prossima">tutte le patch allo stesso volume</a>, <a href="#prossima">brani divisi in sezioni che seguono il tempo</a> e <a href="#prossima">passaggi graduali</a> da un suono all'altro.</p>
 
 <h2>Pedali supportati</h2>
 <p class="chips"><span>MS-50G+</span><span>MS-60B+</span><span>MS-70CDR+</span><span>MS-80IR+</span><span>MS-200D+</span><span>G2 FOUR</span><span>G2X FOUR</span><span>B2 FOUR</span><span>G6</span><span>G11</span><span>B6</span></p>
@@ -156,6 +165,14 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <div class="card"><p><strong>Metti al sicuro i tuoi suoni.</strong> Salva su file tutte le patch del pedale. Per ogni patch hai una <strong>scheda suono</strong> leggibile — effetti, acceso/spento, parametri — da stampare, salvare o condividere.</p></div>
 <div class="card"><p><strong>Cerca e confronta.</strong> «Dove ho usato quel delay?» Cerca le patch per effetto e confrontane due per vedere solo le differenze.</p></div>
 <div class="card"><p><strong>Scaletta e modalità palco.</strong> Metti in ordine i brani e scegli la patch per ognuno — una patch per pedale se ne usi più di uno. Sul palco, uno schermo scuro a caratteri grandi ti dice quale patch selezionare e cosa viene dopo.</p></div>
+</div>
+
+<h2 id="prossima">🔜 In arrivo con la prossima versione</h2>
+<p class="lead">Tre funzioni che negli altri editor per pedali non trovi.</p>
+<div class="grid">
+<div class="card"><p><strong>🔊 Tutte le patch allo stesso volume.</strong> Basta salti quando cambi patch dal vivo. Suoni lo stesso giro con ogni patch per 6 secondi: PatchPilot misura quanto è forte <strong>come la sente l'orecchio</strong> (LUFS, senza contare le pause) e ti dice il volume patch che le rende tutte uguali. Poi rimisuri e controlli.<br><small>Windows e Linux, con l'uscita del pedale nel computer (pedale che fa da scheda audio USB, oppure una scheda audio). Il suono viene solo misurato, mai registrato; sul pedale non si scrive niente.</small></p></div>
+<div class="card"><p><strong>🥁 Brani che seguono il tempo.</strong> Dai a ogni brano il suo tempo e dividilo in sezioni — intro, strofa, ritornello, assolo — ognuna con le sue battute e la sua patch. Sul palco premi <strong>T</strong>: una battuta di conteggio, i battiti sullo schermo, la sezione dopo da sola e nell'ultima battuta <strong>«PREPARA: 1-03 Crunch»</strong> prima di ogni cambio. Funziona con i pedali Bluetooth volta pagina e mostra i tempi del delay per il tempo del brano.<br><small>Android, Windows e Linux. Con un pedale MIDI generico il computer manda da solo la patch di ogni sezione.</small></p></div>
+<div class="card"><p><strong>🌊 Passaggi graduali.</strong> Invece di saltare da un suono all'altro, il suono cambia piano piano, come con un <strong>pedale d'espressione virtuale</strong>: nei secondi che scegli, oppure in qualche battuta per ogni sezione della scaletta. Sui pedali Zoom vedi in anteprima i valori a metà strada tra due patch.<br><small>Windows e Linux, verso un pedale MIDI generico (CC di espressione). Sui pedali Zoom l'invio arriverà dopo le prove sui pedali reali.</small></p></div>
 </div>
 
 <h2>Il tuo pedale è al sicuro</h2>
@@ -179,6 +196,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <p><strong>Che cavo serve?</strong><br>Un cavo USB-C ↔ USB-C, oppure un adattatore OTG con il cavo USB del pedale. I MultiStomp+ di solito hanno bisogno anche dell'alimentatore, perché il telefono può non bastare.</p>
 <p><strong>Funziona sul computer?</strong><br>Sì: Windows 10/11 e Linux, con le stesse funzioni. Java è incluso nel download. Chiudi prima Guitar Lab: la porta MIDI del pedale funziona con un programma alla volta.</p>
 <p><strong>Quanto costa?</strong><br>Gratis durante la beta. La versione completa costa 4,99 €, una volta sola per dispositivo, con carta (Stripe) o PayPal; ricevi un codice di sblocco personale.</p>
+<p><strong>PatchPilot può mettere tutte le patch allo stesso volume?</strong><br>In arrivo con la prossima versione, su Windows e Linux: suoni lo stesso giro con ogni patch, PatchPilot misura il volume percepito (LUFS) e ti dice il volume patch che le rende uguali. Il suono viene solo misurato, mai registrato.</p>
 <p><strong>PatchPilot è fatta da Zoom?</strong><br>No. PatchPilot è un progetto indipendente, non affiliato a Zoom Corporation.</p>
 
 <footer>
