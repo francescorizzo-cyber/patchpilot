@@ -12,9 +12,9 @@
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-on-google-play)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
-[![Donate](https://img.shields.io/badge/♥_Donate-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/AutoFonicMixer)
+[![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#full-version)
 
-*[Italiano più sotto](#italiano)*
+🌐 **Website:** https://francescorizzo-cyber.github.io/patchpilot/ · *[Italiano più sotto](#italiano)*
 
 ![PatchPilot](immagini/00_copertina.png)
 
@@ -86,10 +86,21 @@ Requires **Android 8.0 or later** with **USB host (OTG)**.
 
 > ℹ️ When PatchPilot arrives on **Google Play**, uninstall the APK first: the two versions are signed differently.
 
-## ♥ Support the project
+<a id="full-version"></a>
 
-PatchPilot is free. If it helps you, a donation of any amount keeps it going: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
-The full features (writing and backing up patches) will come after testing on real pedals; donors will get an unlock code.
+## 🔑 Full version: €4.99, one time only
+
+**Today every feature is free**, because PatchPilot is in beta. Later, exporting backups to a file, sound sheets, search, compare,
+the setlist beyond 3 songs and stage mode will be part of the **full version: €4.99, paid once**, valid forever on that phone or computer.
+Model detection, patch list, editor view, tuner and a 3-song setlist stay free.
+If you buy now you support the project and you already have your code when the full version is switched on.
+
+1. Open PatchPilot and press **“Richiedi il codice via email”** (Android: bottom of the *Collega* tab; computer: *Sostieni ♥* tab). Your device code looks like `PP-ABCD-EFGH`.
+2. Pay **€4.99** with **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**.
+3. Send the email to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: you receive your **unlock code** by email, usually within a day.
+
+One code per device. On Google Play (coming soon) the full version will be bought inside the app.
+Just want to say thanks? Any amount is welcome: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 🛒 On Google Play
 
@@ -117,6 +128,8 @@ Zoom, MultiStomp and Handy Guitar Lab are trademarks of their respective owners,
 PatchPilot collega il tuo **multieffetto a pedale compatibile Zoom** al **telefono o tablet Android** con un cavo USB
 e ti mostra cosa contiene: **patch, effetti, parametri e accordatore**. Zoom ha un'app diversa per ogni pedale, quasi tutte solo per iPhone:
 PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e Linux**.
+
+🌐 **Sito:** https://francescorizzo-cyber.github.io/patchpilot/it/ · 🔑 **[Versione completa: 4,99 €](#versione-completa)**
 
 > 🧪 **È una beta.** È stata costruita con cura ma **non è ancora stata provata su tutti i pedali**.
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
@@ -180,10 +193,21 @@ Serve **Android 8.0 o successivo** con **USB host (OTG)**.
 
 > ℹ️ Quando PatchPilot arriverà su **Google Play**, disinstalla prima l'APK: le due versioni sono firmate in modo diverso.
 
-## ♥ Sostieni il progetto
+<a id="versione-completa"></a>
 
-PatchPilot è gratuito. Se ti è utile, un'offerta libera, anche piccola, lo aiuta a crescere: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
-Le funzioni complete (scrittura e backup delle patch) arriveranno dopo le prove sui pedali reali; chi ha donato riceverà un codice di sblocco.
+## 🔑 Versione completa: 4,99 €, una volta sola
+
+**Oggi tutte le funzioni sono gratuite**, perché PatchPilot è in beta. Più avanti l'esportazione dei backup su file, le schede suono,
+la ricerca, il confronto, la scaletta oltre i 3 brani e la modalità palco faranno parte della **versione completa: 4,99 €, una volta sola**,
+valida per sempre su quel telefono o computer. Riconoscimento del pedale, elenco patch, editor, accordatore e scaletta di 3 brani restano gratuiti.
+Se la compri adesso sostieni il progetto e hai già il tuo codice quando la versione completa verrà attivata.
+
+1. Apri PatchPilot e premi **«Richiedi il codice via email»** (Android: in fondo alla scheda *Collega*; computer: scheda *Sostieni ♥*). Il codice dispositivo ha la forma `PP-ABCD-EFGH`.
+2. Paga **4,99 €** con **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**.
+3. Invia l'email ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: ricevi il **codice di sblocco** per email, di solito entro un giorno.
+
+Un codice per ogni dispositivo. Su Google Play (in arrivo) la versione completa si comprerà dentro l'app.
+Vuoi solo dire grazie? Qualsiasi offerta è benvenuta: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 📄 Privacy e licenza
 

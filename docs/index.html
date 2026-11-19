@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PatchPilot – one app for 10 Zoom pedals: MS-50G+, MS-70CDR+, G2 FOUR, G6, G11, B6 (Android, Windows, Linux)</title>
+<meta name="description" content="PatchPilot connects your Zoom MultiStomp+ (MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+), G2 FOUR, B2 FOUR, G6, G11 or B6 to an Android phone or a Windows / Linux computer: patch list, effects and parameters, tuner, patch backup, sound sheets, setlist and stage mode. Read-only beta.">
+<meta name="keywords" content="Zoom MS-50G+ app Android, MS-70CDR+ editor Android, MS-60B+ app, MS-80IR+ app, MS-200D+ app, Zoom G2 FOUR editor, B2 FOUR app, Zoom G6 app Android, G11 app, B6 app, Handy Guitar Lab Android, Zoom MultiStomp editor Windows Linux, Zoom patch backup, setlist guitar pedal">
+<link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/">
+<link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/">
+<link rel="alternate" hreflang="it" href="https://francescorizzo-cyber.github.io/patchpilot/it/">
+<link rel="alternate" hreflang="x-default" href="https://francescorizzo-cyber.github.io/patchpilot/">
+<link rel="icon" href="img/icona.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PatchPilot – one app for 10 Zoom pedals: MS-50G+, MS-70CDR+, G2 FOUR, G6, G11, B6 (Android, Windows, Linux)">
+<meta property="og:description" content="PatchPilot connects your Zoom MultiStomp+ (MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+), G2 FOUR, B2 FOUR, G6, G11 or B6 to an Android phone or a Windows / Linux computer: patch list, effects and parameters, tuner, patch backup, sound sheets, setlist and stage mode. Read-only beta.">
+<meta property="og:image" content="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-android.jpg">
+<meta property="og:url" content="https://francescorizzo-cyber.github.io/patchpilot/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "PatchPilot",
+ "operatingSystem": "Android, Windows, Linux",
+ "applicationCategory": "MultimediaApplication",
+ "description": "PatchPilot connects your Zoom MultiStomp+ (MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+), G2 FOUR, B2 FOUR, G6, G11 or B6 to an Android phone or a Windows / Linux computer: patch list, effects and parameters, tuner, patch backup, sound sheets, setlist and stage mode. Read-only beta.",
+ "image": "https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-android.jpg",
+ "downloadUrl": "https://github.com/francescorizzo-cyber/patchpilot/releases/latest",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "EUR",
+  "description": "Free beta; full version 4.99 EUR one-time per device"
+ },
+ "author": {
+  "@type": "Person",
+  "name": "Francesco Rizzo"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is there an Android app for the Zoom MS-50G+, MS-60B+ or MS-70CDR+?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Zoom's Handy Guitar Lab apps for the MultiStomp+ pedals are for iPhone. PatchPilot is an Android app (also for Windows and Linux) that reads patches, effects and parameters from these pedals over USB. It is a beta."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can PatchPilot edit or save patches?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not yet. The beta only reads from the pedal. Editing parameters and changing patch will be added step by step after tests on real pedals."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Which cable do I need?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A USB-C to USB-C cable, or an OTG adapter with your pedal's USB cable. MultiStomp+ pedals usually also need their power supply, because a phone may not power them."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it work on a computer?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes: Windows 10/11 and Linux, with the same functions. Java is included in the download. Close Guitar Lab first: the pedal's MIDI port works with one program at a time."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How much does it cost?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Free during the beta. The full version is €4.99, paid once per device, with PayPal; you get a personal unlock code by email."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is PatchPilot made by Zoom?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. PatchPilot is an independent project, not affiliated with Zoom Corporation."
+   }
+  }
+ ]
+}
+</script>
+<style>
+:root{--bg:#0b2b33;--panel:#123c47;--text:#eef4f3;--muted:#a9c2c0;--gold:#ffb547;--green:#45b86e;--blue:#8cc8ff;--line:#ffffff22}
+@media (prefers-color-scheme: light){:root{--bg:#f4f7f6;--panel:#fff;--text:#12262b;--muted:#4f6468;--gold:#b86a00;--blue:#0b5cad;--line:#0002}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 48px}
+header .top{display:flex;align-items:center;gap:12px}header .top img{width:56px;height:56px;border-radius:14px}
+header p.k{color:var(--gold);letter-spacing:.12em;font-weight:700;margin:0}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:.3em 0 .3em;text-wrap:balance}h2{margin-top:2em}
+.lead{color:var(--muted);font-size:19px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;font-weight:600;text-decoration:none;color:#14110a;background:#ffb547}
+.btn.g{background:var(--green)}.btn.o{background:transparent;color:var(--text);border:2px solid var(--muted)}.btn.p{background:#ffc439;color:#003087}
+img{max-width:100%;height:auto;border-radius:12px;display:block}
+.note{background:var(--panel);border-left:4px solid var(--gold);border-radius:10px;padding:12px 16px;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--panel);border-radius:14px;padding:16px}.card p{margin:0}
+.chips span{display:inline-block;border:1.5px solid var(--gold);border-radius:999px;padding:2px 12px;margin:3px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.price{background:var(--panel);border-radius:14px;padding:4px 20px 20px}ol{padding-left:22px}li{margin:.4em 0}
+code{background:#0003;padding:1px 6px;border-radius:6px}
+small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-size:15px}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="top"><img src="img/icona.png" width="56" height="56" alt=""><p class="k">PATCHPILOT</p></div>
+<h1>One app for 10 Zoom pedals — on Android, Windows and Linux</h1>
+<p class="lead">PatchPilot connects your <strong>Zoom MultiStomp+, G2 FOUR, B2 FOUR, G6, G11 or B6</strong> to an <strong>Android phone</strong> or a <strong>Windows / Linux computer</strong> with a USB cable and shows what is inside: patches, effects, parameters and the tuner. Zoom has a separate app for each pedal, almost all of them for iPhone only: PatchPilot puts them in <strong>one app</strong>.</p>
+<p><a href="it/">Italiano</a></p>
+<div class="btns">
+<a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/releases/latest">Download for Android (APK)</a>
+<a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/releases/latest">Windows · Linux</a>
+<a class="btn p" href="#full">Full version · €4.99</a>
+<a class="btn o" href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md">5-minute test guide</a>
+</div>
+</header>
+
+<img src="img/patchpilot-zoom-pedal-editor-android.jpg" width="1024" height="500" alt="PatchPilot: editor app for Zoom multi-effects pedals on an Android phone">
+
+<p class="note">🧪 <strong>This is a beta.</strong> It is built carefully, and its reading of the MultiStomp+ pedals matches other projects tested on real pedals, but PatchPilot itself has <strong>not been tested on every pedal yet</strong>. Got one? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md">Try it and send us the log</a>.</p>
+
+<h2>Supported pedals</h2>
+<p class="chips"><span>MS-50G+</span><span>MS-60B+</span><span>MS-70CDR+</span><span>MS-80IR+</span><span>MS-200D+</span><span>G2 FOUR</span><span>G2X FOUR</span><span>B2 FOUR</span><span>G6</span><span>G11</span><span>B6</span></p>
+<div class="tw"><table>
+<tr><th>Pedal</th><th>Connection</th><th>In this beta</th></tr>
+<tr><td>MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+</td><td>USB</td><td>🧪 model detection, patch list, editor view, tuner</td></tr>
+<tr><td>G2 FOUR / G2X FOUR · B2 FOUR</td><td>USB</td><td>🧪 model detection, patch list, editor view, tuner</td></tr>
+<tr><td>G6 · G11 · B6</td><td>USB</td><td>🧪 model detection and MIDI log; patch reading later</td></tr>
+</table></div>
+
+<h2>What you can do</h2>
+<div class="grid">
+<div class="card"><p><strong>Look inside your pedal.</strong> The full patch list with names, each effect slot on or off with its parameters, and a tuner on the screen. Import your own .ZD2 effect files to see effect and parameter names.</p></div>
+<div class="card"><p><strong>Back up your sounds.</strong> Save every patch of your pedal to a file. Get a readable <strong>sound sheet</strong> for each patch — effects, on/off, parameters — to print, save or share.</p></div>
+<div class="card"><p><strong>Find and compare.</strong> “Where did I use that delay?” Search your patches by effect, and compare two patches to see only what is different.</p></div>
+<div class="card"><p><strong>Setlist and stage mode.</strong> Put your songs in order and choose the patch for each one — one patch per pedal if you use more than one. On stage, a dark full-screen view shows in big letters which patch to select and what comes next.</p></div>
+</div>
+
+<h2>Your pedal is safe</h2>
+<p>PatchPilot <strong>only reads</strong>. It never writes, saves or deletes anything in your pedal's memory: those commands are blocked in the code. Backups, sound sheets and setlists are files on your phone or computer. Changing patch from the app and editing parameters will come only after tests on real pedals.</p>
+
+<h2 id="full">Full version: €4.99, one time only</h2>
+<div class="price">
+<p><strong>Today every feature is free</strong>, because PatchPilot is in beta. Later, exporting backups to a file, sound sheets, search, compare, the setlist beyond 3 songs and stage mode will be part of the <strong>full version</strong>: <strong>€4.99, paid once</strong>, valid forever on that phone or computer. Model detection, patch list, editor view, tuner and a 3-song setlist stay free. If you buy now you support the project and you already have your code when the full version is switched on.</p>
+<ol>
+<li>Open PatchPilot and press <strong>“Richiedi il codice via email”</strong> (Android: bottom of the <em>Collega</em> tab; computer: <em>Sostieni ♥</em> tab). Your device code looks like <code>PP-ABCD-EFGH</code>.</li>
+<li>Pay <strong>€4.99</strong> with <a href="https://paypal.me/AutoFonicMixer/4.99EUR">PayPal</a>.</li>
+<li>Send the email to <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a>: you receive your <strong>unlock code</strong> by email, usually within a day.</li>
+</ol>
+<div class="btns"><a class="btn p" href="https://paypal.me/AutoFonicMixer/4.99EUR">Pay €4.99 with PayPal</a></div>
+<small>One code per device. On Google Play (coming soon) the full version will be bought inside the app.</small>
+</div>
+
+<h2>Frequently asked questions</h2>
+<p><strong>Is there an Android app for the Zoom MS-50G+, MS-60B+ or MS-70CDR+?</strong><br>Zoom's Handy Guitar Lab apps for the MultiStomp+ pedals are for iPhone. PatchPilot is an Android app (also for Windows and Linux) that reads patches, effects and parameters from these pedals over USB. It is a beta.</p>
+<p><strong>Can PatchPilot edit or save patches?</strong><br>Not yet. The beta only reads from the pedal. Editing parameters and changing patch will be added step by step after tests on real pedals.</p>
+<p><strong>Which cable do I need?</strong><br>A USB-C to USB-C cable, or an OTG adapter with your pedal's USB cable. MultiStomp+ pedals usually also need their power supply, because a phone may not power them.</p>
+<p><strong>Does it work on a computer?</strong><br>Yes: Windows 10/11 and Linux, with the same functions. Java is included in the download. Close Guitar Lab first: the pedal's MIDI port works with one program at a time.</p>
+<p><strong>How much does it cost?</strong><br>Free during the beta. The full version is €4.99, paid once per device, with PayPal; you get a personal unlock code by email.</p>
+<p><strong>Is PatchPilot made by Zoom?</strong><br>No. PatchPilot is an independent project, not affiliated with Zoom Corporation.</p>
+
+<footer>
+<p><a href="https://github.com/francescorizzo-cyber/patchpilot">Project page and downloads on GitHub</a> · <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/PRIVACY.md">Privacy</a> · <a href="https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose">Report a problem</a> · Contact: <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a></p>
+<p>PatchPilot is an independent project, not affiliated with ZOOM Corporation. Zoom and the pedal names are trademarks of their owners.<br>Made by Francesco Rizzo.</p>
+</footer>
+</main>
+</body>
+</html>
