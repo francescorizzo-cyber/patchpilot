@@ -35,6 +35,11 @@ PatchPilot is made for players who use Android — and it also runs on **Windows
 | **MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
 | **G6 · G11 · B6** | ✅ | ⏳ later | ⏳ later | 🧪 limited support in the beta |
+| **MS-90LP+** | 🔜 | 🔜 | 🔜 | 🔜 coming in the next version |
+| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** | 🔜 | 🔜 computer first | ⏳ later | 🔜 coming in the next version |
+| **Any MIDI pedal, any brand** | – | – | – | 🔜 next version, computer: sends the patch change for each song of your setlist |
+
+🔜 = not in the current download yet. With these, the next version covers **16 Zoom pedals** plus a generic MIDI pedal.
 
 ### 🙋 Your pedal is not in the list? Become a tester
 
@@ -150,6 +155,11 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 | **MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **G6 · G11 · B6** | ✅ | ⏳ più avanti | ⏳ più avanti | 🧪 supporto limitato nella beta |
+| **MS-90LP+** | 🔜 | 🔜 | 🔜 | 🔜 in arrivo con la prossima versione |
+| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** | 🔜 | 🔜 prima sul computer | ⏳ più avanti | 🔜 in arrivo con la prossima versione |
+| **Qualsiasi pedale MIDI, di qualsiasi marca** | – | – | – | 🔜 prossima versione, computer: manda il cambio patch per ogni brano della scaletta |
+
+🔜 = non ancora nel download attuale. Con questi, la prossima versione copre **16 pedali Zoom** più un pedale MIDI generico.
 
 ### 🙋 Il tuo pedale non è in elenco? Diventa tester
 
