@@ -1,0 +1,58 @@
+# Libreria della comunità: controllo automatico delle patch mandate con il modulo "Patch per la libreria"
+# e archiviazione quando Francesco mette l'etichetta "approvata" (solo chi gestisce il repository può farlo).
+# Il testo delle segnalazioni lo legge solo lo script Python, come dati: non passa mai dalla shell.
+name: Libreria della comunità
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: libreria
+  cancel-in-progress: false
+
+jobs:
+  controlla:
+    if: github.event_name == 'issues' && github.event.action != 'labeled' && github.event.issue.state == 'open' && (contains(github.event.issue.labels.*.name, 'libreria') || startsWith(github.event.issue.title, '[Libreria]'))
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/libreria.py controlla
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+  aggiungi:
+    if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'approvata' && (contains(github.event.issue.labels.*.name, 'libreria') || startsWith(github.event.issue.title, '[Libreria]'))
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/libreria.py aggiungi
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Salva nel repository
+        run: |
+          git config user.name "PatchPilot libreria"
+          git config user.email "autofonic.mixer@gmail.com"
+          git add docs/libreria
+          git diff --cached --quiet && exit 0
+          git commit -m "Libreria: patch dalla segnalazione #${{ github.event.issue.number }}"
+          git push
+
+  elenco:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/libreria.py elenco
+      - run: |
+          git config user.name "PatchPilot libreria"
+          git config user.email "autofonic.mixer@gmail.com"
+          git add docs/libreria
+          git diff --cached --quiet && exit 0
+          git commit -m "Libreria: elenco aggiornato"
+          git push

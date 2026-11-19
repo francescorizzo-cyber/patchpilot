@@ -9,6 +9,7 @@
 
 [![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-coming_soon-555555?style=for-the-badge&logo=apple&logoColor=white)](#-macos-coming-in-the-next-version)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-on-google-play)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
 [![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#full-version)
@@ -27,7 +28,7 @@ PatchPilot is made for players who use Android — and it also runs on **Windows
 > 🙋 **Got one of these pedals?** Try it and send us the log from the app: [5-minute test guide](TEST.md#english) ·
 > write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · or **[open an issue](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
-> 🔜 **Coming in the next version:** [**all your patches at the same volume**](#-coming-in-the-next-version), [**songs split into sections that follow the tempo**](#-coming-in-the-next-version) and [**gradual transitions**](#-coming-in-the-next-version) between sounds.
+> 🔜 **Coming in the next version:** [**all your patches at the same volume**](#-coming-in-the-next-version), [**songs split into sections that follow the tempo**](#-coming-in-the-next-version), [**gradual transitions**](#-coming-in-the-next-version) between sounds, a [**community patch library**](#-coming-in-the-next-version) and the [**Mac version**](#-macos-coming-in-the-next-version).
 
 ## 🎚️ Supported pedals
 
@@ -80,14 +81,14 @@ It is not in the current download yet. In the meantime write to **[autofonic.mix
 
 ## 🔜 Coming in the next version
 
-Three features you will not find in other pedal editors.
+Features you will not find in other pedal editors, a library shared by everyone, and the Mac version.
 
 **🔊 All your patches at the same volume**
 No more jumps when you switch patch live: the clean one too quiet, the lead one too loud.
 Play the same riff with each patch for 6 seconds: PatchPilot measures how loud it **sounds to the ear**
 (LUFS, the broadcast loudness standard, with pauses ignored) and tells you the patch level that makes every patch even.
 Measure again after setting the levels, to check the result.
-*Windows and Linux. Your pedal's output goes into the computer: through the pedal itself if it works as a USB audio interface, or through an audio interface.
+*Windows, macOS and Linux. Your pedal's output goes into the computer: through the pedal itself if it works as a USB audio interface, or through an audio interface.
 The sound is only measured: it is never recorded or saved, and nothing is written to the pedal.*
 
 **🥁 Songs that follow the tempo**
@@ -96,13 +97,22 @@ In stage mode press **T**: one bar of count-in, then PatchPilot shows the beats,
 when the bars are over, and in the last bar warns you **"GET READY: 1-03 Crunch"** before every patch change.
 A press of the button or of a **Bluetooth page-turner pedal** puts you back in time whenever you need it.
 It also shows the **delay times** for the song's tempo (1/4, dotted 1/8, 1/8).
-*Android, Windows and Linux. With a generic MIDI pedal the computer sends the patch of each section by itself.*
+*Android, Windows, macOS and Linux. With a generic MIDI pedal the computer sends the patch of each section by itself.*
 
 **🌊 Gradual transitions**
 Instead of jumping from one sound to the next, the sound changes **little by little**, like a **virtual expression pedal**:
 from one value to another in the seconds you choose, or over a few bars for each section of the setlist.
 On Zoom pedals you can already preview the values halfway between two patches.
-*Windows and Linux, sent to a generic MIDI pedal (expression CC). On Zoom pedals sending will come after the tests on real pedals.*
+*Windows, macOS and Linux, sent to a generic MIDI pedal (expression CC). On Zoom pedals sending will come after the tests on real pedals.*
+
+**📚 Community patch library**
+A **public repository of patches** made by PatchPilot users, free for everyone (CC0), searchable by **song, artist, genre and pedal**.
+In PatchPilot, *Patch* page → **Share in the library**: one click opens the GitHub form already filled in (or an email, if you have no GitHub account),
+an automatic check verifies the patch within a minute and, once approved, it appears in the [library page](https://francescorizzo-cyber.github.io/patchpilot/libreria/)
+and in the repository folder [`docs/libreria/patch`](docs/libreria/patch). Download a patch and open it with *Import*: you get its sound sheet.
+*Only the patch is shared (which effects, with which values), never Zoom's effect files. Sending a library patch straight to the pedal will come after the tests on real pedals.*
+
+**🍎 PatchPilot for Mac** — see [macOS](#-macos-coming-in-the-next-version) below.
 
 ## 🛡️ Your pedal is safe
 
@@ -116,6 +126,12 @@ Read requests are sent only after you switch on **reading from the pedal** (Conn
 
 The Android app will be installed **only from Google Play**. It is not available yet: the link will appear here.
 It will need **Android 8.0 or later** with **USB host (OTG)** and a **USB-C / OTG cable** for the pedal.
+
+### 🍎 macOS: coming in the next version
+
+The same program, as a `.dmg` for **Apple Silicon** (M1, M2, M3, M4) and for **Intel** Macs, with Java included.
+PatchPilot is not signed with a paid Apple certificate: the first time, macOS says it cannot check the developer.
+Open **System Settings → Privacy & Security → Open Anyway** (on older Macs: right-click PatchPilot → Open). Not tested on a real Mac yet: **Mac testers wanted**.
 
 ### 💻 Windows and Linux
 
@@ -175,7 +191,7 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
 > scrivi a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · oppure **[apri una segnalazione](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
-> 🔜 **In arrivo con la prossima versione:** [**tutte le patch allo stesso volume**](#-in-arrivo-con-la-prossima-versione), [**brani divisi in sezioni che seguono il tempo**](#-in-arrivo-con-la-prossima-versione) e [**passaggi graduali**](#-in-arrivo-con-la-prossima-versione) da un suono all'altro.
+> 🔜 **In arrivo con la prossima versione:** [**tutte le patch allo stesso volume**](#-in-arrivo-con-la-prossima-versione), [**brani divisi in sezioni che seguono il tempo**](#-in-arrivo-con-la-prossima-versione), [**passaggi graduali**](#-in-arrivo-con-la-prossima-versione) da un suono all'altro, la [**libreria di patch della comunità**](#-in-arrivo-con-la-prossima-versione) e la [**versione per Mac**](#-macos-in-arrivo-con-la-prossima-versione).
 
 ## 🎚️ Pedali supportati
 
@@ -228,14 +244,14 @@ Non è ancora nel download attuale. Intanto scrivi a **[autofonic.mixer@gmail.co
 
 ## 🔜 In arrivo con la prossima versione
 
-Tre funzioni che negli altri editor per pedali non trovi.
+Funzioni che negli altri editor per pedali non trovi, una libreria condivisa da tutti e la versione per Mac.
 
 **🔊 Tutte le patch allo stesso volume**
 Basta salti quando cambi patch dal vivo, con la pulita troppo bassa e quella da assolo troppo forte.
 Suoni lo stesso giro con ogni patch per 6 secondi: PatchPilot misura quanto è forte **come la sente l'orecchio**
 (LUFS, lo standard della radio e della TV, senza contare le pause) e ti dice il volume patch che le rende tutte uguali.
 Dopo aver impostato i volumi rimisuri e controlli il risultato.
-*Windows e Linux. L'uscita del pedale entra nel computer: dal pedale stesso se fa da scheda audio USB, oppure da una scheda audio.
+*Windows, macOS e Linux. L'uscita del pedale entra nel computer: dal pedale stesso se fa da scheda audio USB, oppure da una scheda audio.
 Il suono viene solo misurato: non viene mai registrato né salvato, e sul pedale non si scrive niente.*
 
 **🥁 Brani che seguono il tempo**
@@ -244,13 +260,22 @@ In modalità palco premi **T**: una battuta di conteggio, poi PatchPilot mostra 
 quando finiscono le battute e nell'ultima battuta ti avvisa **«PREPARA: 1-03 Crunch»** prima di ogni cambio di patch.
 Un tocco sul pulsante o su un **pedale Bluetooth volta pagina** ti rimette a tempo quando serve.
 Mostra anche i **tempi del delay** per il tempo del brano (1/4, 1/8 puntato, 1/8).
-*Android, Windows e Linux. Con un pedale MIDI generico il computer manda da solo la patch di ogni sezione.*
+*Android, Windows, macOS e Linux. Con un pedale MIDI generico il computer manda da solo la patch di ogni sezione.*
 
 **🌊 Passaggi graduali**
 Invece di saltare da un suono all'altro, il suono cambia **piano piano**, come con un **pedale d'espressione virtuale**:
 da un valore a un altro nei secondi che scegli, oppure in qualche battuta per ogni sezione della scaletta.
 Sui pedali Zoom puoi già vedere in anteprima i valori a metà strada tra due patch.
-*Windows e Linux, verso un pedale MIDI generico (CC di espressione). Sui pedali Zoom l'invio arriverà dopo le prove sui pedali reali.*
+*Windows, macOS e Linux, verso un pedale MIDI generico (CC di espressione). Sui pedali Zoom l'invio arriverà dopo le prove sui pedali reali.*
+
+**📚 Libreria di patch della comunità**
+Un **repository pubblico di patch** fatte da chi usa PatchPilot, libere per tutti (CC0), da cercare per **brano, artista, genere e pedale**.
+In PatchPilot, pagina *Patch* → **Condividi nella libreria**: un clic apre il modulo su GitHub già compilato (oppure un'email, se non hai un account GitHub),
+un controllo automatico verifica la patch in un minuto e, appena approvata, compare nella [pagina della libreria](https://francescorizzo-cyber.github.io/patchpilot/it/libreria/)
+e nella cartella del repository [`docs/libreria/patch`](docs/libreria/patch). Scarica una patch e aprila con *Importa*: vedi la sua scheda suono.
+*Si condivide solo la patch (quali effetti e con quali valori), mai i file degli effetti Zoom. L'invio di una patch della libreria direttamente al pedale arriverà dopo le prove sui pedali reali.*
+
+**🍎 PatchPilot per Mac**: vedi [macOS](#-macos-in-arrivo-con-la-prossima-versione) più sotto.
 
 ## 🛡️ Il tuo pedale è al sicuro
 
@@ -264,6 +289,12 @@ Le richieste di lettura partono solo dopo aver attivato la **lettura dal pedale*
 
 L'app Android si installerà **solo da Google Play**. Non è ancora disponibile: il link comparirà qui.
 Servirà **Android 8.0 o successivo** con **USB host (OTG)** e un cavo **USB-C / OTG** per il pedale.
+
+### 🍎 macOS: in arrivo con la prossima versione
+
+Lo stesso programma, come `.dmg` per i Mac **Apple Silicon** (M1, M2, M3, M4) e per i Mac **Intel**, con Java incluso.
+PatchPilot non è firmato con un certificato Apple a pagamento: la prima volta il Mac dice che non può verificare lo sviluppatore.
+Apri **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque** (sui Mac più vecchi: tasto destro su PatchPilot → Apri). Non ancora provato su un Mac vero: **cerchiamo tester con il Mac**.
 
 ### 💻 Windows e Linux
 

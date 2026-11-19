@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Libreria della comunità PatchPilot – patch gratis per Zoom MS-50G+, MS-70CDR+, G2 FOUR, G6, G11, B6</title>
+<meta name="description" content="Patch gratuite per i pedali multieffetto Zoom condivise da chi usa PatchPilot: cerca per brano, artista, genere e pedale, guarda gli effetti e scarica il file.">
+<link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/it/libreria/">
+<link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/libreria/">
+<link rel="alternate" hreflang="it" href="https://francescorizzo-cyber.github.io/patchpilot/it/libreria/">
+<link rel="icon" href="../../img/icona.png">
+<meta property="og:title" content="Libreria della comunità PatchPilot – patch gratis per Zoom MS-50G+, MS-70CDR+, G2 FOUR, G6, G11, B6">
+<meta property="og:description" content="Patch gratuite per i pedali multieffetto Zoom condivise da chi usa PatchPilot: cerca per brano, artista, genere e pedale, guarda gli effetti e scarica il file.">
+<meta property="og:image" content="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-android.jpg">
+<style>
+:root{--bg:#0b2b33;--panel:#123c47;--text:#eef4f3;--muted:#a9c2c0;--gold:#ffb547;--green:#45b86e;--blue:#8cc8ff;--line:#ffffff22}
+@media (prefers-color-scheme: light){:root{--bg:#f4f7f6;--panel:#fff;--text:#12262b;--muted:#4f6468;--gold:#b86a00;--blue:#0b5cad;--line:#0002}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 48px}
+header .top{display:flex;align-items:center;gap:12px}header .top img{width:56px;height:56px;border-radius:14px}
+header p.k{color:var(--gold);letter-spacing:.12em;font-weight:700;margin:0}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:.3em 0 .3em;text-wrap:balance}h2{margin-top:2em}
+.lead{color:var(--muted);font-size:19px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;font-weight:600;text-decoration:none;color:#14110a;background:#ffb547}
+.btn.g{background:var(--green)}.btn.o{background:transparent;color:var(--text);border:2px solid var(--muted)}.btn.p{background:#ffc439;color:#003087}
+img{max-width:100%;height:auto;border-radius:12px;display:block}
+.note{background:var(--panel);border-left:4px solid var(--gold);border-radius:10px;padding:12px 16px;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--panel);border-radius:14px;padding:16px}.card p{margin:0}
+.chips span{display:inline-block;border:1.5px solid var(--gold);border-radius:999px;padding:2px 12px;margin:3px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.price{background:var(--panel);border-radius:14px;padding:4px 20px 20px}ol{padding-left:22px}li{margin:.4em 0}
+code{background:#0003;padding:1px 6px;border-radius:6px}
+small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-size:15px}
+.lib{display:grid;gap:14px}.item{background:var(--panel);border-radius:14px;padding:14px 16px}
+.item h3{margin:0 0 4px}.meta{color:var(--muted);font-size:15px}.fx span{display:inline-block;font:13px monospace;border:1px solid var(--line);border-radius:8px;padding:1px 6px;margin:2px}
+.fx span.off{opacity:.5}.bar{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.bar input,.bar select{font:inherit;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text)}
+.empty{background:var(--panel);border-radius:14px;padding:18px}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="top"><img src="../../img/icona.png" width="56" height="56" alt=""><p class="k">PATCHPILOT</p></div>
+<p><a href="../">← PatchPilot</a> · <a href="../../libreria/">English</a></p>
+<h1>Libreria di patch della comunità</h1>
+<p class="lead">Patch per i pedali Zoom fatte e condivise da chi usa PatchPilot: cerca per brano, artista o pedale, guarda gli effetti e apri il file in PatchPilot. Tutte le patch sono libere per tutti (CC0).</p>
+</header>
+<p class="note" style="border-left-color:var(--green)">🔜 <strong>La libreria apre con la prossima versione di PatchPilot.</strong> Nel programma e nell'app troverai <em>Patch → Condividi nella libreria</em>: un clic compila il modulo, un controllo automatico verifica la patch e, appena approvata, compare qui.</p>
+<div class="bar"><input id="q" type="search" placeholder="Cerca brano, artista, patch, autore…" aria-label="Cerca brano, artista, patch, autore…"><select id="m" aria-label="Tutti i pedali"><option value="">Tutti i pedali</option></select>
+<a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/issues/new?template=4_libreria.yml">Condividi una patch</a></div>
+<div id="list" class="lib"></div>
+<h2>Come funziona</h2><ol><li><strong>Condividi:</strong> in PatchPilot, pagina <em>Patch</em> → <strong>Condividi nella libreria…</strong>. Scegli la patch, scrivi il tuo nome e, se vuoi, brano, artista, genere e note.</li><li><strong>Controllo:</strong> si apre il modulo su GitHub già compilato. Un controllo automatico verifica la patch in un minuto. Non hai un account GitHub? Mandala per email dalla stessa finestra.</li><li><strong>Libreria:</strong> appena approvata la patch compare in questa pagina e nel <a href="https://github.com/francescorizzo-cyber/patchpilot/tree/main/docs/libreria/patch">repository pubblico</a>, libera per tutti.</li><li><strong>Usala:</strong> scarica il file e aprilo in PatchPilot con <em>Importa…</em>: vedi la scheda suono con effetti e valori. L'invio diretto al pedale arriverà dopo le prove sui pedali reali.</li></ol><p><small>Si condivide solo la patch (quali effetti e con quali valori), mai i file degli effetti Zoom. Le patch sono CC0: chiunque può usarle e modificarle.</small></p>
+<footer><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a></p>
+<p>PatchPilot is an independent project, not affiliated with ZOOM Corporation.</p></footer>
+</main>
+<script>
+// Il testo delle patch arriva da chi le condivide: si inserisce solo con textContent, mai come HTML.
+const T = {"none": "Nessuna patch trovata.", "dl": "Scarica il file", "by": "di", "fx": "effetti", "empty": "Ancora nessuna patch: condividi la prima!"};
+const BASE = "../../libreria/";
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+let all = [];
+function show() {
+  const q = document.getElementById("q").value.trim().toLowerCase(), m = document.getElementById("m").value;
+  const box = document.getElementById("list"); box.replaceChildren();
+  if (!all.length) { box.append(el("div", "empty", T.empty)); return; }
+  const hits = all.filter(p => (!m || p.model === m) && (!q || [p.name, p.song, p.artist, p.author, p.genre, p.notes].join(" ").toLowerCase().includes(q)));
+  if (!hits.length) { box.append(el("div", "empty", T.none)); return; }
+  for (const p of hits) {
+    const it = el("article", "item"); it.id = "p" + p.id;
+    it.append(el("h3", null, p.name + (p.song ? " · " + p.song : "")));
+    it.append(el("div", "meta", [p.model, p.artist, p.genre, T.by + " " + p.author, p.date].filter(Boolean).join(" · ")));
+    if (p.notes) it.append(el("p", null, p.notes));
+    const fx = el("div", "fx"); fx.append(el("small", null, p.effects.length + " " + T.fx + ": "));
+    for (const f of p.effects) fx.append(el("span", f.on ? "" : "off", f.id));
+    it.append(fx);
+    if (/^patch\/[a-z0-9-]+\/[a-z0-9-]+\.json$/.test(p.file)) { const a = el("a", null, T.dl); a.href = BASE + p.file; a.download = ""; it.append(a); }
+    box.append(it);
+  }
+}
+fetch(BASE + "index.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
+  all = Array.isArray(d.patches) ? d.patches : [];
+  const sel = document.getElementById("m");
+  [...new Set(all.map(p => p.model))].sort().forEach(x => sel.append(new Option(x, x)));
+  show();
+  if (location.hash) document.getElementById("p" + location.hash.slice(1))?.scrollIntoView();
+}).catch(() => show());
+document.getElementById("q").addEventListener("input", show);
+document.getElementById("m").addEventListener("change", show);
+</script>
+</body>
+</html>

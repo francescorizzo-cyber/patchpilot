@@ -1,0 +1,32 @@
+name: "🎛️ Patch per la libreria · Patch for the library"
+description: "Share a patch with everyone · Regala una patch alla libreria della comunità"
+title: "[Libreria] "
+labels: ["libreria"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Il modo più semplice:** in PatchPilot, pagina *Patch* → **Condividi nella libreria…**: questo modulo si apre già compilato, premi solo *Submit new issue*.
+        **The easy way:** in PatchPilot, *Patch* page → **Condividi nella libreria…**: this form opens already filled in, just press *Submit new issue*.
+
+        Un controllo automatico verifica la patch e risponde qui sotto in un minuto. Dopo l'approvazione la patch compare nella [libreria](https://francescorizzo-cyber.github.io/patchpilot/libreria/).
+        An automatic check verifies the patch and replies below within a minute. Once approved, it appears in the [library](https://francescorizzo-cyber.github.io/patchpilot/libreria/).
+  - type: textarea
+    id: patch
+    attributes:
+      label: "Patch (PatchPilot file) · Patch (file di PatchPilot)"
+      description: "Filled in by PatchPilot. Big patch? Drag the .json file saved by PatchPilot here. · Lo compila PatchPilot. Patch grande? Trascina qui il file .json salvato da PatchPilot."
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Anything else? · Altro da dire? (optional / facoltativo)"
+  - type: checkboxes
+    id: license
+    attributes:
+      label: "License · Licenza"
+      options:
+        - label: "I made this patch and I give it to everyone under CC0: anyone can use and change it. · L'ho fatta io e la regalo a tutti con licenza CC0: chiunque può usarla e modificarla."
+          required: true
