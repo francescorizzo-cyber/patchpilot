@@ -7,7 +7,6 @@
 ### Your multi-effects pedal, on your Android phone — and on Windows & Linux
 **MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · G2 FOUR · B2 FOUR · G6 · G11 · B6** — over a **USB cable**
 
-[![Download APK](https://img.shields.io/badge/⬇_Download-Android_APK-ffb547?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
 [![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-on-google-play)
@@ -71,12 +70,10 @@ Read requests are sent only after you switch on **reading from the pedal** (Conn
 
 ## ⬇️ Install
 
-1. Download **PatchPilot-x.y.z.apk** from **[Releases](../../releases/latest)** on your Android phone.
-2. Open it and allow installing from this source when Android asks.
-   If **Google Play Protect** says *"App blocked to protect your device"*, tap **Install anyway**: it appears for every app downloaded outside Google Play from a developer it doesn't know yet.
-3. Connect the pedal with a **USB-C / OTG cable** and open PatchPilot → **Connect**.
+### 📱 Android: coming soon on Google Play
 
-Requires **Android 8.0 or later** with **USB host (OTG)**.
+The Android app will be installed **only from Google Play**. It is not available yet: the link will appear here.
+It will need **Android 8.0 or later** with **USB host (OTG)** and a **USB-C / OTG cable** for the pedal.
 
 ### 💻 Windows and Linux
 
@@ -84,7 +81,7 @@ Requires **Android 8.0 or later** with **USB host (OTG)**.
 - **Linux**: `PatchPilot-x.y.z-linux-x64.deb` (Ubuntu/Debian: `sudo apt install ./PatchPilot-….deb`) or `…-linux-x64.tar.gz` (unpack and run `PatchPilot/bin/PatchPilot`).
 - Java is included. Connect the pedal with its USB cable, then **Collega → Cerca dispositivi → Collega e identifica**. Close Guitar Lab first: the pedal's MIDI port works with one program at a time.
 
-> ℹ️ When PatchPilot arrives on **Google Play**, uninstall the APK first: the two versions are signed differently.
+> ℹ️ If you installed an earlier APK from this page: when PatchPilot arrives on **Google Play**, uninstall it first. The two versions are signed differently.
 
 <a id="full-version"></a>
 
@@ -95,17 +92,17 @@ the setlist beyond 3 songs and stage mode will be part of the **full version: �
 Model detection, patch list, editor view, tuner and a 3-song setlist stay free.
 If you buy now you support the project and you already have your code when the full version is switched on.
 
-1. Open PatchPilot and press **“Richiedi il codice via email”** (Android: bottom of the *Collega* tab; computer: *Sostieni ♥* tab). Your device code looks like `PP-ABCD-EFGH`.
+1. Open PatchPilot on your computer and go to the *Sostieni ♥* page. Your device code looks like `PP-ABCD-EFGH`.
 2. Pay **€4.99**, either way:
    - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: type your device code when asked and the **unlock code appears right after the payment**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: then send the email to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** and you receive your **unlock code** by email, usually within a day.
 
-One code per device. On Google Play (coming soon) the full version will be bought inside the app.
+One code per computer (Windows and Linux). On Android (coming soon on Google Play) the full version will be bought inside the app, with Google Play.
 Just want to say thanks? Any amount is welcome: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 🛒 On Google Play
 
-Coming soon, as an open beta. The link will appear here.
+Coming soon. The Android app will be available only from Google Play; the link will appear here.
 
 ## 📄 Privacy & license
 
@@ -179,12 +176,10 @@ Le richieste di lettura partono solo dopo aver attivato la **lettura dal pedale*
 
 ## ⬇️ Installazione
 
-1. Scarica **PatchPilot-x.y.z.apk** da **[Releases](../../releases/latest)** dal telefono Android.
-2. Aprilo e consenti l'installazione da questa fonte quando Android lo chiede.
-   Se **Google Play Protect** dice *"App bloccata per proteggere il tuo dispositivo"*, tocca **Installa comunque**: compare per ogni app scaricata fuori da Google Play da uno sviluppatore che non conosce ancora.
-3. Collega il pedale con un cavo **USB-C / OTG** e apri PatchPilot → **Collega**.
+### 📱 Android: in arrivo su Google Play
 
-Serve **Android 8.0 o successivo** con **USB host (OTG)**.
+L'app Android si installerà **solo da Google Play**. Non è ancora disponibile: il link comparirà qui.
+Servirà **Android 8.0 o successivo** con **USB host (OTG)** e un cavo **USB-C / OTG** per il pedale.
 
 ### 💻 Windows e Linux
 
@@ -192,7 +187,7 @@ Serve **Android 8.0 o successivo** con **USB host (OTG)**.
 - **Linux**: `PatchPilot-x.y.z-linux-x64.deb` (Ubuntu/Debian: `sudo apt install ./PatchPilot-….deb`) oppure `…-linux-x64.tar.gz` (scompatta e avvia `PatchPilot/bin/PatchPilot`).
 - Java è incluso. Collega il pedale con il suo cavo USB, poi **Collega → Cerca dispositivi → Collega e identifica**. Chiudi prima Guitar Lab: la porta MIDI del pedale funziona con un programma alla volta.
 
-> ℹ️ Quando PatchPilot arriverà su **Google Play**, disinstalla prima l'APK: le due versioni sono firmate in modo diverso.
+> ℹ️ Se avevi installato un APK scaricato da questa pagina: quando PatchPilot arriverà su **Google Play**, disinstallalo prima. Le due versioni sono firmate in modo diverso.
 
 <a id="versione-completa"></a>
 
@@ -203,12 +198,12 @@ la ricerca, il confronto, la scaletta oltre i 3 brani e la modalità palco faran
 valida per sempre su quel telefono o computer. Riconoscimento del pedale, elenco patch, editor, accordatore e scaletta di 3 brani restano gratuiti.
 Se la compri adesso sostieni il progetto e hai già il tuo codice quando la versione completa verrà attivata.
 
-1. Apri PatchPilot e premi **«Richiedi il codice via email»** (Android: in fondo alla scheda *Collega*; computer: scheda *Sostieni ♥*). Il codice dispositivo ha la forma `PP-ABCD-EFGH`.
+1. Apri PatchPilot sul computer e vai alla pagina *Sostieni ♥*. Il codice dispositivo ha la forma `PP-ABCD-EFGH`.
 2. Paga **4,99 €**, come preferisci:
    - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: scrivi il codice dispositivo quando viene chiesto e il **codice di sblocco appare subito dopo il pagamento**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: poi invia l'email ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** e ricevi il **codice di sblocco** per email, di solito entro un giorno.
 
-Un codice per ogni dispositivo. Su Google Play (in arrivo) la versione completa si comprerà dentro l'app.
+Un codice per ogni computer (Windows e Linux). Su Android (in arrivo su Google Play) la versione completa si comprerà dentro l'app, con Google Play.
 Vuoi solo dire grazie? Qualsiasi offerta è benvenuta: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 📄 Privacy e licenza
