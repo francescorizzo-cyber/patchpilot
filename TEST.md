@@ -9,7 +9,7 @@ Thank you! Every pedal you test brings the full editor closer. The beta **only r
 
 > The app is in **Italian** for now (English is coming): button names are shown below as they appear.
 
-**You need:** your pedal, a Windows or Linux computer, the pedal's USB cable, PatchPilot from [Releases](../../releases/latest). (The Android app is coming soon on Google Play.)
+**You need:** your pedal, a Windows, Mac or Linux computer, the pedal's USB cable, PatchPilot from [Releases](../../releases/latest). (The Android app is coming soon on Google Play.)
 Keep the amp volume low and, if you can, back up the patches you care about first.
 
 | Step | What to do | What to tell us |
@@ -33,7 +33,7 @@ If something odd happens (sound changes, the pedal freezes, the cable disconnect
 
 Grazie! Ogni pedale provato ci avvicina all'editor completo. La beta **legge soltanto** dal pedale: non scrive, non salva e non cancella nulla.
 
-**Ti servono:** il pedale, un computer Windows o Linux, il cavo USB del pedale, PatchPilot da [Releases](../../releases/latest). (L'app Android è in arrivo su Google Play.)
+**Ti servono:** il pedale, un computer Windows, Mac o Linux, il cavo USB del pedale, PatchPilot da [Releases](../../releases/latest). (L'app Android è in arrivo su Google Play.)
 Tieni basso il volume dell'amplificatore e, se puoi, fai prima un backup delle patch a cui tieni.
 
 | Passo | Cosa fare | Cosa dirci |

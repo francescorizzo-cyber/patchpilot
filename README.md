@@ -4,12 +4,12 @@
 
 # 🎛️ PatchPilot
 
-### Your multi-effects pedal, on your Android phone — and on Windows & Linux
-**MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · G2 FOUR · B2 FOUR · G6 · G11 · B6** — over a **USB cable**
+### Your multi-effects pedal on Windows, macOS & Linux — and soon on your Android phone
+**MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · MS-90LP+ · G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR · G2 FOUR · G2X FOUR · B2 FOUR · G6 · G11 · B6** — over a **USB cable**
 
 [![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-coming_soon-555555?style=for-the-badge&logo=apple&logoColor=white)](#-macos-coming-in-the-next-version)
+[![macOS](https://img.shields.io/badge/⬇_Download-macOS-555555?style=for-the-badge&logo=apple&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-on-google-play)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
 [![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#full-version)
@@ -22,13 +22,13 @@
 
 PatchPilot connects your **Zoom-compatible multi-effects pedal** to your **Android phone or tablet** with a USB cable
 and shows what is inside: **patches, effects, parameters and the tuner**. Zoom has a separate editor app for each pedal, almost all of them for iPhone only:
-PatchPilot is made for players who use Android — and it also runs on **Windows and Linux** computers.
+PatchPilot runs on **Windows, macOS and Linux** computers, and the Android app is coming soon on Google Play.
 
 > 🧪 **This is a beta.** It has been built carefully but **not yet tested on every pedal**.
 > 🙋 **Got one of these pedals?** Try it and send us the log from the app: [5-minute test guide](TEST.md#english) ·
 > write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · or **[open an issue](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
-> 🔜 **Coming in the next version:** [**all your patches at the same volume**](#-coming-in-the-next-version), [**songs split into sections that follow the tempo**](#-coming-in-the-next-version), [**gradual transitions**](#-coming-in-the-next-version) between sounds, a [**community patch library**](#-coming-in-the-next-version) and the [**Mac version**](#-macos-coming-in-the-next-version).
+> ✨ **New in 0.9:** [**all your patches at the same volume**](#-new-in-09), [**songs split into sections that follow the tempo**](#-new-in-09), [**gradual transitions**](#-new-in-09) between sounds, a [**community patch library**](#-new-in-09), six more pedals and the [**Mac version**](#-macos).
 
 ## 🎚️ Supported pedals
 
@@ -37,25 +37,25 @@ PatchPilot is made for players who use Android — and it also runs on **Windows
 | **MS-50G+** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
 | **MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 waiting for testers |
-| **G6 · G11 · B6** | ✅ | ⏳ later | ⏳ later | 🧪 limited support in the beta |
-| **MS-90LP+** | 🔜 | 🔜 | 🔜 | 🔜 coming in the next version |
-| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** | 🔜 | 🔜 computer first | ⏳ later | 🔜 coming in the next version |
-| **Any MIDI pedal, any brand** | – | – | – | 🔜 next version, computer: sends the patch change for each song of your setlist |
+| **MS-90LP+** *(new in 0.9)* | ✅ | ✅ | ✅ | 🧪 waiting for testers |
+| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** *(new in 0.9)* | ✅ you choose the model | ✅ on the computer | ⏳ later | 🧪 waiting for testers |
+| **G6 · G11 · B6** | ✅ you choose the model | 🧪 not tested on a real pedal | ⏳ later | 🧪 limited support in the beta |
+| **Any MIDI pedal, any brand** *(new in 0.9)* | – | – | – | on the computer: sends the patch change for each song of your setlist, plus four MIDI faders |
 
-🔜 = not in the current download yet. With these, the next version covers **16 Zoom pedals** plus a generic MIDI pedal.
+**16 Zoom pedals** plus a generic MIDI pedal. None of them has been tested by us on a real pedal yet: that is what testers are for.
 
 ### 🙋 Your pedal is not in the list? Become a tester
 
 Want PatchPilot to support your pedal, even from another brand? Help us learn how it talks.
-The next version of the Windows/Linux program has a **Tester** page: a guided recording that only **listens**.
+The computer program (Windows, macOS, Linux) has a **Tester** page: a guided recording that only **listens**.
 It sends your pedal nothing but the standard MIDI identity request, then records what the pedal sends while you
 change patch, turn a knob, switch an effect on and off. You save one text file and email it to us.
 
-It is not in the current download yet. In the meantime write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** with brand and model: we will tell you as soon as it is ready.
+Send the file to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** with brand and model of the pedal.
 
 ## 📱 What it does
 
-**One app for 10 pedals**, on Android, Windows and Linux — instead of a separate app for each pedal.
+**One app for 16 pedals**, on Windows, macOS and Linux (Android coming soon) — instead of a separate app for each pedal.
 
 **Look inside your pedal**
 - **Connects over USB** and **recognises your pedal** automatically.
@@ -79,9 +79,9 @@ It is not in the current download yet. In the meantime write to **[autofonic.mix
 
 *Coming after the tests on real pedals: changing patch from the app (also on several pedals at once) and editing parameters.*
 
-## 🔜 Coming in the next version
+## ✨ New in 0.9
 
-Features you will not find in other pedal editors, a library shared by everyone, and the Mac version.
+Features you will not find in other pedal editors, a library shared by everyone, and the Mac version. They are in the download now; like the rest of the beta, they still wait for tests on real pedals.
 
 **🔊 All your patches at the same volume**
 No more jumps when you switch patch live: the clean one too quiet, the lead one too loud.
@@ -112,7 +112,9 @@ an automatic check verifies the patch within a minute and, once approved, it app
 and in the repository folder [`docs/libreria/patch`](docs/libreria/patch). Download a patch and open it with *Import*: you get its sound sheet.
 *Only the patch is shared (which effects, with which values), never Zoom's effect files. Sending a library patch straight to the pedal will come after the tests on real pedals.*
 
-**🍎 PatchPilot for Mac** — see [macOS](#-macos-coming-in-the-next-version) below.
+**🎚️ Also new** — a main screen shaped like your pedal, with the **song bar** (mouse wheel, arrow keys or a USB page-turner pedal change song; search by name), a **needle tuner**, a **fader view** in the editor, **MIDI faders** and an **audio level meter**.
+
+**🍎 PatchPilot for Mac** — see [macOS](#-macos) below.
 
 ## 🛡️ Your pedal is safe
 
@@ -127,9 +129,9 @@ Read requests are sent only after you switch on **reading from the pedal** (Conn
 The Android app will be installed **only from Google Play**. It is not available yet: the link will appear here.
 It will need **Android 8.0 or later** with **USB host (OTG)** and a **USB-C / OTG cable** for the pedal.
 
-### 🍎 macOS: coming in the next version
+### 🍎 macOS
 
-The same program, as a `.dmg` for **Apple Silicon** (M1, M2, M3, M4) and for **Intel** Macs, with Java included.
+From [Releases](../../releases/latest): `PatchPilot-x.y.z-macos-arm64.dmg` for **Apple Silicon** Macs (M1, M2, M3, M4) or `…-macos-x64.dmg` for **Intel** Macs, with Java included. Open the `.dmg` and drag PatchPilot into Applications.
 PatchPilot is not signed with a paid Apple certificate: the first time, macOS says it cannot check the developer.
 Open **System Settings → Privacy & Security → Open Anyway** (on older Macs: right-click PatchPilot → Open). Not tested on a real Mac yet: **Mac testers wanted**.
 
@@ -155,7 +157,7 @@ If you buy now you support the project and you already have your code when the f
    - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: type your device code when asked and the **unlock code appears right after the payment**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: then send the email to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** and you receive your **unlock code** by email, usually within a day.
 
-One code per computer (Windows and Linux). On Android (coming soon on Google Play) the full version will be bought inside the app, with Google Play.
+One code per computer (Windows, macOS and Linux). On Android (coming soon on Google Play) the full version will be bought inside the app, with Google Play.
 Just want to say thanks? Any amount is welcome: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 🛒 On Google Play
@@ -183,7 +185,7 @@ Zoom, MultiStomp and Handy Guitar Lab are trademarks of their respective owners,
 
 PatchPilot collega il tuo **multieffetto a pedale compatibile Zoom** al **telefono o tablet Android** con un cavo USB
 e ti mostra cosa contiene: **patch, effetti, parametri e accordatore**. Zoom ha un'app diversa per ogni pedale, quasi tutte solo per iPhone:
-PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e Linux**.
+PatchPilot funziona sui computer **Windows, macOS e Linux**, e l'app Android è in arrivo su Google Play.
 
 🌐 **Sito:** https://francescorizzo-cyber.github.io/patchpilot/it/ · 🔑 **[Versione completa: 4,99 €](#versione-completa)**
 
@@ -191,7 +193,7 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 > 🙋 **Hai uno di questi pedali?** Provala e mandaci il registro dall'app: [guida di prova in 5 minuti](TEST.md#italiano) ·
 > scrivi a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** · oppure **[apri una segnalazione](https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose)**.
 
-> 🔜 **In arrivo con la prossima versione:** [**tutte le patch allo stesso volume**](#-in-arrivo-con-la-prossima-versione), [**brani divisi in sezioni che seguono il tempo**](#-in-arrivo-con-la-prossima-versione), [**passaggi graduali**](#-in-arrivo-con-la-prossima-versione) da un suono all'altro, la [**libreria di patch della comunità**](#-in-arrivo-con-la-prossima-versione) e la [**versione per Mac**](#-macos-in-arrivo-con-la-prossima-versione).
+> ✨ **Novità della 0.9:** [**tutte le patch allo stesso volume**](#-novità-della-09), [**brani divisi in sezioni che seguono il tempo**](#-novità-della-09), [**passaggi graduali**](#-novità-della-09) da un suono all'altro, la [**libreria di patch della comunità**](#-novità-della-09), sei pedali in più e la [**versione per Mac**](#-mac).
 
 ## 🎚️ Pedali supportati
 
@@ -200,25 +202,25 @@ PatchPilot nasce per chi usa Android, e funziona anche sui computer **Windows e 
 | **MS-50G+** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
 | **G2 FOUR / G2X FOUR · B2 FOUR** | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
-| **G6 · G11 · B6** | ✅ | ⏳ più avanti | ⏳ più avanti | 🧪 supporto limitato nella beta |
-| **MS-90LP+** | 🔜 | 🔜 | 🔜 | 🔜 in arrivo con la prossima versione |
-| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** | 🔜 | 🔜 prima sul computer | ⏳ più avanti | 🔜 in arrivo con la prossima versione |
-| **Qualsiasi pedale MIDI, di qualsiasi marca** | – | – | – | 🔜 prossima versione, computer: manda il cambio patch per ogni brano della scaletta |
+| **MS-90LP+** *(novità 0.9)* | ✅ | ✅ | ✅ | 🧪 aspetta i tester |
+| **G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR** *(novità 0.9)* | ✅ modello scelto da te | ✅ sul computer | ⏳ più avanti | 🧪 aspetta i tester |
+| **G6 · G11 · B6** | ✅ modello scelto da te | 🧪 non provata su un pedale vero | ⏳ più avanti | 🧪 supporto limitato nella beta |
+| **Qualsiasi pedale MIDI, di qualsiasi marca** *(novità 0.9)* | – | – | – | sul computer: manda il cambio patch per ogni brano della scaletta, più quattro fader MIDI |
 
-🔜 = non ancora nel download attuale. Con questi, la prossima versione copre **16 pedali Zoom** più un pedale MIDI generico.
+**16 pedali Zoom** più un pedale MIDI generico. Nessuno è ancora stato provato da noi su un pedale vero: per questo cerchiamo tester.
 
 ### 🙋 Il tuo pedale non è in elenco? Diventa tester
 
 Vuoi che PatchPilot supporti il tuo pedale, anche di un'altra marca? Aiutaci a capire come parla.
-La prossima versione del programma per Windows e Linux ha la pagina **Tester**: una registrazione guidata che **ascolta soltanto**.
+Il programma per computer (Windows, macOS, Linux) ha la pagina **Tester**: una registrazione guidata che **ascolta soltanto**.
 Al pedale manda solo la richiesta di identità MIDI standard, poi registra quello che il pedale invia mentre
 cambi patch, giri una manopola, spegni e riaccendi un effetto. Alla fine salvi un file di testo e ce lo mandi per email.
 
-Non è ancora nel download attuale. Intanto scrivi a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** con marca e modello: ti avvisiamo appena è pronta.
+Manda il file a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** con marca e modello del pedale.
 
 ## 📱 Cosa fa
 
-**Una sola app per 10 pedali**, su Android, Windows e Linux, al posto di un'app diversa per ogni pedale.
+**Una sola app per 16 pedali**, su Windows, macOS e Linux (Android in arrivo), al posto di un'app diversa per ogni pedale.
 
 **Guarda dentro il pedale**
 - **Si collega via USB** e **riconosce il pedale** da solo.
@@ -242,9 +244,9 @@ Non è ancora nel download attuale. Intanto scrivi a **[autofonic.mixer@gmail.co
 
 *In arrivo dopo le prove sui pedali reali: cambio patch dall'app (anche su più pedali insieme) e modifica dei parametri.*
 
-## 🔜 In arrivo con la prossima versione
+## ✨ Novità della 0.9
 
-Funzioni che negli altri editor per pedali non trovi, una libreria condivisa da tutti e la versione per Mac.
+Funzioni che negli altri editor per pedali non trovi, una libreria condivisa da tutti e la versione per Mac. Sono già nel download; come il resto della beta, aspettano ancora le prove sui pedali veri.
 
 **🔊 Tutte le patch allo stesso volume**
 Basta salti quando cambi patch dal vivo, con la pulita troppo bassa e quella da assolo troppo forte.
@@ -275,7 +277,9 @@ un controllo automatico verifica la patch in un minuto e, appena approvata, comp
 e nella cartella del repository [`docs/libreria/patch`](docs/libreria/patch). Scarica una patch e aprila con *Importa*: vedi la sua scheda suono.
 *Si condivide solo la patch (quali effetti e con quali valori), mai i file degli effetti Zoom. L'invio di una patch della libreria direttamente al pedale arriverà dopo le prove sui pedali reali.*
 
-**🍎 PatchPilot per Mac**: vedi [macOS](#-macos-in-arrivo-con-la-prossima-versione) più sotto.
+**🎚️ E ancora**: schermata principale a forma di pedale, con la **barra dei brani** (rotella del mouse, frecce o un pedale USB volta-pagina cambiano brano; ricerca per nome), **accordatore a lancetta**, **vista a fader** nell'editor, **fader MIDI** e **misuratore del livello audio**.
+
+**🍎 PatchPilot per Mac**: vedi [Mac](#-mac) più sotto.
 
 ## 🛡️ Il tuo pedale è al sicuro
 
@@ -290,9 +294,9 @@ Le richieste di lettura partono solo dopo aver attivato la **lettura dal pedale*
 L'app Android si installerà **solo da Google Play**. Non è ancora disponibile: il link comparirà qui.
 Servirà **Android 8.0 o successivo** con **USB host (OTG)** e un cavo **USB-C / OTG** per il pedale.
 
-### 🍎 macOS: in arrivo con la prossima versione
+### 🍎 Mac
 
-Lo stesso programma, come `.dmg` per i Mac **Apple Silicon** (M1, M2, M3, M4) e per i Mac **Intel**, con Java incluso.
+Da [Releases](../../releases/latest): `PatchPilot-x.y.z-macos-arm64.dmg` per i Mac **Apple Silicon** (M1, M2, M3, M4) oppure `…-macos-x64.dmg` per i Mac **Intel**, con Java incluso. Apri il `.dmg` e trascina PatchPilot in Applicazioni.
 PatchPilot non è firmato con un certificato Apple a pagamento: la prima volta il Mac dice che non può verificare lo sviluppatore.
 Apri **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque** (sui Mac più vecchi: tasto destro su PatchPilot → Apri). Non ancora provato su un Mac vero: **cerchiamo tester con il Mac**.
 
@@ -318,7 +322,7 @@ Se la compri adesso sostieni il progetto e hai già il tuo codice quando la vers
    - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)**: scrivi il codice dispositivo quando viene chiesto e il **codice di sblocco appare subito dopo il pagamento**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)**: poi invia l'email ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)** e ricevi il **codice di sblocco** per email, di solito entro un giorno.
 
-Un codice per ogni computer (Windows e Linux). Su Android (in arrivo su Google Play) la versione completa si comprerà dentro l'app, con Google Play.
+Un codice per ogni computer (Windows, macOS e Linux). Su Android (in arrivo su Google Play) la versione completa si comprerà dentro l'app, con Google Play.
 Vuoi solo dire grazie? Qualsiasi offerta è benvenuta: **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
 ## 📄 Privacy e licenza
