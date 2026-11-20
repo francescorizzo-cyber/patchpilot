@@ -79,6 +79,61 @@ Send the file to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)
 
 *Coming after the tests on real pedals: changing patch from the app (also on several pedals at once) and editing parameters.*
 
+## 🧭 All features
+
+Everything PatchPilot does today, in the version you download. Nothing is ever written to the pedal.
+
+**Look inside your pedal**
+
+- 🔌 **Detects the pedal by itself**: Plug in the USB cable and PatchPilot tells you the model and firmware version. For models that do not identify themselves you pick it from a list.
+- 📋 **Full patch list**: Every patch on the pedal with its name, at a glance, with the selected one highlighted.
+- 🎛️ **Effects and parameters editor**: Every slot with its effect, on or off, and all its parameters. **Knob** or **fader** view: turn them to try things out — it all stays in the program.
+- 🏷️ **Real effect and parameter names**: Import your own `.ZD2` files and see effect and knob names instead of numbers.
+- 🎸 **Needle tuner**: The pedal's tuner, big on the screen, with note and cents: readable from across the room.
+- 🖼️ **A pedal-shaped screen**: The main page draws your model: display, knobs and switches are clickable.
+
+**Keep your sounds safe**
+
+- 💾 **Backup of every patch**: Save all the pedal's patches to a file and reopen them any time, even with no pedal connected.
+- 📄 **Sound sheets**: A readable sheet for each patch — effects, on/off, parameters — to print, save or share.
+- 🔎 **Search by effect**: “Where did I use that delay?” Find every patch that uses an effect.
+- ⚖️ **Compare two patches**: Put two patches side by side and see only the differences.
+
+**On stage**
+
+- 🎶 **Setlist**: Order your songs and pick the patch for each, one per pedal if you use several. With capo and notes.
+- ⏭️ **Song bar**: Change song with the mouse wheel, arrow keys, space bar or a USB page-turner pedal, and search a song by name.
+- 🌙 **Stage mode**: A dark screen with big letters: which patch to select now and what comes next.
+- 🥁 **Songs that follow the tempo**: Split a song into sections with their bars: count-in, beats on screen and a **“GET READY”** warning before every change. Also shows delay times.
+- 🌊 **Gradual transitions**: The sound changes little by little, like a virtual expression pedal, over the seconds or bars you choose.
+
+**Volume and levels**
+
+- 🔊 **Every patch at the same volume**: Play the same riff with each patch: PatchPilot measures loudness as the ear hears it (LUFS) and tells you the patch level to set.
+- 📈 **Audio level meter**: If your pedal is also a USB audio interface, see the signal level. Sound is only measured, never recorded.
+- 🎚️ **MIDI faders**: Four sliders sending standard Control Change (volume, expression…) to a generic MIDI pedal.
+
+**Other pedals and community**
+
+- 🎹 **Any MIDI pedal**: With a pedal of another brand the computer sends the patch change for every song in the setlist.
+- 📚 **Community patch library**: Patches shared by PatchPilot users, free for everyone (CC0), searchable by song, artist, genre and pedal.
+- 🙋 **Tester page**: Your pedal is not listed? A guided, listen-only recording helps us add it.
+- 🧾 **Log**: Everything the program and the pedal say to each other, to save and send if something goes wrong.
+
+**Free and full version**: Today, with 0.9, everything is free. From 0.9.1 it works like this: 7 days with everything on, then what you need to see whether your pedal works stays free forever.
+
+| Feature | Free forever | Full version |
+|---|:---:|:---:|
+| Pedal detection, patch list, editor | ✅ | ✅ |
+| Tuner, log, Tester page | ✅ | ✅ |
+| Setlist up to 3 songs | ✅ | ✅ |
+| Community patch library | ✅ | ✅ |
+| Unlimited setlist and stage mode | — | ✅ |
+| Backup to file and sound sheets | — | ✅ |
+| Search by effect and compare | — | ✅ |
+| Saved variants (0.9.1) | — | ✅ |
+| AI assistant and teacher (0.9.1) | 7-day trial | 100 requests a month |
+
 ## ✨ New in 0.9
 
 Features you will not find in other pedal editors, a library shared by everyone, and the Mac version. They are in the download now; like the rest of the beta, they still wait for tests on real pedals.
@@ -257,6 +312,61 @@ Manda il file a **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)*
 - **Modalità demo e dati di esempio**: per provare tutto senza pedale.
 
 *In arrivo dopo le prove sui pedali reali: cambio patch dall'app (anche su più pedali insieme) e modifica dei parametri.*
+
+## 🧭 Tutte le funzioni
+
+Tutto quello che PatchPilot fa oggi, nella versione che scarichi. Sul pedale non viene mai scritto niente.
+
+**Guarda dentro il pedale**
+
+- 🔌 **Riconosce il pedale da solo**: Colleghi il cavo USB e PatchPilot ti dice che modello è e che versione ha. Per i modelli che non si presentano da soli lo scegli tu da un elenco.
+- 📋 **Elenco di tutte le patch**: Tutte le patch del pedale con il loro nome, in un colpo d'occhio, e quella selezionata in evidenza.
+- 🎛️ **Editor di effetti e parametri**: Ogni slot con il suo effetto, acceso o spento, e tutti i parametri. Vista a **manopole** o a **fader**: puoi girarle per provare, ma resta tutto nel programma.
+- 🏷️ **Nomi veri di effetti e parametri**: Importa i tuoi file `.ZD2` e al posto dei numeri vedi i nomi degli effetti e delle manopole.
+- 🎸 **Accordatore a lancetta**: L'accordatore del pedale, grande sullo schermo, con la nota e i cent: lo leggi anche da lontano.
+- 🖼️ **Schermata a forma di pedale**: La pagina principale disegna il tuo modello: display, manopole e interruttori si possono cliccare.
+
+**Metti al sicuro i tuoi suoni**
+
+- 💾 **Backup di tutte le patch**: Salva in un file tutte le patch del pedale e riaprile quando vuoi, anche senza il pedale collegato.
+- 📄 **Schede suono**: Per ogni patch una scheda leggibile — effetti, acceso/spento, parametri — da stampare, salvare o condividere.
+- 🔎 **Ricerca per effetto**: «Dove ho usato quel delay?» Trovi subito tutte le patch che usano un effetto.
+- ⚖️ **Confronto tra due patch**: Metti due patch una accanto all'altra e vedi solo le differenze.
+
+**Sul palco**
+
+- 🎶 **Scaletta**: Metti in ordine i brani e scegli la patch per ognuno, una per pedale se ne usi più di uno. Con capotasto e note.
+- ⏭️ **Barra dei brani**: Cambi brano con la rotella del mouse, le frecce, la barra spaziatrice o un pedale USB volta-pagina, e cerchi un brano per nome.
+- 🌙 **Modalità palco**: Schermo scuro a caratteri grandi: quale patch selezionare adesso e cosa viene dopo.
+- 🥁 **Brani che seguono il tempo**: Dividi il brano in sezioni con le loro battute: conteggio iniziale, battiti sullo schermo e l'avviso **«PREPARA»** prima di ogni cambio. Mostra anche i tempi del delay.
+- 🌊 **Passaggi graduali**: Il suono cambia piano piano, come con un pedale d'espressione virtuale, nei secondi o nelle battute che scegli.
+
+**Volume e livelli**
+
+- 🔊 **Tutte le patch allo stesso volume**: Suoni lo stesso giro con ogni patch: PatchPilot misura il volume come lo sente l'orecchio (LUFS) e ti dice che volume patch impostare.
+- 📈 **Misuratore del livello audio**: Se il pedale fa anche da scheda audio, vedi il livello del segnale. Il suono viene solo misurato, mai registrato.
+- 🎚️ **Fader MIDI**: Quattro cursori che mandano Control Change standard (volume, espressione…) a un pedale MIDI generico.
+
+**Altri pedali e comunità**
+
+- 🎹 **Qualsiasi pedale MIDI**: Con un pedale di un'altra marca il computer manda da solo il cambio patch per ogni brano della scaletta.
+- 📚 **Libreria di patch della comunità**: Patch condivise da chi usa PatchPilot, libere per tutti (CC0), da cercare per brano, artista, genere e pedale.
+- 🙋 **Pagina Tester**: Il tuo pedale non è in elenco? Una registrazione guidata che ascolta soltanto ci aiuta ad aggiungerlo.
+- 🧾 **Registro**: Tutto quello che il programma e il pedale si dicono, da salvare e mandare se qualcosa non va.
+
+**Gratis e versione completa**: Oggi, con la 0.9, è tutto gratuito. Dalla 0.9.1 funziona così: 7 giorni con tutto acceso, poi resta gratis per sempre quello che serve per vedere se il tuo pedale funziona.
+
+| Funzione | Gratis per sempre | Versione completa |
+|---|:---:|:---:|
+| Riconoscimento del pedale, elenco patch, editor | ✅ | ✅ |
+| Accordatore, registro, pagina Tester | ✅ | ✅ |
+| Scaletta fino a 3 brani | ✅ | ✅ |
+| Libreria di patch della comunità | ✅ | ✅ |
+| Scaletta senza limiti e modalità palco | — | ✅ |
+| Backup su file e schede suono | — | ✅ |
+| Ricerca per effetto e confronto | — | ✅ |
+| Varianti salvate (0.9.1) | — | ✅ |
+| Assistente AI e maestro (0.9.1) | 7 giorni di prova | 100 richieste al mese |
 
 ## ✨ Novità della 0.9
 
