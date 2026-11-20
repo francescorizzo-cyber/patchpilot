@@ -116,6 +116,20 @@ and in the repository folder [`docs/libreria/patch`](docs/libreria/patch). Downl
 
 **🍎 PatchPilot for Mac** — see [macOS](#-macos) below.
 
+## 🤖 Coming in 0.9.1: AI assistant, teacher and variants
+
+Ready and being tested: they arrive with the next update, on Windows, macOS and Linux. They are not in today's download yet.
+
+**🤖 Describe the sound**: Type what you want to hear — *“warmer, with less reverb”* — and the AI assistant suggests which knobs to turn and why, using the effects already in your patch. *The suggestion stays in the editor: nothing is written to the pedal. Needs internet; only your description and the patch values go to the service, never audio.*
+
+**🎓 The teacher**: One click on **“Explain this patch”** and PatchPilot tells you, in plain words, what every effect and every knob does, how they work together, and a small experiment to try. *Made for beginners and for anyone who downloaded a patch and wants to understand it.*
+
+**💾 Save a variant**: Keep several versions of the same patch — *“clean verse”*, *“solo with more gain”* — and recall them from the editor. *Variants are files on your computer: the pedal's memory is not touched.*
+
+**🎛️ Other brands too**: Besides the 16 Zoom pedals, ready-made profiles for **Line 6 HX Stomp** and **Valeton GP-200**: patch change from the setlist and MIDI controls with their own names. *Over standard MIDI. Not yet tried on real pedals: testers wanted.*
+
+**⏳ 7 days with everything on**: From 0.9.1 PatchPilot works in full for 7 days, AI assistant included (5 trial requests). After that, pedal detection, patch reading, tuner and a 3-song setlist **stay free forever**. *The rest, with 100 AI requests a month, is in the full version: €4.99, paid once.*
+
 ## 🛡️ Your pedal is safe
 
 The beta **only reads**. It **never writes, saves or deletes** anything in your pedal's memory: those commands are blocked in the code.
@@ -280,6 +294,20 @@ e nella cartella del repository [`docs/libreria/patch`](docs/libreria/patch). Sc
 **🎚️ E ancora**: schermata principale a forma di pedale, con la **barra dei brani** (rotella del mouse, frecce o un pedale USB volta-pagina cambiano brano; ricerca per nome), **accordatore a lancetta**, **vista a fader** nell'editor, **fader MIDI** e **misuratore del livello audio**.
 
 **🍎 PatchPilot per Mac**: vedi [Mac](#-mac) più sotto.
+
+## 🤖 In arrivo con la 0.9.1: assistente AI, maestro e varianti
+
+Già pronte e in prova: arrivano con il prossimo aggiornamento, su Windows, macOS e Linux. Non sono ancora nel download di oggi.
+
+**🤖 Descrivi il suono**: Scrivi quello che vuoi sentire — *«più caldo e con meno riverbero»* — e l'assistente AI ti propone quali manopole toccare e perché, usando gli effetti che hai già nella patch. *La proposta resta nell'editor: sul pedale non viene scritto niente. Serve internet; al servizio vanno solo la descrizione e i valori della patch, mai l'audio.*
+
+**🎓 Il maestro**: Un clic su **«Spiegami questa patch»** e PatchPilot ti dice, in parole semplici, a cosa serve ogni effetto e ogni manopola, come lavorano insieme e un piccolo esperimento da provare. *Pensato per chi comincia e per chi ha scaricato una patch e vuole capirla.*
+
+**💾 Salva variante**: Tieni più versioni della stessa patch — *«strofa pulita»*, *«assolo con più gain»* — e richiamale dall'editor. *Le varianti sono file sul tuo computer: la memoria del pedale non viene toccata.*
+
+**🎛️ Anche altre marche**: Oltre ai 16 Zoom, profili pronti per **Line 6 HX Stomp** e **Valeton GP-200**: cambio patch dalla scaletta e comandi MIDI con i loro nomi. *Via MIDI standard. Non ancora provati sui pedali veri: cerchiamo tester.*
+
+**⏳ 7 giorni con tutto acceso**: Dalla 0.9.1 PatchPilot funziona per intero per 7 giorni, assistente AI compreso (5 richieste di prova). Poi riconoscimento del pedale, lettura delle patch, accordatore e scaletta di 3 brani **restano gratis per sempre**. *Il resto, con 100 richieste al mese all'assistente AI, è nella versione completa: 4,99 €, una volta sola.*
 
 ## 🛡️ Il tuo pedale è al sicuro
 
