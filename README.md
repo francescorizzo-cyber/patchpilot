@@ -13,7 +13,7 @@
 [![macOS](https://img.shields.io/badge/⬇_Download-macOS-555555?style=for-the-badge&logo=apple&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-android)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
-[![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#-full-version-499-one-time-only)
+[![Full version](https://img.shields.io/badge/🔑_Full_version-€6.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#-full-version-699-one-time-only)
 
 🌐 **Website:** https://francescorizzo-cyber.github.io/patchpilot/ · 🇮🇹 *[Italiano più sotto](#italiano)*
 
@@ -118,9 +118,9 @@ Then **plug the pedal in with its USB cable**: that's it. *(Close Guitar Lab or 
 Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or later with USB host (OTG) and a USB-C/OTG cable.
 On the phone: the drawing of your pedal, **swipe** left/right to change model and up/down to change song, “Ask for a sound”, setlist, stage mode and tuner.
 
-## 🔑 Full version: €4.99, one time only
+## 🔑 Full version: €6.99, one time only
 
-🆕 From 0.9.1: **7 days with everything on**, AI assistant included (5 trial requests). After that, what you need to use
+🆕 From 0.9.1: **5 days with everything on**, AI assistant included (50 requests a day). After that, what you need to use
 your pedal **stays free forever**: recognition, patch reading, editor, knobs from the computer, tuner, backup inside the program, 3-song setlist.
 
 | | Free forever | Full version |
@@ -130,12 +130,12 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 | Setlist | 3 songs | unlimited + stage mode |
 | Backup export and sound sheets, search, compare | — | ✅ |
 | Variants | — | ✅ |
-| AI: ask for a sound, coach, sound from a song, teacher | 7-day trial | ✅ 100 requests a month |
+| AI: ask for a sound, coach, sound from a song, teacher | 5-day trial | ✅ 100 requests a day |
 
 1. In PatchPilot open the **Support ♥** page and copy your device code (`PP-ABCD-EFGH`).
-2. Pay **€4.99**:
+2. Pay **€6.99**:
    - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — paste the device code: the **unlock code appears right after the payment**.
-   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
 
 One code per computer. On Android the full version is bought inside the app, with Google Play.
 Just want to say thanks? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
@@ -263,9 +263,9 @@ Poi **collega il pedale con il suo cavo USB**: fatto. *(Chiudi prima Guitar Lab 
 In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o successivo con USB host (OTG) e un cavo USB-C/OTG.
 Sul telefono: il disegno del tuo pedale, **scorri** a sinistra/destra per cambiare modello e su/giù per cambiare brano, «Chiedi un suono», scaletta, modalità palco e accordatore.
 
-## 🔑 Versione completa: 4,99 €, una volta sola
+## 🔑 Versione completa: 6,99 €, una volta sola
 
-🆕 Dalla 0.9.1: **7 giorni con tutto acceso**, assistente AI compreso (5 richieste di prova). Poi quello che serve per usare
+🆕 Dalla 0.9.1: **5 giorni con tutto acceso**, assistente AI compreso (50 richieste al giorno). Poi quello che serve per usare
 il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, editor, manopole dal computer, accordatore, backup nel programma, scaletta di 3 brani.
 
 | | Gratis per sempre | Versione completa |
@@ -275,12 +275,12 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 | Scaletta | 3 brani | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
 | Varianti | — | ✅ |
-| AI: chiedi un suono, coach, suono da un brano, maestro | 7 giorni di prova | ✅ 100 richieste al mese |
+| AI: chiedi un suono, coach, suono da un brano, maestro | 5 giorni di prova | ✅ 100 richieste al giorno |
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
-2. Paga **4,99 €**:
+2. Paga **6,99 €**:
    - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — incolla il codice dispositivo: il **codice di sblocco appare subito dopo il pagamento**.
-   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
 
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
 Vuoi solo dire grazie? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
