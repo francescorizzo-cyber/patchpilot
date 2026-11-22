@@ -134,7 +134,7 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 
 1. In PatchPilot open the **Support ♥** page and copy your device code (`PP-ABCD-EFGH`).
 2. Pay **€6.99**:
-   - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — paste the device code: the **unlock code appears right after the payment**.
+   - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/7sYeVc6Yb71O9pu3vP63K03)** — paste the device code: the **unlock code appears right after the payment**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
 
 One code per computer. On Android the full version is bought inside the app, with Google Play.
@@ -279,7 +279,7 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
 2. Paga **6,99 €**:
-   - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — incolla il codice dispositivo: il **codice di sblocco appare subito dopo il pagamento**.
+   - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/7sYeVc6Yb71O9pu3vP63K03)** — incolla il codice dispositivo: il **codice di sblocco appare subito dopo il pagamento**.
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
 
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
