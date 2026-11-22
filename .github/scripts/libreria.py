@@ -27,8 +27,13 @@ INDEX = os.path.join(LIB, "index.json")
 SITE = "https://francescorizzo-cyber.github.io/patchpilot/libreria/"
 
 FORMAT = "patchpilot-libreria"
-MODELS = ["MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "MS-90LP+",
-          "G2 FOUR", "G2X FOUR", "B2 FOUR", "G1 FOUR", "G1X FOUR", "B1 FOUR", "B1X FOUR", "G6", "G11", "B6"]
+# Stesso elenco dell'app (Profiles.all senza i profili solo-MIDI: Community.models, repository HaGuitar).
+ZOOM_MODELS = ["MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "MS-90LP+",
+               "G2 FOUR", "G2X FOUR", "B2 FOUR", "G1 FOUR", "G1X FOUR", "B1 FOUR", "B1X FOUR",
+               "G3n", "G3Xn", "G5n", "B3n", "G6", "G11", "B6",
+               "MS-50G", "MS-60B", "MS-70CDR", "G1on", "G1Xon", "B1on", "B1Xon", "G3", "G3X", "B3"]
+OTHER_MODELS = ["Katana MkII", "Katana MkI", "GT-100", "GT-1000", "GP-200 (Valeton)", "Mighty Lite BT MkII (NUX)"]
+MODELS = ZOOM_MODELS + OTHER_MODELS
 MAX_NAME, MAX_TEXT, MAX_NOTES, MAX_SYSEX_HEX, MAX_SLOTS, MAX_PARAMS = 40, 80, 500, 24000, 10, 32
 MAX_FILE = 200_000
 HEX_RE = re.compile(r"^[0-9A-Fa-f]{2}( [0-9A-Fa-f]{2})*$")
@@ -90,7 +95,9 @@ def check(o):
     if sysex is not None:
         if not isinstance(sysex, str) or len(sysex) > MAX_SYSEX_HEX or not HEX_RE.match(sysex.strip()):
             errors.append("messaggio della patch (sysex) non valido o troppo grande")
-        elif not sysex.upper().startswith("F0 52") or not sysex.upper().rstrip().endswith("F7"):
+        elif not sysex.upper().startswith("F0") or not sysex.upper().rstrip().endswith("F7"):
+            errors.append("il messaggio della patch non è un messaggio SysEx (F0 … F7)")
+        elif model in ZOOM_MODELS and not sysex.upper().startswith("F0 52"):
             errors.append("il messaggio della patch non è un messaggio Zoom (F0 52 … F7)")
         else:
             cp["sysex"] = sysex.strip().upper()

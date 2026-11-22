@@ -1,19 +1,19 @@
 name: "🎸 I tested it on my pedal / L'ho provato sul mio pedale"
-description: "Tell what works on your Zoom pedal · Dimmi cosa funziona sul tuo pedale Zoom"
+description: "Tell what works on your pedal · Dimmi cosa funziona sul tuo pedale"
 labels: ["pedal test"]
 body:
   - type: markdown
     attributes:
       value: |
         Follow the [5-minute test guide](https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md) first. · Prima segui la [guida di prova in 5 minuti](https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#italiano).
-        PatchPilot **only reads** from the pedal: nothing is written. · PatchPilot **legge soltanto** dal pedale: non scrive niente.
+        PatchPilot never saves over your patches and never resets or deletes anything. · PatchPilot non salva mai sopra le tue patch e non ripristina né cancella niente.
         📧 Send the MIDI log (**Registro → Condividi registro**) to autofonic.mixer@gmail.com, or attach it here. · Manda il registro MIDI ad autofonic.mixer@gmail.com, o allegalo qui.
         🙏 G6, G11 and B6 owners: your log is especially precious! · Chi ha G6, G11 o B6: il vostro registro è preziosissimo!
   - type: dropdown
     id: pedal
     attributes:
       label: "Pedal / Pedale"
-      options: ["MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "G2 FOUR / G2X FOUR", "B2 FOUR", "G6", "G11", "B6"]
+      options: ["MS-50G", "MS-60B", "MS-70CDR", "MS-50G+", "MS-60B+", "MS-70CDR+", "MS-80IR+", "MS-200D+", "MS-90LP+", "G1on / G1Xon", "B1on / B1Xon", "G3 / G3X", "B3", "G1 FOUR / G1X FOUR", "B1 FOUR / B1X FOUR", "G2 FOUR / G2X FOUR", "B2 FOUR", "G3n / G3Xn", "G5n", "B3n", "G6", "G11", "B6", "Boss Katana MkII", "Boss Katana MkI", "Boss GT-100", "Boss GT-1000 / GT-1000CORE", "Valeton GP-200", "NUX Mighty Lite BT MkII", "Line 6 HX Stomp", "Other / Altro"]
     validations:
       required: true
   - type: input
@@ -24,8 +24,8 @@ body:
   - type: input
     id: phone
     attributes:
-      label: "Phone and Android version / Telefono e versione Android"
-      placeholder: "e.g. Pixel 7, Android 15"
+      label: "Computer or phone and system / Computer o telefono e sistema"
+      placeholder: "e.g. Windows 11 · Ubuntu 22.04 · macOS 15 · Pixel 7 Android 15"
   - type: checkboxes
     id: works
     attributes:
@@ -37,6 +37,8 @@ body:
         - label: "Effects and parameters correct / Effetti e parametri giusti (Editor)"
         - label: "Effect names from .ZD2 files / Nomi effetti dai file .ZD2"
         - label: "Tuner / Accordatore"
+        - label: "Knobs moved by PatchPilot change the sound / Le manopole girate da PatchPilot cambiano il suono"
+        - label: "Ask for a sound worked on the pedal / «Chiedi un suono» ha funzionato sul pedale"
         - label: "Log shared / Registro condiviso"
   - type: textarea
     id: notes

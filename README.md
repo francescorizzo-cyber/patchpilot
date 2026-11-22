@@ -6,7 +6,7 @@
 
 ### Plug in your pedal. Say the sound you want. PatchPilot sets it up for you.
 
-**30 Zoom pedals** (MultiStomp, MultiStomp+, G/B FOUR, G1on, G3, G6, G11, B6…) **+ Boss, Valeton, NUX and any MIDI pedal** — on **Windows, macOS & Linux**, soon on **Android**
+**37 pedals**: **30 Zoom** (MultiStomp, MultiStomp+, G/B FOUR, G1on, G3, G6, G11, B6…) **+ 7 Boss, Valeton, NUX and Line 6** — plus any MIDI pedal — on **Windows, macOS & Linux**, soon on **Android**
 
 [![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
@@ -78,7 +78,7 @@ Then you play: **setlist, stage mode and songs that follow the tempo** tell you 
 - 🙋 **Tester page**: your pedal is not listed? A guided, listen-only recording helps us add it
 - 🌍 **10 languages** 🆕: English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski
 
-## 🎚️ Supported pedals
+## 🎚️ Supported pedals: 37 + any MIDI pedal
 
 | Pedals | Recognised by itself | Reads the patches | PatchPilot sets the sound | Status |
 |---|:---:|:---:|:---:|---|
@@ -158,7 +158,7 @@ Brand and model names are trademarks of their owners, mentioned only to describe
 
 ### Collega il pedale. Di' che suono vuoi. Al resto pensa PatchPilot.
 
-**30 pedali Zoom** (MultiStomp, MultiStomp+, G/B FOUR, G1on, G3, G6, G11, B6…) **+ Boss, Valeton, NUX e qualsiasi pedale MIDI** — su **Windows, macOS e Linux**, presto su **Android**
+**37 pedali**: **30 Zoom** (MultiStomp, MultiStomp+, G/B FOUR, G1on, G3, G6, G11, B6…) **+ 7 Boss, Valeton, NUX e Line 6** — più qualsiasi pedale MIDI — su **Windows, macOS e Linux**, presto su **Android**
 
 🌐 **Sito:** https://francescorizzo-cyber.github.io/patchpilot/it/
 
@@ -223,7 +223,7 @@ Poi suoni: **scaletta, modalità palco e brani che seguono il tempo** ti dicono 
 - 🙋 **Pagina Tester**: il tuo pedale non c'è? Una registrazione guidata che ascolta soltanto ci aiuta ad aggiungerlo
 - 🌍 **10 lingue** 🆕: italiano, English, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski
 
-## 🎚️ Pedali supportati
+## 🎚️ Pedali supportati: 37 + qualsiasi pedale MIDI
 
 | Pedali | Riconosciuto da solo | Legge le patch | PatchPilot imposta il suono | Stato |
 |---|:---:|:---:|:---:|---|
