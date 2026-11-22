@@ -116,11 +116,17 @@ Then **plug the pedal in with its USB cable**: that's it. *(Close Guitar Lab or 
 ### 📱 Android
 
 Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or later with USB host (OTG) and a USB-C/OTG cable.
-On the phone: the drawing of your pedal, **swipe** left/right to change model and up/down to change song, “Ask for a sound”, setlist, stage mode and tuner.
+
+- 🔌 **Just plug it in**: the pedal is recognized by itself, no buttons and no MIDI settings.
+- 💬 **AI sound coach**: type "more distortion" or "80s delay", the AI turns the knobs, switches effects on and adds the missing ones, then tells you in one line what it did. Every step can be undone.
+- 🎵 **Tone from a song**: play 20–30 seconds, the phone measures the sound and the AI builds the patch. Audio never leaves the phone.
+- 👆 The drawing of your pedal: **swipe** left/right to change model, up/down to change song.
+- 🎼 Patch reading and editor, variations, patch explained for beginners, tuner, setlist and stage mode, backup.
+- 🔑 **Same prices as on the computer** (see below), bought inside the app with Google Play.
 
 ## 🔑 Full version: €6.99, one time only
 
-🆕 From 0.9.1: **5 days with everything on**, AI assistant included (50 requests a day). After that, what you need to use
+**5 days with everything on**, AI assistant included (up to 50 requests a day). After that, what you need to use
 your pedal **stays free forever**: recognition, patch reading, editor, knobs from the computer, tuner, backup inside the program, 3-song setlist.
 
 | | Free forever | Full version |
@@ -130,7 +136,7 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 | Setlist | 3 songs | unlimited + stage mode |
 | Backup export and sound sheets, search, compare | — | ✅ |
 | Variants | — | ✅ |
-| AI: ask for a sound, coach, sound from a song, teacher | 5-day trial | ✅ 100 requests a day |
+| AI: ask for a sound, coach, sound from a song, teacher | 5-day trial, up to 50 a day | ✅ 25 requests a day for 12 months |
 
 1. In PatchPilot open the **Support ♥** page and copy your device code (`PP-ABCD-EFGH`).
 2. Pay **€6.99**:
@@ -140,10 +146,23 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 One code per computer. On Android the full version is bought inside the app, with Google Play.
 Just want to say thanks? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
+### 🤖 AI assistant: free and paid requests
+
+Every message to the assistant is one request: "Ask for a sound", every coach step, "Tone from a song", "Explain this patch". The rest of PatchPilot uses no requests.
+
+| | Requests | Price |
+|---|---|---|
+| **Trial** (no code) | up to 50 a day for 5 days | free |
+| **Full version** | 25 a day for 12 months from first use | included in €6.99 |
+| **AI renewal** after 12 months | 25 a day for another 12 months | €2.99 *(coming soon)* |
+| **100 extra requests** | never expire; used automatically when the day's requests or the included months run out | €1.99, as often as you like |
+
+The 100 requests work with the unlocked full version. On computers: **[💳 buy 100 requests by card (€1.99)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** typing your device code, or use the button on the **Support ♥** page; they show up by themselves at your next request. On Android they are bought inside the app with Google Play. When the AI is no longer active, the rest of PatchPilot stays yours forever.
+
 ## 📄 Privacy & license
 
 No account, no ads, no analytics. The AI functions send only your request and the patch values (numbers) to the service — **never audio**:
-songs and microphone are measured on your computer. Everything else works offline. [Privacy policy](PRIVACY.md) · [License](LICENSE).
+songs and microphone are measured on your device. Everything else works offline. [Privacy policy](https://francescorizzo-cyber.github.io/patchpilot/privacy.html) · [License](LICENSE).
 
 PatchPilot is an independent project, **not affiliated with, endorsed or sponsored by Zoom Corporation, Boss/Roland, Valeton, NUX or Line 6**.
 Brand and model names are trademarks of their owners, mentioned only to describe compatibility.
@@ -261,11 +280,17 @@ Poi **collega il pedale con il suo cavo USB**: fatto. *(Chiudi prima Guitar Lab 
 ### 📱 Android
 
 In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o successivo con USB host (OTG) e un cavo USB-C/OTG.
-Sul telefono: il disegno del tuo pedale, **scorri** a sinistra/destra per cambiare modello e su/giù per cambiare brano, «Chiedi un suono», scaletta, modalità palco e accordatore.
+
+- 🔌 **Collega e basta**: il pedale viene riconosciuto da solo, niente pulsanti e niente impostazioni MIDI.
+- 💬 **Coach del suono con l'AI**: scrivi «più distorto» o «delay anni '80», l'AI gira le manopole, accende gli effetti e aggiunge quelli che mancano, poi ti dice in una riga cosa ha fatto. Ogni passo si annulla.
+- 🎵 **Suono preso da un brano**: fai ascoltare 20–30 secondi, il telefono misura il suono e l'AI costruisce la patch. L'audio non esce dal telefono.
+- 👆 Il disegno del tuo pedale: **scorri** a sinistra/destra per cambiare modello, su/giù per cambiare brano.
+- 🎼 Lettura ed editor delle patch, varianti, spiegazione della patch per chi comincia, accordatore, scaletta e modalità palco, backup.
+- 🔑 **Stessi prezzi del computer** (vedi sotto), comprati dentro l'app con Google Play.
 
 ## 🔑 Versione completa: 6,99 €, una volta sola
 
-🆕 Dalla 0.9.1: **5 giorni con tutto acceso**, assistente AI compreso (50 richieste al giorno). Poi quello che serve per usare
+**5 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Poi quello che serve per usare
 il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, editor, manopole dal computer, accordatore, backup nel programma, scaletta di 3 brani.
 
 | | Gratis per sempre | Versione completa |
@@ -275,7 +300,7 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 | Scaletta | 3 brani | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
 | Varianti | — | ✅ |
-| AI: chiedi un suono, coach, suono da un brano, maestro | 5 giorni di prova | ✅ 100 richieste al giorno |
+| AI: chiedi un suono, coach, suono da un brano, maestro | 5 giorni di prova, fino a 50 al giorno | ✅ 25 richieste al giorno per 12 mesi |
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
 2. Paga **6,99 €**:
@@ -285,10 +310,23 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
 Vuoi solo dire grazie? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
+### 🤖 Assistente AI: richieste gratis e a pagamento
+
+Ogni messaggio all'assistente è una richiesta: «Chiedi un suono», ogni passo del coach, «Suono preso da un brano», «Spiegami questa patch». Tutto il resto di PatchPilot non usa richieste.
+
+| | Richieste | Prezzo |
+|---|---|---|
+| **Prova** (senza codice) | fino a 50 al giorno per 5 giorni | gratis |
+| **Versione completa** | 25 al giorno per 12 mesi dal primo uso | inclusa nei 6,99 € |
+| **Rinnovo AI** dopo i 12 mesi | 25 al giorno per altri 12 mesi | 2,99 € *(in arrivo)* |
+| **100 richieste in più** | non scadono mai; si usano da sole quando finiscono quelle del giorno o i mesi inclusi | 1,99 €, quante volte vuoi |
+
+Le 100 richieste valgono con la versione completa sbloccata. Sul computer: **[💳 compra 100 richieste con la carta (1,99 €)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** scrivendo il codice dispositivo, oppure dal pulsante nella pagina **Sostieni ♥**; compaiono da sole alla richiesta successiva. Su Android si comprano dentro l'app con Google Play. Quando l'AI non è più attiva, il resto di PatchPilot resta tuo per sempre.
+
 ## 📄 Privacy e licenza
 
 Nessun account, nessuna pubblicità, nessuno strumento di analisi. Le funzioni AI mandano al servizio solo la tua richiesta e i valori della patch (numeri) — **mai l'audio**:
-canzoni e microfono vengono misurati sul tuo computer. Tutto il resto funziona senza internet. [Informativa privacy](PRIVACY.md) · [Licenza](LICENSE).
+canzoni e microfono vengono misurati sul tuo dispositivo. Tutto il resto funziona senza internet. [Informativa privacy](https://francescorizzo-cyber.github.io/patchpilot/privacy.html) · [Licenza](LICENSE).
 
 PatchPilot è un progetto indipendente, **non affiliato, approvato o sponsorizzato da Zoom Corporation, Boss/Roland, Valeton, NUX o Line 6**.
 I nomi di marche e modelli sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
