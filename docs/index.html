@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PatchPilot – Zoom pedal editor for Windows, Mac & Linux: 16 models, setlist, tuner, AI assistant</title>
-<meta name="description" content="PatchPilot is a free editor for Zoom multi-effects pedals (MS-50G+, MS-70CDR+, G1 FOUR, G2 FOUR, G6, G11, B6 and more) on Windows, Mac and Linux: patch list, effects and parameters, tuner, backup, tempo-aware setlist, stage mode, same volume for every patch, free patch library. Coming: AI assistant and Android app.">
+<title>PatchPilot – say the sound, it sets your Zoom pedal: AI tone assistant for 30 Zoom pedals, Boss, Valeton, NUX · Windows, Mac, Linux</title>
+<meta name="description" content="PatchPilot recognises your multi-effects pedal by itself and builds the sound you describe right on the pedal: AI tone assistant and coach, sound from a song, automatic backup, setlist and stage mode. 30 Zoom pedals (MS-50G, MS-70CDR+, G1on, G3, G1 FOUR, G2 FOUR, G6, G11, B6…), Boss Katana, GT-100, GT-1000, Valeton GP-200, NUX. Windows, Mac, Linux; Android coming soon.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta name="keywords" content="Zoom pedal editor, Zoom MS-50G+ editor Windows, MS-70CDR+ editor Mac, Zoom G1 FOUR Linux, Guitar Lab alternative, Guitar Lab Linux, Handy Guitar Lab Android, free Zoom patches library, Zoom patch backup, guitar setlist app, stage mode, Zoom pedal tuner, patch volume leveling LUFS, AI guitar tone assistant, HX Stomp MIDI, GP-200 MIDI, MIDI program change setlist, multi-effects editor guitar bass">
+<meta name="keywords" content="Zoom pedal editor, AI guitar tone assistant, Zoom MS-50G editor, MS-70CDR+ editor Mac, Zoom G1on editor, Zoom G3 editor Linux, G1 FOUR editor, Guitar Lab alternative, Guitar Lab Linux, Boss Katana editor Linux, GT-1000 editor, Valeton GP-200 editor, NUX Mighty Lite editor, tone from a song, Zoom patch backup, guitar setlist app, stage mode, patch volume LUFS">
 <link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/">
 <link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/">
 <link rel="alternate" hreflang="it" href="https://francescorizzo-cyber.github.io/patchpilot/it/">
 <link rel="alternate" hreflang="x-default" href="https://francescorizzo-cyber.github.io/patchpilot/">
 <link rel="icon" href="img/icona.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="PatchPilot – Zoom pedal editor for Windows, Mac & Linux: 16 models, setlist, tuner, AI assistant">
-<meta property="og:description" content="PatchPilot is a free editor for Zoom multi-effects pedals (MS-50G+, MS-70CDR+, G1 FOUR, G2 FOUR, G6, G11, B6 and more) on Windows, Mac and Linux: patch list, effects and parameters, tuner, backup, tempo-aware setlist, stage mode, same volume for every patch, free patch library. Coming: AI assistant and Android app.">
+<meta property="og:title" content="PatchPilot – say the sound, it sets your Zoom pedal: AI tone assistant for 30 Zoom pedals, Boss, Valeton, NUX · Windows, Mac, Linux">
+<meta property="og:description" content="PatchPilot recognises your multi-effects pedal by itself and builds the sound you describe right on the pedal: AI tone assistant and coach, sound from a song, automatic backup, setlist and stage mode. 30 Zoom pedals (MS-50G, MS-70CDR+, G1on, G3, G1 FOUR, G2 FOUR, G6, G11, B6…), Boss Katana, GT-100, GT-1000, Valeton GP-200, NUX. Windows, Mac, Linux; Android coming soon.">
 <meta property="og:image" content="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg">
 <meta property="og:site_name" content="PatchPilot">
 <meta property="og:url" content="https://francescorizzo-cyber.github.io/patchpilot/">
@@ -26,14 +26,15 @@
  "name": "PatchPilot",
  "operatingSystem": "Windows, macOS, Linux, Android",
  "applicationCategory": "MultimediaApplication",
- "description": "PatchPilot is a free editor for Zoom multi-effects pedals (MS-50G+, MS-70CDR+, G1 FOUR, G2 FOUR, G6, G11, B6 and more) on Windows, Mac and Linux: patch list, effects and parameters, tuner, backup, tempo-aware setlist, stage mode, same volume for every patch, free patch library. Coming: AI assistant and Android app.",
+ "applicationSubCategory": "Guitar multi-effects pedal editor with AI tone assistant",
+ "description": "PatchPilot recognises your multi-effects pedal by itself and builds the sound you describe right on the pedal: AI tone assistant and coach, sound from a song, automatic backup, setlist and stage mode. 30 Zoom pedals (MS-50G, MS-70CDR+, G1on, G3, G1 FOUR, G2 FOUR, G6, G11, B6…), Boss Katana, GT-100, GT-1000, Valeton GP-200, NUX. Windows, Mac, Linux; Android coming soon.",
  "image": "https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg",
  "downloadUrl": "https://github.com/francescorizzo-cyber/patchpilot/releases/latest",
  "offers": {
   "@type": "Offer",
   "price": "0",
   "priceCurrency": "EUR",
-  "description": "Free beta; full version 4.99 EUR one-time per device"
+  "description": "Free download; full version 4.99 EUR one-time per device"
  },
  "author": {
   "@type": "Person",
@@ -42,33 +43,43 @@
  "softwareVersion": "0.9.0",
  "url": "https://francescorizzo-cyber.github.io/patchpilot/",
  "inLanguage": [
+  "en",
   "it",
-  "en"
+  "fr",
+  "es",
+  "de",
+  "pt",
+  "sv",
+  "da",
+  "sl",
+  "hr"
  ],
- "applicationSubCategory": "Guitar multi-effects pedal editor",
  "featureList": [
-  "Detects the pedal by itself",
-  "Full patch list",
-  "Effects and parameters editor",
-  "Real effect and parameter names",
+  "Ask for a sound",
+  "Sound coach",
+  "Sound from a song",
+  "The teacher",
+  "Knobs turned for you",
+  "Variants",
+  "Connects by itself",
+  "Every patch with its name",
+  "Real names",
   "Needle tuner",
-  "A pedal-shaped screen",
-  "Backup of every patch",
+  "Your pedal on the screen",
+  "10 languages",
+  "Automatic backup",
   "Sound sheets",
   "Search by effect",
-  "Compare two patches",
+  "Compare",
   "Setlist",
   "Song bar",
   "Stage mode",
   "Songs that follow the tempo",
   "Gradual transitions",
   "Every patch at the same volume",
-  "Audio level meter",
-  "MIDI faders",
-  "Any MIDI pedal",
-  "Community patch library",
-  "Tester page",
-  "Log"
+  "Level meter and MIDI faders",
+  "Patch library",
+  "Tester page"
  ],
  "screenshot": [
   "https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-effects-parameters-editor.jpg",
@@ -86,66 +97,42 @@
  "mainEntity": [
   {
    "@type": "Question",
-   "name": "Is there an Android app for the Zoom MS-50G+, MS-60B+ or MS-70CDR+?",
+   "name": "Do I need to know how my pedal works?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Zoom's Handy Guitar Lab apps for the MultiStomp+ pedals are for iPhone. PatchPilot is a program for Windows, macOS and Linux, with the Android app coming soon on Google Play, that reads patches, effects and parameters from these pedals over USB. It is a beta."
+    "text": "No. You plug it in and describe the sound in your own words: PatchPilot chooses the effects and sets the knobs on the pedal, then tells you in one line what it did. If you want to learn, “Explain this patch” explains every effect and knob."
    }
   },
   {
    "@type": "Question",
-   "name": "Can PatchPilot edit or save patches?",
+   "name": "Can PatchPilot ruin my patches?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Not yet. The beta only reads from the pedal. Editing parameters and changing patch will be added step by step after tests on real pedals."
+    "text": "PatchPilot works on the patch in use, like turning the pedal's own knobs, and never saves over your patches. Before the first change it saves a dated backup of all patches (on pedals that allow it). Factory reset and file deletion are blocked forever."
    }
   },
   {
    "@type": "Question",
-   "name": "Which cable do I need?",
+   "name": "Which pedals does it support?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "A USB-C to USB-C cable, or an OTG adapter with your pedal's USB cable. MultiStomp+ pedals usually also need their power supply, because a phone may not power them."
+    "text": "30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G; the others are in test."
    }
   },
   {
    "@type": "Question",
-   "name": "Does it work on a computer?",
+   "name": "Can it copy the sound of a song?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Yes: Windows 10/11, macOS (Apple Silicon and Intel) and Linux, with the same functions. Java is included in the download. Close Guitar Lab first: the pedal's MIDI port works with one program at a time."
+    "text": "With 0.9.1: load 20–30 seconds of a song or play it to the microphone. PatchPilot measures distortion, tone, delay, reverb and modulation on your computer and the AI builds a close patch with your pedal's effects. It works best with the guitar alone. The audio never leaves your computer."
    }
   },
   {
    "@type": "Question",
-   "name": "How much does it cost?",
+   "name": "Is there an Android app for Zoom MultiStomp pedals?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Free during the beta. The full version is €4.99, paid once per device, by card (Stripe) or PayPal; you get a personal unlock code."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Can PatchPilot make all my patches the same volume?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes, from version 0.9, on Windows, macOS and Linux: you play the same riff with each patch, PatchPilot measures the perceived loudness (LUFS) and tells you the patch level that makes them even. The sound is only measured, never recorded."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Is there a library of free Zoom patches?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes: the PatchPilot community library, a public repository of patches shared by users under CC0, searchable by song, artist, genre and pedal."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "Is PatchPilot made by Zoom?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "No. PatchPilot is an independent project, not affiliated with Zoom Corporation."
+    "text": "Zoom's Guitar Lab apps for these pedals are mostly for iPhone. PatchPilot's Android app is coming soon on Google Play; today PatchPilot runs on Windows, macOS and Linux."
    }
   },
   {
@@ -153,23 +140,31 @@
    "name": "Is PatchPilot an alternative to Guitar Lab?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "For looking inside the pedal, backing up, building a setlist and playing live, yes — and it also runs on Linux. It does not write patches to the pedal yet: for that you still need Zoom's own software."
+    "text": "Yes, and it also runs on Linux and works with older models such as the MS-50G, G1on and G3 that have no app. It doesn't install Zoom's effect files: for those you still need Zoom's software."
    }
   },
   {
    "@type": "Question",
-   "name": "Does PatchPilot use AI?",
+   "name": "What does the AI send over the internet?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "From version 0.9.1: “Describe the sound” suggests which knobs to turn and “Explain this patch” explains every effect. Suggestions stay in the program; only your description and the patch values go to the service, never audio."
+    "text": "Only your request and the patch values (numbers). Never audio: songs and microphone are measured on your computer. Everything else works offline."
    }
   },
   {
    "@type": "Question",
-   "name": "Does it work with pedals from other brands?",
+   "name": "How much does it cost?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Yes, over standard MIDI: with any MIDI pedal the computer sends the patch change for every song. From 0.9.1 there are ready-made profiles for Line 6 HX Stomp and Valeton GP-200."
+    "text": "Download is free. From 0.9.1: 7 days with everything on, then recognition, patch reading, editor, tuner and a 3-song setlist stay free forever. The full version is €4.99, once per device."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is PatchPilot made by Zoom?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. PatchPilot is an independent project, not affiliated with Zoom, Boss/Roland, Valeton, NUX or Line 6."
    }
   }
  ]
@@ -220,174 +215,149 @@ code{background:#0003;padding:1px 6px;border-radius:6px}
 details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:10px 0}
 summary{cursor:pointer;font-weight:650}details p{margin:.6em 0 0;color:var(--muted)}
 small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-size:15px;border-top:1px solid var(--line);padding-top:16px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:8px 0}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;position:relative}
+.step .n{position:absolute;top:14px;right:18px;font-size:46px;font-weight:800;color:var(--gold);opacity:.35;line-height:1}
+.step h3{margin:0 0 .4em;color:var(--text);font-size:21px}.step p{margin:0;color:var(--muted)}
+.say{display:inline-block;background:#ffb5471f;border:1px solid #ffb54755;border-radius:12px;padding:2px 10px;margin:3px 2px;font-style:italic;color:var(--text)}
+.new{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 8px;margin-left:4px;background:#ffb54722;color:var(--gold);border:1px solid #ffb54766;vertical-align:middle}
+.safe{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.safe div{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
 </style>
 </head>
 <body>
-<nav><div class="in"><img src="img/icona.png" width="30" height="30" alt=""><b>PATCHPILOT</b><a href="#pedals">Pedals</a><a href="#features">Features</a><a href="#screens">Screens</a><a href="#android">Android</a><a href="#next">New in 0.9</a><a href="#ai">AI assistant</a><a href="#full">Price</a><a href="#faq">FAQ</a><a href="libreria/">Patch library</a><span class="sp"></span><a href="it/">Italiano</a></div></nav>
+<nav><div class="in"><img src="img/icona.png" width="30" height="30" alt=""><b>PATCHPILOT</b><a href="#how">How it works</a><a href="#features">Features</a><a href="#pedals">Pedals</a><a href="#screens">Screens</a><a href="#android">Android</a><a href="#full">Price</a><a href="#faq">FAQ</a><a href="libreria/">Patch library</a><span class="sp"></span><a href="it/">Italiano</a></div></nav>
 <div class="hero"><div class="in">
-<p class="k">Editor for multi-effects pedals</p>
-<h1>One app for 16 Zoom pedals — on Windows, Mac and Linux</h1>
-<p class="lead">PatchPilot connects your <strong>Zoom MultiStomp+, G1 FOUR, B1 FOUR, G2 FOUR, B2 FOUR, G6, G11 or B6</strong> to a <strong>Windows, Mac or Linux computer</strong> (Android app coming soon on Google Play) with a USB cable and shows what is inside: patches, effects, parameters and the tuner. Zoom has a separate app for each pedal, almost all of them for iPhone only: PatchPilot puts them in <strong>one app</strong>.</p>
+<p class="k">Multi-effects pedals made simple</p>
+<h1>Plug in your pedal. Say the sound you want. PatchPilot sets it up for you.</h1>
+<p class="lead">No menus, no manual, no guessing which knob to turn. PatchPilot <strong>recognises your pedal by itself</strong>, and when you write <em>“warm blues crunch”</em> it chooses the effects and <strong>sets the knobs on your pedal</strong>. For <strong>30 Zoom pedals</strong>, Boss, Valeton, NUX and any MIDI pedal, on <strong>Windows, Mac and Linux</strong> — Android coming soon.</p>
 <div class="btns">
 <a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/releases/latest">Download for Windows · Mac · Linux</a>
 <span class="btn o">Android: coming soon on Google Play</span>
 <a class="btn p" href="#full">Full version · €4.99</a>
-<a class="btn o" href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md">5-minute test guide</a>
+<a class="btn o" href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english">5-minute test guide</a>
 </div>
-<img class="shot" src="img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg" width="1100" height="800" alt="PatchPilot, Zoom pedal editor for Windows, Mac and Linux: the pedal-shaped screen for MS-50G+, G2 FOUR and G11" fetchpriority="high">
-<div class="stats"><div><b>16</b><span>Zoom pedals</span></div><div><b>3</b><span>systems: Windows, Mac, Linux</span></div><div><b>0</b><span>writes to your pedal</span></div><div><b>€4.99</b><span>one time only</span></div></div>
+<img class="shot" src="img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg" width="1100" height="800" alt="PatchPilot: the pedal-shaped main screen for MS-50G+, G2 FOUR and G11" fetchpriority="high">
+<div class="stats"><div><b>30</b><span>Zoom pedals</span></div><div><b>+7</b><span>Boss, Valeton, NUX, Line 6</span></div><div><b>3</b><span>steps, no settings</span></div><div><b>€4.99</b><span>one time only</span></div></div>
 </div></div>
 <main>
-
-<p class="note">🧪 <strong>This is a beta.</strong> It is built carefully, and its reading of the MultiStomp+ pedals matches other projects tested on real pedals, but PatchPilot itself has <strong>not been tested on every pedal yet</strong>. <strong>Tested on a real pedal: no model yet.</strong> Got one? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md">Try it and send us the log</a>.</p>
-<p class="note" style="border-left-color:var(--green)">✨ <strong>New in 0.9:</strong> <a href="#next">all your patches at the same volume</a>, <a href="#next">songs split into sections that follow the tempo</a> and <a href="#next">gradual transitions</a> between sounds, a <a href="libreria/">community patch library</a> , six more pedals and the <a href="#next">Mac version</a>.</p>
-
-<h2 id="pedals">Supported pedals</h2>
-<p class="chips"><span>MS-50G+</span><span>MS-60B+</span><span>MS-70CDR+</span><span>MS-80IR+</span><span>MS-200D+</span><span>MS-90LP+</span><span>G1 FOUR</span><span>G1X FOUR</span><span>B1 FOUR</span><span>B1X FOUR</span><span>G2 FOUR</span><span>G2X FOUR</span><span>B2 FOUR</span><span>G6</span><span>G11</span><span>B6</span></p>
-<div class="tw"><table>
-<tr><th>Pedal</th><th>Connection</th><th>In this beta</th></tr>
-<tr><td>MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+</td><td>USB</td><td>🧪 model detection, patch list, editor view, tuner</td></tr>
-<tr><td>G2 FOUR / G2X FOUR · B2 FOUR</td><td>USB</td><td>🧪 model detection, patch list, editor view, tuner</td></tr>
-<tr><td>MS-90LP+ <small>(new in 0.9)</small></td><td>USB</td><td>🧪 model detection, patch list, editor view, tuner</td></tr>
-<tr><td>G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR <small>(new in 0.9)</small></td><td>USB</td><td>🧪 you choose the model; patch list and editor view on the computer</td></tr>
-<tr><td>G6 · G11 · B6</td><td>USB</td><td>🧪 you choose the model; patch reading not tested on a real pedal</td></tr>
-<tr><td>Any MIDI pedal, any brand <small>(new in 0.9)</small></td><td>USB-MIDI</td><td>on the computer: sends the patch change for each song of your setlist, plus four MIDI faders</td></tr>
-</table></div>
-<p class="note">🙋 <strong>Your pedal is not in the list? Become a tester.</strong> Want PatchPilot to support your model, even from another brand? The computer program (Windows, Mac, Linux) has a <strong>Tester</strong> page: a guided recording that only listens. It sends your pedal nothing but the standard MIDI identity request, then records what the pedal sends while you change patch or turn a knob; at the end you email one text file to <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> with brand and model.</p>
-
-<h2 id="features">All features</h2>
-<p class="lead">Everything PatchPilot does today, in the version you download. Nothing is ever written to the pedal.</p>
+<p class="note">📦 <strong>Today's download is 0.9.0.</strong> Everything marked <span class="new">0.9.1</span> — automatic connection, the AI that sets the sound on the pedal, the coach, sound from a song, variants, 10 languages and the new pedals — comes with <strong>0.9.1</strong>, the next update.</p>
+<p class="note" style="border-left-color:var(--green)">🧪 <strong>Beta.</strong> Tested on a real <strong>Zoom MS-50G</strong>; on the other models everything works the same way, with a <em>“Model in testing”</em> notice and a <strong>“Send the log…”</strong> button. Got one? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english">Help us in 5 minutes</a>.</p>
+<h2 id="how">How it works: three steps</h2>
+<p class="lead">You don't need to know what a compressor is, which knob is which, or how your model's menus work.</p>
+<div class="steps">
+<div class="step"><span class="n">1</span><h3>🔌 Plug in</h3><p>PatchPilot <strong>recognises the pedal</strong> and connects as soon as you plug in the cable. It reads <strong>all your patches</strong> and saves a <strong>dated backup</strong> before touching anything. No ports to choose, no boxes to tick. <span class="new">0.9.1</span></p></div>
+<div class="step"><span class="n">2</span><h3>💬 Ask for a sound</h3><p>Press <strong>Ask for a sound</strong> and write it your way: <span class=say>warm blues crunch</span> <span class=say>80s clean with chorus</span>. The AI builds it with your pedal's real effects and <strong>PatchPilot puts it on the pedal</strong> — effects, on/off, knobs. Or load <strong>20–30 seconds of a song</strong>. <span class="new">0.9.1</span></p></div>
+<div class="step"><span class="n">3</span><h3>🎯 Fine-tune by talking</h3><p><span class=say>too muddy</span> <span class=say>like before, less distorted</span> <span class=say>you do it</span>. The <strong>sound coach</strong> changes only what is needed and explains it in one line. Every step is a <strong>variant</strong>: one click takes you back. <span class="new">0.9.1</span></p></div>
+</div>
+<p>Then you play: <strong>setlist, stage mode and songs that follow the tempo</strong> tell you which sound comes next.</p>
+<h3>🛡️ Your saved sounds are never overwritten</h3>
+<div class="safe"><div><strong>🎚️ Patch in use only</strong><br><small>PatchPilot changes the sound like you do when you turn the pedal's knobs. It never saves over your patches: like it? save it; don't? change patch and it's back.</small></div><div><strong>💾 Backup first</strong><br><small>On pedals that allow it, all your patches are saved to a file with date and time before the first change — never overwritten.</small></div><div><strong>⛔ Blocked forever</strong><br><small>Factory reset and deleting files in the pedal are blocked in the code. Saving to memory and sending whole patches stay off until a model is tested.</small></div></div>
+<h2 id="features">Everything it does</h2>
+<h3>Sound, without the manual</h3>
+<div class="grid">
+<div class="card f"><div class="ico" aria-hidden="true">💬</div><p><strong>Ask for a sound.</strong> Describe it, PatchPilot builds it on the pedal. On the old MultiStomp family it can even add effects the patch doesn't have. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎯</div><p><strong>Sound coach.</strong> Keep talking: it changes 1–3 things at a time, says what it touched, and every step can be undone. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎵</div><p><strong>Sound from a song.</strong> 20–30 s from a file or the microphone: distortion, tone, delay repeats, reverb tail and modulation measured on your computer — audio never leaves it. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎓</div><p><strong>The teacher.</strong> <em>Explain this patch</em>: what each effect and knob does, how they work together, and a small experiment to try. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎛️</div><p><strong>Knobs turned for you.</strong> Move a knob in the editor and it moves on the pedal. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">📝</div><p><strong>Variants.</strong> <em>clean verse</em>, <em>solo with more gain</em>: several versions of the same patch, kept on your computer. <span class="new">0.9.1</span></p></div>
+</div>
 <h3>Look inside your pedal</h3>
 <div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">🔌</div><p><strong>Detects the pedal by itself.</strong> Plug in the USB cable and PatchPilot tells you the model and firmware version. For models that do not identify themselves you pick it from a list.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">📋</div><p><strong>Full patch list.</strong> Every patch on the pedal with its name, at a glance, with the selected one highlighted.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🎛️</div><p><strong>Effects and parameters editor.</strong> Every slot with its effect, on or off, and all its parameters. <strong>Knob</strong> or <strong>fader</strong> view: turn them to try things out — it all stays in the program.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🏷️</div><p><strong>Real effect and parameter names.</strong> Import your own <code>.ZD2</code> files and see effect and knob names instead of numbers.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🎸</div><p><strong>Needle tuner.</strong> The pedal's tuner, big on the screen, with note and cents: readable from across the room.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🖼️</div><p><strong>A pedal-shaped screen.</strong> The main page draws your model: display, knobs and switches are clickable.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🔌</div><p><strong>Connects by itself.</strong> Plug in and it is connected; unplug and it lets go. <span class="new">0.9.1</span></p></div>
+<div class="card f"><div class="ico" aria-hidden="true">📋</div><p><strong>Every patch with its name.</strong> The full list at a glance, the current one highlighted.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🏷️</div><p><strong>Real names.</strong> Effects and knobs with their real names and limits, in knob or fader view.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎸</div><p><strong>Needle tuner.</strong> Big on the screen, readable from across the room.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🖼️</div><p><strong>Your pedal on the screen.</strong> The main page draws your model, with display, knobs and switches.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🌍</div><p><strong>10 languages.</strong> English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski. <span class="new">0.9.1</span></p></div>
 </div>
 <h3>Keep your sounds safe</h3>
 <div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">💾</div><p><strong>Backup of every patch.</strong> Save all the pedal's patches to a file and reopen them any time, even with no pedal connected.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">📄</div><p><strong>Sound sheets.</strong> A readable sheet for each patch — effects, on/off, parameters — to print, save or share.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🔎</div><p><strong>Search by effect.</strong> “Where did I use that delay?” Find every patch that uses an effect.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">⚖️</div><p><strong>Compare two patches.</strong> Put two patches side by side and see only the differences.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">💾</div><p><strong>Automatic backup.</strong> Every patch to a dated file, to reopen even without the pedal.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">📄</div><p><strong>Sound sheets.</strong> A readable card for each patch, to print or share.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🔎</div><p><strong>Search by effect.</strong> “Where did I use that delay?”</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">⚖️</div><p><strong>Compare.</strong> Two patches side by side, only the differences.</p></div>
 </div>
 <h3>On stage</h3>
 <div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">🎶</div><p><strong>Setlist.</strong> Order your songs and pick the patch for each, one per pedal if you use several. With capo and notes.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">⏭️</div><p><strong>Song bar.</strong> Change song with the mouse wheel, arrow keys, space bar or a USB page-turner pedal, and search a song by name.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🌙</div><p><strong>Stage mode.</strong> A dark screen with big letters: which patch to select now and what comes next.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🥁</div><p><strong>Songs that follow the tempo.</strong> Split a song into sections with their bars: count-in, beats on screen and a <strong>“GET READY”</strong> warning before every change. Also shows delay times.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🌊</div><p><strong>Gradual transitions.</strong> The sound changes little by little, like a virtual expression pedal, over the seconds or bars you choose.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎶</div><p><strong>Setlist.</strong> A patch for every song, one per pedal if you use several; capo and notes.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">⏭️</div><p><strong>Song bar.</strong> Mouse wheel, arrows, space bar or a USB/Bluetooth page-turner pedal; search by name.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🌙</div><p><strong>Stage mode.</strong> Dark screen, big letters: what to play now and what comes next.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🥁</div><p><strong>Songs that follow the tempo.</strong> Sections with their bars, count-in and a “GET READY” warning before every change; delay times for the tempo.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🌊</div><p><strong>Gradual transitions.</strong> The sound changes little by little, like a virtual expression pedal.</p></div>
 </div>
-<h3>Volume and levels</h3>
+<h3>Volume and community</h3>
 <div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">🔊</div><p><strong>Every patch at the same volume.</strong> Play the same riff with each patch: PatchPilot measures loudness as the ear hears it (LUFS) and tells you the patch level to set.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">📈</div><p><strong>Audio level meter.</strong> If your pedal is also a USB audio interface, see the signal level. Sound is only measured, never recorded.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🎚️</div><p><strong>MIDI faders.</strong> Four sliders sending standard Control Change (volume, expression…) to a generic MIDI pedal.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🔊</div><p><strong>Every patch at the same volume.</strong> Play the same riff with each patch: PatchPilot measures loudness as the ear hears it (LUFS) and tells you the level to set.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">📈</div><p><strong>Level meter and MIDI faders.</strong> See the signal level; send volume and expression to a MIDI pedal.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">📚</div><p><strong>Patch library.</strong> Patches shared by users, free (CC0), by song, artist, genre and pedal. Share yours with one click.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🙋</div><p><strong>Tester page.</strong> Pedal not listed? A guided, listen-only recording helps us add it.</p></div>
 </div>
-<h3>Other pedals and community</h3>
-<div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">🎹</div><p><strong>Any MIDI pedal.</strong> With a pedal of another brand the computer sends the patch change for every song in the setlist.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">📚</div><p><strong>Community patch library.</strong> Patches shared by PatchPilot users, free for everyone (CC0), searchable by song, artist, genre and pedal.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🙋</div><p><strong>Tester page.</strong> Your pedal is not listed? A guided, listen-only recording helps us add it.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🧾</div><p><strong>Log.</strong> Everything the program and the pedal say to each other, to save and send if something goes wrong.</p></div>
-</div>
-
+<h2 id="pedals">Supported pedals</h2>
+<div class="tw"><table>
+<tr><th>Pedals</th><th>Recognised by itself</th><th>Reads the patches</th><th>PatchPilot sets the sound</th><th>Status</th></tr>
+<tr><td><strong>Zoom MS-50G</strong></td><td class=c>✅</td><td>✅ all 50 + backup</td><td>✅ in one go, effects included</td><td>✅ <strong>tested on a real pedal</strong></td></tr>
+<tr><td>Zoom MS-60B · MS-70CDR · G1on · G1Xon · B1on · B1Xon · G3 · G3X · B3 <span class="new">0.9.1</span></td><td class=c>✅</td><td>✅ + backup</td><td>✅ in one go, effects included</td><td>🧪 in test</td></tr>
+<tr><td>Zoom MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · MS-90LP+</td><td class=c>✅</td><td>✅ + tuner</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
+<tr><td>Zoom G2 FOUR · G2X FOUR · B2 FOUR</td><td class=c>✅</td><td>✅ + tuner</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
+<tr><td>Zoom G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR · G3n · G3Xn · G5n · B3n</td><td class=c>✅</td><td class=c>✅</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
+<tr><td>Zoom G6 · G11 · B6</td><td>choose it once</td><td class=c>✅</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 not yet tried on a real pedal</td></tr>
+<tr><td>Boss Katana MkII · GT-100 · GT-1000 / GT-1000CORE · Valeton GP-200 <span class="new">0.9.1</span></td><td class=c>✅</td><td>✅ patch in use</td><td>✅ one change at a time</td><td>🧪 in test</td></tr>
+<tr><td>Boss Katana MkI · NUX Mighty Lite BT MkII <span class="new">0.9.1</span></td><td>choose it once</td><td>✅ patch in use</td><td>✅ one change at a time</td><td>🧪 in test</td></tr>
+<tr><td>Line 6 HX Stomp <span class="new">0.9.1</span> · any MIDI pedal, any brand</td><td class=c>–</td><td class=c>–</td><td>patch change for each song, MIDI controls</td><td>standard MIDI</td></tr>
+</table></div>
+<p class="note">🙋 <strong>Your pedal is not in the list? Become a tester.</strong> The computer program has a <strong>Tester</strong> page: a guided recording that only listens. It sends nothing but the standard MIDI identity request, then records what the pedal sends while you change patch and turn a knob. Email the file to <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> with brand and model.</p>
 <h2 id="screens">What it looks like</h2>
-<p class="lead">Real screens from the desktop program. The English interface arrives with 0.9.1; today's download is in Italian.</p>
+<p class="lead">Screens from the computer program (version 0.9.0).</p>
 <div class="gal">
-<figure><a href="img/patchpilot-effects-parameters-editor.jpg"><img src="img/patchpilot-effects-parameters-editor.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Editor: effects, parameters and fader view"></a><figcaption>Editor: effects, parameters and fader view</figcaption></figure>
+<figure><a href="img/patchpilot-effects-parameters-editor.jpg"><img src="img/patchpilot-effects-parameters-editor.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Editor: effects and parameters, knob or fader view"></a><figcaption>Editor: effects and parameters, knob or fader view</figcaption></figure>
 <figure><a href="img/patchpilot-tuner.jpg"><img src="img/patchpilot-tuner.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Needle tuner"></a><figcaption>Needle tuner</figcaption></figure>
-<figure><a href="img/patchpilot-connect-model-language.jpg"><img src="img/patchpilot-connect-model-language.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Connect page: pick your model and your language"></a><figcaption>Connect page: pick your model and your language</figcaption></figure>
-<figure><a href="img/patchpilot-midi-faders-audio-level.jpg"><img src="img/patchpilot-midi-faders-audio-level.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – MIDI faders and audio level meter"></a><figcaption>MIDI faders and audio level meter</figcaption></figure>
-<figure><a href="img/patchpilot-patch-variants.jpg"><img src="img/patchpilot-patch-variants.jpg" width="1250" height="800" loading="lazy" alt="PatchPilot – Coming in 0.9.1: saved variants of a patch"></a><figcaption>Coming in 0.9.1: saved variants of a patch</figcaption></figure>
+<figure><a href="img/patchpilot-connect-model-language.jpg"><img src="img/patchpilot-connect-model-language.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Connect page and language"></a><figcaption>Connect page and language</figcaption></figure>
+<figure><a href="img/patchpilot-midi-faders-audio-level.jpg"><img src="img/patchpilot-midi-faders-audio-level.jpg" width="1100" height="800" loading="lazy" alt="PatchPilot – Same volume for every patch: level meter and MIDI faders"></a><figcaption>Same volume for every patch: level meter and MIDI faders</figcaption></figure>
+<figure><a href="img/patchpilot-patch-variants.jpg"><img src="img/patchpilot-patch-variants.jpg" width="1250" height="800" loading="lazy" alt="PatchPilot – Variants of a patch (0.9.1)"></a><figcaption>Variants of a patch (0.9.1)</figcaption></figure>
 </div>
-<div class="card"><p><strong>Back up your sounds.</strong> Save every patch of your pedal to a file. Get a readable <strong>sound sheet</strong> for each patch — effects, on/off, parameters — to print, save or share.</p></div>
-<div class="card"><p><strong>Find and compare.</strong> “Where did I use that delay?” Search your patches by effect, and compare two patches to see only what is different.</p></div>
-<div class="card"><p><strong>Setlist and stage mode.</strong> Put your songs in order and choose the patch for each one — one patch per pedal if you use more than one. On stage, a dark full-screen view shows in big letters which patch to select and what comes next.</p></div>
-</div>
-
 <h2 id="android">📱 Android app <span class="tag n">coming soon on Google Play</span></h2>
-<p class="lead">The same PatchPilot on your Android phone or tablet, with a USB-C cable (or an OTG adapter): no computer needed in the rehearsal room or on stage. The app is ready and being tested; it will be released <strong>on Google Play only</strong>.</p>
+<p class="lead">The same PatchPilot on your phone or tablet, with a USB-C or OTG cable: no computer in the rehearsal room or on stage. It will be released <strong>on Google Play only</strong>.</p>
 <div class="grid">
-<div class="card f"><div class="ico" aria-hidden="true">🔌</div><p><strong>Plug in and look.</strong> Pedal detection, patch list, effects and parameters editor, tuner.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🖼️</div><p><strong>Your pedal on the screen.</strong> A drawing of your model, with display, knobs and buttons you can tap.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">👆</div><p><strong>Songs with one finger.</strong> Song bar with arrows, search by name and a <strong>swipe</strong> to move to the next song.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">🌙</div><p><strong>Setlist and stage mode.</strong> Tempo sections, “GET READY” warning and Bluetooth page-turner pedals.</p></div>
-<div class="card f"><div class="ico" aria-hidden="true">💾</div><p><strong>Backup and sound sheets.</strong> Save patches on your phone and share a sound sheet.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">👆</div><p><strong>One finger.</strong> Swipe on the pedal: left/right changes model, up/down changes song.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">💬</div><p><strong>Ask for a sound.</strong> Describe the sound, the AI prepares it and explains it in a few words.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🌙</div><p><strong>Setlist and stage mode.</strong> Tempo sections, “GET READY” warning, Bluetooth page-turner pedals.</p></div>
 <div class="card f"><div class="ico" aria-hidden="true">🔑</div><p><strong>Full version.</strong> Bought inside the app with Google Play: €4.99, one time only.</p></div>
 </div>
 <figure style="max-width:520px;margin:16px auto 0"><img src="img/patchpilot-app-android-pedali-zoom.jpg" width="900" height="1149" loading="lazy" alt="PatchPilot for Android: drawings of the Zoom MS-50G+, G1X FOUR, G2 FOUR, G6, G11 and B6 pedals"><figcaption>The pedals as the Android app draws them</figcaption></figure>
-
-<h2 id="next">✨ New in 0.9</h2>
-<p class="lead">Features you will not find in other pedal editors, a library shared by everyone, and the Mac version. They are in the download now; like the rest of the beta, they still wait for tests on real pedals.</p>
-<div class="grid">
-<div class="card"><p><strong>🔊 All your patches at the same volume.</strong> No more jumps when you switch patch live. Play the same riff with each patch for 6 seconds: PatchPilot measures how loud it <strong>sounds to the ear</strong> (LUFS, pauses ignored) and tells you the patch level that makes every patch even. Measure again to check.<br><small>Windows, macOS and Linux, with the pedal's output going into the computer (USB audio pedal or audio interface). The sound is only measured, never recorded; nothing is written to the pedal.</small></p></div>
-<div class="card"><p><strong>🥁 Songs that follow the tempo.</strong> Give each song its tempo and split it into sections — intro, verse, chorus, solo — each with its bars and its patch. On stage press <strong>T</strong>: a bar of count-in, the beats on screen, the next section on its own, and in the last bar <strong>“GET READY: 1-03 Crunch”</strong> before every patch change. Works with Bluetooth page-turner pedals, and shows the delay times for the song's tempo.<br><small>Android, Windows, macOS and Linux. With a generic MIDI pedal the computer sends the patch of each section by itself.</small></p></div>
-<div class="card"><p><strong>🌊 Gradual transitions.</strong> Instead of jumping from one sound to the next, the sound changes little by little, like a <strong>virtual expression pedal</strong>: in the seconds you choose, or over a few bars for each section of the setlist. On Zoom pedals, preview the values halfway between two patches.<br><small>Windows, macOS and Linux, sent to a generic MIDI pedal (expression CC). On Zoom pedals sending comes after the tests on real pedals.</small></p></div>
-<div class="card"><p><strong>📚 Community patch library.</strong> A <strong>public repository of patches</strong> made by PatchPilot users, free for everyone (CC0), searchable by song, artist, genre and pedal. One click in PatchPilot shares your patch; an automatic check verifies it and, once approved, it appears in the <a href="libreria/">library</a>.<br><small>Only the patch is shared, never Zoom's effect files.</small></p></div>
-<div class="card"><p><strong>🎚️ A screen shaped like your pedal.</strong> The main screen draws your model, with the <strong>song bar</strong>: mouse wheel, arrow keys or a USB page-turner pedal change song, and you can search a song by name. Plus a needle tuner, a fader view in the editor, MIDI faders and an audio level meter.</p></div>
-<div class="card"><p><strong>🍎 PatchPilot for Mac.</strong> The same program as a <code>.dmg</code> for Apple Silicon (M1–M4) and Intel Macs, Java included. First launch: System Settings → Privacy &amp; Security → <strong>Open Anyway</strong>.<br><small>Not tested on a real Mac yet: Mac testers wanted.</small></p></div>
-</div>
-
-<h2 id="ai">🤖 Coming in 0.9.1: AI assistant, teacher and variants</h2>
-<p class="lead">Ready and being tested: they arrive with the next update, on Windows, macOS and Linux. They are not in today's download yet.</p>
-<div class="grid">
-<div class="card"><p><strong>🤖 Describe the sound.</strong> Type what you want to hear — <em>“warmer, with less reverb”</em> — and the AI assistant suggests which knobs to turn and why, using the effects already in your patch.<br><small>The suggestion stays in the editor: nothing is written to the pedal. Needs internet; only your description and the patch values go to the service, never audio.</small></p></div>
-<div class="card"><p><strong>🎓 The teacher.</strong> One click on <strong>“Explain this patch”</strong> and PatchPilot tells you, in plain words, what every effect and every knob does, how they work together, and a small experiment to try.<br><small>Made for beginners and for anyone who downloaded a patch and wants to understand it.</small></p></div>
-<div class="card"><p><strong>💾 Save a variant.</strong> Keep several versions of the same patch — <em>“clean verse”</em>, <em>“solo with more gain”</em> — and recall them from the editor.<br><small>Variants are files on your computer: the pedal's memory is not touched.</small></p></div>
-<div class="card"><p><strong>🎛️ Other brands too.</strong> Besides the 16 Zoom pedals, ready-made profiles for <strong>Line 6 HX Stomp</strong> and <strong>Valeton GP-200</strong>: patch change from the setlist and MIDI controls with their own names.<br><small>Over standard MIDI. Not yet tried on real pedals: testers wanted.</small></p></div>
-<div class="card"><p><strong>⏳ 7 days with everything on.</strong> From 0.9.1 PatchPilot works in full for 7 days, AI assistant included (5 trial requests). After that, pedal detection, patch reading, tuner and a 3-song setlist <strong>stay free forever</strong>.<br><small>The rest, with 100 AI requests a month, is in the full version: €4.99, paid once.</small></p></div>
-</div>
-
-<h2>Your pedal is safe</h2>
-<p>PatchPilot <strong>only reads</strong>. It never writes, saves or deletes anything in your pedal's memory: those commands are blocked in the code. Backups, sound sheets and setlists are files on your phone or computer. Changing patch from the app and editing parameters will come only after tests on real pedals.</p>
-
+<h2 id="install">Install in a minute</h2>
+<div class="tw"><table><tr><td><strong>Windows 10/11</strong></td><td><code>…-windows-x64-setup.exe</code> or the portable <code>.zip</code>. SmartScreen: <em>More info → Run anyway</em>.</td></tr><tr><td><strong>macOS</strong></td><td><code>…-macos-arm64.dmg</code> (M1–M4) or <code>…-macos-x64.dmg</code> (Intel). First time: <em>System Settings → Privacy &amp; Security → Open Anyway</em>.</td></tr><tr><td><strong>Linux</strong></td><td><code>…-linux-x64.deb</code> (<code>sudo apt install ./PatchPilot-….deb</code>) or <code>.tar.gz</code>.</td></tr><tr><td><strong>Then</strong></td><td>Plug the pedal in with its USB cable. That's all. Close Guitar Lab first: the pedal talks to one program at a time.</td></tr></table></div>
 <h2>Free and full version</h2>
-<p>Today, with 0.9, everything is free. From 0.9.1 it works like this: 7 days with everything on, then what you need to see whether your pedal works stays free forever.</p>
+<p><span class="new">0.9.1</span> 7 days with everything on, AI included (5 trial requests). After that, what you need to use your pedal <strong>stays free forever</strong>.</p>
 <div class="tw"><table>
-<tr><th>Feature</th><th class="c">Free forever</th><th class="c">Full version</th></tr>
-<tr><td>Pedal detection, patch list, editor</td><td class="c">✅</td><td class="c">✅</td></tr>
-<tr><td>Tuner, log, Tester page</td><td class="c">✅</td><td class="c">✅</td></tr>
-<tr><td>Setlist up to 3 songs</td><td class="c">✅</td><td class="c">✅</td></tr>
-<tr><td>Community patch library</td><td class="c">✅</td><td class="c">✅</td></tr>
-<tr><td>Unlimited setlist and stage mode</td><td class="c">—</td><td class="c">✅</td></tr>
-<tr><td>Backup to file and sound sheets</td><td class="c">—</td><td class="c">✅</td></tr>
-<tr><td>Search by effect and compare</td><td class="c">—</td><td class="c">✅</td></tr>
-<tr><td>Saved variants <small>(0.9.1)</small></td><td class="c">—</td><td class="c">✅</td></tr>
-<tr><td>AI assistant and teacher <small>(0.9.1)</small></td><td class="c">7-day trial</td><td class="c">100 requests a month</td></tr>
+<tr><th></th><th class="c">Free forever</th><th class="c">Full version</th></tr>
+<tr><td>Recognition, patch list, editor, knobs from the computer, tuner</td><td class="c">✅</td><td class="c">✅</td></tr>
+<tr><td>Backup inside the program, log, Tester page, patch library</td><td class="c">✅</td><td class="c">✅</td></tr>
+<tr><td>Setlist</td><td class="c">3 songs</td><td class="c">unlimited + stage mode</td></tr>
+<tr><td>Backup export, sound sheets, search, compare</td><td class="c">—</td><td class="c">✅</td></tr>
+<tr><td>Variants</td><td class="c">—</td><td class="c">✅</td></tr>
+<tr><td>AI: ask for a sound, coach, sound from a song, teacher</td><td class="c">7-day trial</td><td class="c">✅ 100 requests a month</td></tr>
 </table></div>
-
 <h2 id="full">Full version: €4.99, one time only</h2>
 <div class="price">
-<p><strong>Today every feature is free</strong>, because PatchPilot is in beta. Later, exporting backups to a file, sound sheets, search, compare, the setlist beyond 3 songs and stage mode will be part of the <strong>full version</strong>: <strong>€4.99, paid once</strong>, valid forever on that phone or computer. Model detection, patch list, editor view, tuner and a 3-song setlist stay free. If you buy now you support the project and you already have your code when the full version is switched on.</p>
-<ol>
-<li>Open PatchPilot on your computer and go to the <em>Sostieni ♥</em> page. Your device code looks like <code>PP-ABCD-EFGH</code>.</li>
-<li><strong>Card, Google Pay or Apple Pay</strong>: <a href="https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01">pay €4.99 with Stripe</a>, type your device code when asked and the <strong>unlock code appears right after the payment</strong>.</li>
-<li><strong>PayPal</strong>: <a href="https://paypal.me/AutoFonicMixer/4.99EUR">pay €4.99</a>, then send the email to <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a>: you receive your <strong>unlock code</strong> by email, usually within a day.</li>
-</ol>
+<ol><li>In PatchPilot open the <em>Support ♥</em> page and copy your device code (<code>PP-ABCD-EFGH</code>).</li><li><strong>Card, Google Pay or Apple Pay</strong>: <a href="https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01">pay €4.99 with Stripe</a>, paste the device code: the <strong>unlock code appears right after the payment</strong>.</li><li><strong>PayPal</strong>: <a href="https://paypal.me/AutoFonicMixer/4.99EUR">pay €4.99</a>, then write to <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a>: the unlock code arrives by email, usually within a day.</li></ol>
 <div class="btns"><a class="btn" href="https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01">Pay €4.99 by card</a> <a class="btn p" href="https://paypal.me/AutoFonicMixer/4.99EUR">Pay €4.99 with PayPal</a></div>
-<small>One code per computer (Windows, macOS and Linux). On Android (coming soon on Google Play) the full version will be bought inside the app, with Google Play.</small>
+<small>One code per computer (Windows, macOS, Linux). On Android the full version is bought inside the app, with Google Play.</small>
 </div>
-
 <h2 id="faq">Frequently asked questions</h2>
-<details><summary>Is there an Android app for the Zoom MS-50G+, MS-60B+ or MS-70CDR+?</summary><p>Zoom's Handy Guitar Lab apps for the MultiStomp+ pedals are for iPhone. PatchPilot is a program for Windows, macOS and Linux, with the Android app coming soon on Google Play, that reads patches, effects and parameters from these pedals over USB. It is a beta.</p></details>
-<details><summary>Can PatchPilot edit or save patches?</summary><p>Not yet. The beta only reads from the pedal. Editing parameters and changing patch will be added step by step after tests on real pedals.</p></details>
-<details><summary>Which cable do I need?</summary><p>A USB-C to USB-C cable, or an OTG adapter with your pedal's USB cable. MultiStomp+ pedals usually also need their power supply, because a phone may not power them.</p></details>
-<details><summary>Does it work on a computer?</summary><p>Yes: Windows 10/11, macOS (Apple Silicon and Intel) and Linux, with the same functions. Java is included in the download. Close Guitar Lab first: the pedal's MIDI port works with one program at a time.</p></details>
-<details><summary>How much does it cost?</summary><p>Free during the beta. The full version is €4.99, paid once per device, by card (Stripe) or PayPal; you get a personal unlock code.</p></details>
-<details><summary>Can PatchPilot make all my patches the same volume?</summary><p>Yes, from version 0.9, on Windows, macOS and Linux: you play the same riff with each patch, PatchPilot measures the perceived loudness (LUFS) and tells you the patch level that makes them even. The sound is only measured, never recorded.</p></details>
-<details><summary>Is there a library of free Zoom patches?</summary><p>Yes: the <a href="libreria/">PatchPilot community library</a>, a public repository of patches shared by users under CC0, searchable by song, artist, genre and pedal.</p></details>
-<details><summary>Is PatchPilot made by Zoom?</summary><p>No. PatchPilot is an independent project, not affiliated with Zoom Corporation.</p></details>
-<details><summary>Is PatchPilot an alternative to Guitar Lab?</summary><p>For looking inside the pedal, backing up, building a setlist and playing live, yes — and it also runs on Linux. It does not write patches to the pedal yet: for that you still need Zoom's own software.</p></details>
-<details><summary>Does PatchPilot use AI?</summary><p>From version 0.9.1: “Describe the sound” suggests which knobs to turn and “Explain this patch” explains every effect. Suggestions stay in the program; only your description and the patch values go to the service, never audio.</p></details>
-<details><summary>Does it work with pedals from other brands?</summary><p>Yes, over standard MIDI: with any MIDI pedal the computer sends the patch change for every song. From 0.9.1 there are ready-made profiles for Line 6 HX Stomp and Valeton GP-200.</p></details>
+<details><summary>Do I need to know how my pedal works?</summary><p>No. You plug it in and describe the sound in your own words: PatchPilot chooses the effects and sets the knobs on the pedal, then tells you in one line what it did. If you want to learn, “Explain this patch” explains every effect and knob.</p></details>
+<details><summary>Can PatchPilot ruin my patches?</summary><p>PatchPilot works on the patch in use, like turning the pedal's own knobs, and never saves over your patches. Before the first change it saves a dated backup of all patches (on pedals that allow it). Factory reset and file deletion are blocked forever.</p></details>
+<details><summary>Which pedals does it support?</summary><p>30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G; the others are in test.</p></details>
+<details><summary>Can it copy the sound of a song?</summary><p>With 0.9.1: load 20–30 seconds of a song or play it to the microphone. PatchPilot measures distortion, tone, delay, reverb and modulation on your computer and the AI builds a close patch with your pedal's effects. It works best with the guitar alone. The audio never leaves your computer.</p></details>
+<details><summary>Is there an Android app for Zoom MultiStomp pedals?</summary><p>Zoom's Guitar Lab apps for these pedals are mostly for iPhone. PatchPilot's Android app is coming soon on Google Play; today PatchPilot runs on Windows, macOS and Linux.</p></details>
+<details><summary>Is PatchPilot an alternative to Guitar Lab?</summary><p>Yes, and it also runs on Linux and works with older models such as the MS-50G, G1on and G3 that have no app. It doesn't install Zoom's effect files: for those you still need Zoom's software.</p></details>
+<details><summary>What does the AI send over the internet?</summary><p>Only your request and the patch values (numbers). Never audio: songs and microphone are measured on your computer. Everything else works offline.</p></details>
+<details><summary>How much does it cost?</summary><p>Download is free. From 0.9.1: 7 days with everything on, then recognition, patch reading, editor, tuner and a 3-song setlist stay free forever. The full version is €4.99, once per device.</p></details>
+<details><summary>Is PatchPilot made by Zoom?</summary><p>No. PatchPilot is an independent project, not affiliated with Zoom, Boss/Roland, Valeton, NUX or Line 6.</p></details>
 
 <footer>
 <p><a href="https://github.com/francescorizzo-cyber/patchpilot">Project page and downloads on GitHub</a> · <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/PRIVACY.md">Privacy</a> · <a href="https://github.com/francescorizzo-cyber/patchpilot/issues/new/choose">Report a problem</a> · Contact: <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a></p>
-<p>PatchPilot is an independent project, not affiliated with ZOOM Corporation. Zoom and the pedal names are trademarks of their owners.<br>Made by Francesco Rizzo.</p>
+<p>PatchPilot is an independent project, not affiliated with ZOOM Corporation, Boss/Roland, Valeton, NUX or Line 6. Brand and model names are trademarks of their owners.<br>Made by Francesco Rizzo.</p>
 </footer>
 </main>
 </body>
