@@ -154,7 +154,7 @@ Every message to the assistant is one request: "Ask for a sound", every coach st
 |---|---|---|
 | **Trial** (no code) | up to 50 a day for 5 days | free |
 | **Full version** | 25 a day for 12 months from first use | included in €6.99 |
-| **AI renewal** after 12 months | 25 a day for another 12 months | €2.99 *(coming soon)* |
+| **AI renewal** after 12 months | 25 a day for another 12 months | [€2.99](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 extra requests** | never expire; used automatically when the day's requests or the included months run out | €1.99, as often as you like |
 
 The 100 requests work with the unlocked full version. On computers: **[💳 buy 100 requests by card (€1.99)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** typing your device code, or use the button on the **Support ♥** page; they show up by themselves at your next request. On Android they are bought inside the app with Google Play. When the AI is no longer active, the rest of PatchPilot stays yours forever.
@@ -318,7 +318,7 @@ Ogni messaggio all'assistente è una richiesta: «Chiedi un suono», ogni passo 
 |---|---|---|
 | **Prova** (senza codice) | fino a 50 al giorno per 5 giorni | gratis |
 | **Versione completa** | 25 al giorno per 12 mesi dal primo uso | inclusa nei 6,99 € |
-| **Rinnovo AI** dopo i 12 mesi | 25 al giorno per altri 12 mesi | 2,99 € *(in arrivo)* |
+| **Rinnovo AI** dopo i 12 mesi | 25 al giorno per altri 12 mesi | [2,99 €](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 richieste in più** | non scadono mai; si usano da sole quando finiscono quelle del giorno o i mesi inclusi | 1,99 €, quante volte vuoi |
 
 Le 100 richieste valgono con la versione completa sbloccata. Sul computer: **[💳 compra 100 richieste con la carta (1,99 €)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** scrivendo il codice dispositivo, oppure dal pulsante nella pagina **Sostieni ♥**; compaiono da sole alla richiesta successiva. Su Android si comprano dentro l'app con Google Play. Quando l'AI non è più attiva, il resto di PatchPilot resta tuo per sempre.
