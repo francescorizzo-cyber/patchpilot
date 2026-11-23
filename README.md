@@ -126,17 +126,18 @@ Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or
 
 ## 🔑 Full version: €4.99, one time only
 
-**7 days with everything on**, AI assistant included (up to 50 requests a day). After that, what you need to use
-your pedal **stays free forever**: recognition, patch reading, editor, knobs from the computer, tuner, backup inside the program, 3-song setlist.
+**7 days with everything on**, AI assistant included (up to 50 requests a day). After the trial PatchPilot still
+**recognizes** your pedal, but to control it (reading patches, knobs, coach, tuner, setlist) you need the full version.
 
-| | Free forever | Full version |
+| | After the 7-day trial | Full version |
 |---|:---:|:---:|
-| Recognition, patch list, editor, knobs from the computer, tuner | ✅ | ✅ |
-| Backup inside the program, log, Tester page, patch library | ✅ | ✅ |
-| Setlist | 3 songs | unlimited + stage mode |
+| Pedal recognition | ✅ | ✅ |
+| Patch reading, knobs, coach without AI, tuner, patch change per song | — | ✅ |
+| Log, Tester page, patch library | ✅ | ✅ |
+| Setlist | 3 songs (without the pedal) | unlimited + stage mode |
 | Backup export and sound sheets, search, compare | — | ✅ |
 | Variants | — | ✅ |
-| AI: ask for a sound, coach, sound from a song, teacher | 7-day trial, up to 50 a day | ✅ 300 AI requests in 12 months (up to 10 a day) |
+| AI: ask for a sound, coach, sound from a song, teacher | — | ✅ 300 AI requests in 12 months (up to 10 a day) |
 
 1. In PatchPilot open the **Support ♥** page and copy your device code (`PP-ABCD-EFGH`).
 2. Pay **€4.99**:
@@ -159,7 +160,7 @@ The coach uses only your pedal's effects and changes 1–3 things at a time. Eve
 
 ### 📴 Coach without AI: 10 languages, offline, free
 
-In the Android app the coach also works **without AI**: it understands more than 60 kinds of commands directly on the phone, with no internet and no requests used. It stays **free forever**, also after the trial. Write in your own language: it understands
+In the Android app the coach also works **without AI**: it understands more than 60 kinds of commands directly on the phone, with no internet and no requests used. It is included in the 7-day trial and in the full version. Write in your own language: it understands
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
 and answers in the language of the app.
 
@@ -334,17 +335,18 @@ In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o succe
 
 ## 🔑 Versione completa: 4,99 €, una volta sola
 
-**7 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Poi quello che serve per usare
-il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, editor, manopole dal computer, accordatore, backup nel programma, scaletta di 3 brani.
+**7 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Finita la prova il pedale
+viene ancora **riconosciuto**, ma per comandarlo (lettura delle patch, manopole, coach, accordatore, scaletta) serve la versione completa.
 
-| | Gratis per sempre | Versione completa |
+| | Dopo i 7 giorni di prova | Versione completa |
 |---|:---:|:---:|
-| Riconoscimento, elenco patch, editor, manopole dal computer, accordatore | ✅ | ✅ |
-| Backup nel programma, registro, pagina Tester, libreria di patch | ✅ | ✅ |
-| Scaletta | 3 brani | senza limiti + modalità palco |
+| Riconoscimento del pedale | ✅ | ✅ |
+| Lettura delle patch, manopole, coach senza AI, accordatore, cambio patch per brano | — | ✅ |
+| Registro, pagina Tester, libreria di patch | ✅ | ✅ |
+| Scaletta | 3 brani (senza pedale) | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
 | Varianti | — | ✅ |
-| AI: chiedi un suono, coach, suono da un brano, maestro | 7 giorni di prova, fino a 50 al giorno | ✅ 300 richieste AI in 12 mesi (massimo 10 al giorno) |
+| AI: chiedi un suono, coach, suono da un brano, maestro | — | ✅ 300 richieste AI in 12 mesi (massimo 10 al giorno) |
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
 2. Paga **4,99 €**:
@@ -367,7 +369,7 @@ Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogn
 
 ### 📴 Coach senza AI: 10 lingue, senza internet, gratis
 
-Nell'app Android il coach funziona anche **senza AI**: capisce oltre 60 tipi di comandi direttamente sul telefono, senza internet e senza consumare richieste. Resta **gratis per sempre**, anche dopo la prova. Scrivi nella tua lingua: capisce
+Nell'app Android il coach funziona anche **senza AI**: capisce oltre 60 tipi di comandi direttamente sul telefono, senza internet e senza consumare richieste. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
 e risponde nella lingua dell'app.
 
