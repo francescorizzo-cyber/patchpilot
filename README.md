@@ -126,7 +126,7 @@ Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or
 
 ## 🔑 Full version: €6.99, one time only
 
-**5 days with everything on**, AI assistant included (up to 50 requests a day). After that, what you need to use
+**7 days with everything on**, AI assistant included (up to 50 requests a day). After that, what you need to use
 your pedal **stays free forever**: recognition, patch reading, editor, knobs from the computer, tuner, backup inside the program, 3-song setlist.
 
 | | Free forever | Full version |
@@ -196,7 +196,7 @@ Every message to the assistant is one request: "Ask for a sound", every coach st
 
 | | Requests | Price |
 |---|---|---|
-| **Trial** (no code) | up to 50 a day for 5 days | free |
+| **Trial** (no code) | up to 50 a day for 7 days | free |
 | **Full version** | 25 a day for 12 months from first use | included in €6.99 |
 | **AI renewal** after 12 months | 25 a day for another 12 months | [€2.99](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 extra requests** | never expire; used automatically when the day's requests or the included months run out | €1.99, as often as you like |
@@ -334,7 +334,7 @@ In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o succe
 
 ## 🔑 Versione completa: 6,99 €, una volta sola
 
-**5 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Poi quello che serve per usare
+**7 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Poi quello che serve per usare
 il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, editor, manopole dal computer, accordatore, backup nel programma, scaletta di 3 brani.
 
 | | Gratis per sempre | Versione completa |
@@ -344,7 +344,7 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 | Scaletta | 3 brani | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
 | Varianti | — | ✅ |
-| AI: chiedi un suono, coach, suono da un brano, maestro | 5 giorni di prova, fino a 50 al giorno | ✅ 25 richieste al giorno per 12 mesi |
+| AI: chiedi un suono, coach, suono da un brano, maestro | 7 giorni di prova, fino a 50 al giorno | ✅ 25 richieste al giorno per 12 mesi |
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
 2. Paga **6,99 €**:
@@ -404,7 +404,7 @@ Ogni messaggio all'assistente è una richiesta: «Chiedi un suono», ogni passo 
 
 | | Richieste | Prezzo |
 |---|---|---|
-| **Prova** (senza codice) | fino a 50 al giorno per 5 giorni | gratis |
+| **Prova** (senza codice) | fino a 50 al giorno per 7 giorni | gratis |
 | **Versione completa** | 25 al giorno per 12 mesi dal primo uso | inclusa nei 6,99 € |
 | **Rinnovo AI** dopo i 12 mesi | 25 al giorno per altri 12 mesi | [2,99 €](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 richieste in più** | non scadono mai; si usano da sole quando finiscono quelle del giorno o i mesi inclusi | 1,99 €, quante volte vuoi |
