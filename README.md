@@ -157,6 +157,39 @@ Write the way you'd talk to a guitarist friend: no knob or effect names needed.
 
 The coach uses only your pedal's effects and changes 1–3 things at a time. Every message is one request.
 
+### 📴 Coach without AI: 10 languages, offline, free
+
+In the Android app the coach also works **without AI**: it understands more than 60 kinds of commands directly on the phone, with no internet and no requests used. It stays **free forever**, also after the trial. Write in your own language: it understands
+🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
+and answers in the language of the app.
+
+What it can do:
+- **Tone and gain:** warmer, brighter, more/less bass or mids, more distorted, cleaner, louder, quieter
+- **Delay:** more/less, longer/shorter, more repeats, in time with the song (*delay at 120 bpm, dotted eighths*), in ms, slapback
+- **Reverb, modulation, dynamics:** more/less reverb, longer tail, faster chorus, more compression, less noise, more wah
+- **Effects by name:** turn on/off, add one (*add a phaser*), swap one (*replace the chorus with a flanger*), factory settings
+- **Knobs by name:** *delay mix to 30%*, *Time 450 ms*, *gain to maximum*, *turn up the reverb mix*
+- **19 styles:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, '80s, surf, grunge, lead, rhythm, acoustic
+- **Conversation:** *again*, *too much*, *a bit…*, *much…*; several commands in one sentence
+- **Tone from a song** without AI: the measured sound becomes settings right on the phone
+
+Examples, also complex:
+
+| | |
+|---|---|
+| 🇬🇧 | *much warmer, less reverb and turn off the chorus* · *replace the chorus with a phaser and delay at 100 bpm dotted eighths* |
+| 🇮🇹 | *più caldo, meno riverbero e delay a 120 bpm ottavi puntati* · *Mix del delay al 30%, Time 450 ms e spegni TS Drive* |
+| 🇪🇸 | *más distorsionado pero con menos graves y un poco más de delay* · *apaga el chorus, sube el mix del delay y más graves* |
+| 🇫🇷 | *plus chaud, moins de reverb et delay à 120 bpm* · *beaucoup plus de gain mais moins de graves* |
+| 🇩🇪 | *viel wärmer, weniger Hall und Chorus aus* · *ersetze den Chorus durch einen Flanger und mehr Wiederholungen* |
+| 🇵🇹 | *mais quente, menos reverb e desliga o chorus* |
+| 🇸🇪 | *varmare, mer reverb och längre delay* |
+| 🇩🇰 | *varmere og mere rumklang, sluk delay* |
+| 🇸🇮 | *toplejše in manj odmeva, izklopi chorus* |
+| 🇭🇷 | *toplije i više jeke, isključi chorus* |
+
+Free sentences like *"Gilmour's solo sound"* are a job for the AI coach. The **📋 Commands** button in the app lists them all, translated: one tap sends them.
+
 ### 🤖 AI assistant: free and paid requests
 
 Every message to the assistant is one request: "Ask for a sound", every coach step, "Tone from a song", "Explain this patch". The rest of PatchPilot uses no requests.
@@ -331,6 +364,39 @@ Scrivi come parleresti a un amico chitarrista: non servono nomi di manopole né 
 - **Se non ti piace:** *«torna indietro»* · *«rifallo da capo»* · *«spiegami cosa hai cambiato»*
 
 Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogni frase è una richiesta.
+
+### 📴 Coach senza AI: 10 lingue, senza internet, gratis
+
+Nell'app Android il coach funziona anche **senza AI**: capisce oltre 60 tipi di comandi direttamente sul telefono, senza internet e senza consumare richieste. Resta **gratis per sempre**, anche dopo la prova. Scrivi nella tua lingua: capisce
+🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
+e risponde nella lingua dell'app.
+
+Cosa sa fare:
+- **Timbro e gain:** più caldo, più brillante, più o meno bassi e medi, più distorto, più pulito, più o meno volume
+- **Delay:** più o meno, più lungo o più corto, più ripetizioni, a tempo con il brano (*delay a 120 bpm ottavi puntati*), in ms, slapback
+- **Riverbero, modulazione, dinamica:** più o meno riverbero, coda più lunga, chorus più veloce, più compressione, meno fruscio, più wah
+- **Effetti per nome:** accendi e spegni, aggiungi (*aggiungi un phaser*), sostituisci (*sostituisci il chorus con un flanger*), valori di fabbrica
+- **Manopole per nome:** *Mix del delay al 30%*, *Time 450 ms*, *Gain al massimo*, *alza il Mix del riverbero*
+- **19 stili:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, anni '80, surf, grunge, assolo, ritmica, acustico
+- **Conversazione:** *ancora*, *troppo*, *un po'…*, *molto…*; più comandi nella stessa frase
+- **Suono da un brano** senza AI: il suono misurato diventa impostazioni direttamente sul telefono
+
+Esempi, anche complessi:
+
+| | |
+|---|---|
+| 🇮🇹 | *più caldo, meno riverbero e delay a 120 bpm ottavi puntati* · *sostituisci il chorus con un phaser e alza il Mix del delay* · *Mix del delay al 30%, Time 450 ms e spegni TS Drive* · *molto più distorto e un po' più di riverbero* |
+| 🇬🇧 | *much warmer, less reverb and turn off the chorus* · *replace the chorus with a phaser and delay at 100 bpm dotted eighths* |
+| 🇪🇸 | *más distorsionado pero con menos graves y un poco más de delay* · *apaga el chorus, sube el mix del delay y más graves* |
+| 🇫🇷 | *plus chaud, moins de reverb et delay à 120 bpm* · *beaucoup plus de gain mais moins de graves* |
+| 🇩🇪 | *viel wärmer, weniger Hall und Chorus aus* · *ersetze den Chorus durch einen Flanger und mehr Wiederholungen* |
+| 🇵🇹 | *mais quente, menos reverb e desliga o chorus* |
+| 🇸🇪 | *varmare, mer reverb och längre delay* |
+| 🇩🇰 | *varmere og mere rumklang, sluk delay* |
+| 🇸🇮 | *toplejše in manj odmeva, izklopi chorus* |
+| 🇭🇷 | *toplije i više jeke, isključi chorus* |
+
+Le frasi libere come *«il suono dell'assolo di Gilmour»* restano un lavoro per il coach con l'AI. Nell'app il pulsante **📋 Comandi** li elenca tutti, tradotti: un tocco e partono.
 
 ### 🤖 Assistente AI: richieste gratis e a pagamento
 
