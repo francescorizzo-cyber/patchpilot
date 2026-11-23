@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PatchPilot – éditeur pour pédales Zoom, Boss, Valeton, NUX avec IA : décris le son, il se règle sur la pédale</title>
+<meta name="description" content="Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/fr/">
+<link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/">
+<link rel="alternate" hreflang="it" href="https://francescorizzo-cyber.github.io/patchpilot/it/">
+<link rel="alternate" hreflang="es" href="https://francescorizzo-cyber.github.io/patchpilot/es/">
+<link rel="alternate" hreflang="fr" href="https://francescorizzo-cyber.github.io/patchpilot/fr/">
+<link rel="alternate" hreflang="de" href="https://francescorizzo-cyber.github.io/patchpilot/de/">
+<link rel="alternate" hreflang="pt" href="https://francescorizzo-cyber.github.io/patchpilot/pt/">
+<link rel="alternate" hreflang="x-default" href="https://francescorizzo-cyber.github.io/patchpilot/">
+<link rel="icon" href="https://francescorizzo-cyber.github.io/patchpilot/img/icona.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PatchPilot – éditeur pour pédales Zoom, Boss, Valeton, NUX avec IA : décris le son, il se règle sur la pédale">
+<meta property="og:description" content="Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.">
+<meta property="og:image" content="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg">
+<meta property="og:site_name" content="PatchPilot">
+<meta property="og:url" content="https://francescorizzo-cyber.github.io/patchpilot/fr/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "PatchPilot",
+ "url": "https://francescorizzo-cyber.github.io/patchpilot/fr/",
+ "operatingSystem": "Android, Windows, macOS, Linux",
+ "applicationCategory": "MultimediaApplication",
+ "applicationSubCategory": "Zoom, Boss, Valeton, NUX editor and AI tone coach",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "EUR"
+ },
+ "downloadUrl": "https://github.com/francescorizzo-cyber/patchpilot/releases/latest",
+ "author": {
+  "@type": "Person",
+  "name": "Francesco Rizzo"
+ },
+ "inLanguage": "fr",
+ "description": "Écris « plus chaud » et ta pédale change de son : l'IA règle le patch pour toi."
+}
+</script>
+<style>
+:root{--bg:#08242b;--bg2:#0d3540;--panel:#123c47;--panel2:#16485580;--text:#eef4f3;--muted:#a9c2c0;--gold:#ffb547;--green:#45b86e;--blue:#8cc8ff;--line:#ffffff1f;--shadow:0 10px 30px #0006}
+@media (prefers-color-scheme: light){:root{--bg:#f3f6f5;--bg2:#e4eeec;--panel:#fff;--panel2:#ffffffb0;--text:#12262b;--muted:#4f6468;--gold:#a85f00;--green:#1f7a43;--blue:#0b5cad;--line:#0000001a;--shadow:0 8px 24px #0002}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1060px;margin:0 auto;padding:0 18px 56px}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .in{max-width:1060px;margin:0 auto;padding:8px 18px;display:flex;align-items:center;gap:14px;overflow-x:auto;white-space:nowrap}
+nav img{width:30px;height:30px;border-radius:8px}nav b{color:var(--gold);letter-spacing:.1em;margin-right:6px}
+nav a{color:var(--text);text-decoration:none;font-size:15px;opacity:.85}nav a:hover{opacity:1;color:var(--gold)}nav .sp{flex:1}
+.hero{background:radial-gradient(900px 420px at 80% -10%,#ffb54726,transparent 60%),linear-gradient(180deg,var(--bg2),var(--bg));border-bottom:1px solid var(--line)}
+.hero .in{max-width:1060px;margin:0 auto;padding:44px 18px 8px}
+.k{color:var(--gold);letter-spacing:.14em;font-weight:700;font-size:14px;text-transform:uppercase;margin:0}
+h1{font-size:clamp(30px,5.4vw,50px);line-height:1.1;margin:.25em 0 .35em;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(23px,3.2vw,30px);line-height:1.2;margin:2.4em 0 .5em;text-wrap:balance}
+h3{margin:1.8em 0 .6em;font-size:19px;color:var(--gold)}
+.lead{color:var(--muted);font-size:19px;max-width:820px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:650;text-decoration:none;color:#14110a;background:#ffb547;box-shadow:0 4px 14px #ffb54733;transition:transform .12s}
+a.btn:hover{transform:translateY(-1px)}
+.btn.g{background:var(--green);color:#fff}.btn.o{background:transparent;color:var(--text);border:1.5px solid var(--muted);box-shadow:none}.btn.p{background:#ffc439;color:#003087}
+img{max-width:100%;height:auto;display:block}
+.shot{border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow);margin:8px 0 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:28px 0 0}
+.stats div{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.stats b{display:block;font-size:26px;color:var(--gold);line-height:1.1}.stats span{color:var(--muted);font-size:15px}
+.note{background:var(--panel);border-left:4px solid var(--gold);border-radius:12px;padding:12px 16px;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}.card p{margin:0}
+.card.f{display:flex;gap:14px;align-items:flex-start}
+.ico{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:22px;background:#ffb54722;border:1px solid #ffb54755}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;border-radius:999px;padding:1px 9px;margin-left:6px;vertical-align:middle;background:#45b86e2e;color:var(--green);border:1px solid #45b86e66}
+.tag.n{background:#ffb54722;color:var(--gold);border-color:#ffb54766}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+figure img{width:100%}figcaption{padding:10px 14px;color:var(--muted);font-size:15px}
+.chips span{display:inline-block;border:1.5px solid var(--gold);border-radius:999px;padding:2px 12px;margin:3px}
+.tw{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:4px 10px}
+table{border-collapse:collapse;width:100%}td,th{padding:9px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}tr:last-child td{border-bottom:0}
+th{color:var(--muted);font-size:14px;text-transform:uppercase;letter-spacing:.06em}td.c,th.c{text-align:center;white-space:nowrap}
+.price{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:4px 20px 20px}ol{padding-left:22px}li{margin:.4em 0}
+code{background:#0003;padding:1px 6px;border-radius:6px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:650}details p{margin:.6em 0 0;color:var(--muted)}
+small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-size:15px;border-top:1px solid var(--line);padding-top:16px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:8px 0}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;position:relative}
+.step .n{position:absolute;top:14px;right:18px;font-size:46px;font-weight:800;color:var(--gold);opacity:.35;line-height:1}
+.step h3{margin:0 0 .4em;color:var(--text);font-size:21px}.step p{margin:0;color:var(--muted)}
+.langs{font-size:1.05em;text-align:center;margin:8px 0 18px}
+.say{display:inline-block;background:#ffb5471f;border:1px solid #ffb54755;border-radius:12px;padding:2px 10px;margin:3px 2px;font-style:italic;color:var(--text)}
+.new{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 8px;margin-left:4px;background:#ffb54722;color:var(--gold);border:1px solid #ffb54766;vertical-align:middle}
+.safe{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.safe div{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+</style>
+</head>
+<body>
+
+<nav><div class="in"><img src="https://francescorizzo-cyber.github.io/patchpilot/img/icona.png" width="30" height="30" alt=""><b>PATCHPILOT</b><a href="https://francescorizzo-cyber.github.io/patchpilot/fr/">Home</a><a href="https://francescorizzo-cyber.github.io/patchpilot/pedals/">Pédales compatibles</a><a href="https://francescorizzo-cyber.github.io/patchpilot/fr/#senza-ai">Coach</a><span class="sp"></span><a href="https://francescorizzo-cyber.github.io/patchpilot/">English</a></div></nav>
+
+<div class="hero"><div class="in"><p class="k">Éditeur de pédales multi-effets avec IA</p><h1>Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.</h1>
+<div class="btns"><a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/releases/latest">Télécharger pour Windows · Mac · Linux</a><span class="btn o">Android : bientôt sur Google Play</span><a class="btn o" href="https://francescorizzo-cyber.github.io/patchpilot/pedals/">Pédales compatibles</a></div>
+<img class="shot" src="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg" width="1100" height="800" alt="PatchPilot"></div></div>
+<main>
+<p>Écris « plus chaud » et ta pédale change de son. Pour de vrai, sur la pédale.</p>
+<p>Branche ton multi-effets au téléphone avec un câble USB, décris le son avec tes mots et l&#x27;assistant IA de PatchPilot tourne les boutons, allume les effets et ajoute ce qui manque. Pas de menus, pas de manuel.</p>
+<p>Un exemple réel, avec une Zoom MS-50G :</p>
+<p>Toi : « Plus chaud » → l&#x27;assistant ajoute un overdrive doux avant le delay.</p>
+<p>Toi : « Ajoute un filtre » → le filtre va en fin de chaîne. Chaque étape s&#x27;annule d&#x27;un geste.</p>
+<h2>🎛️ LE COACH DU SON AVEC L&#x27;IA</h2>
+<p>Dis-le avec tes mots : « plus de distorsion », « un delay années 80 », « moins de reverb, plus chaud ». L&#x27;assistant lit le patch de ta pédale, tourne les boutons, allume ou éteint les effets et, si besoin, ajoute celui qui manque. Puis il t&#x27;explique en une ligne ce qu&#x27;il a changé.</p>
+<ul><li>Continue à parler : « encore un peu », « maintenant plus clair ». Chaque étape peut être annulée.</li><li>Chaque étape est enregistrée comme variante.</li><li>Pas besoin de savoir quel bouton tourner : PatchPilot le fait.</li></ul>
+<h2>🎵 LE SON D&#x27;UN MORCEAU</h2>
+<p>Fais écouter 20 à 30 secondes d&#x27;un morceau ou de ton enregistrement. PatchPilot mesure sur le téléphone la distorsion, le timbre, les répétitions du delay, la queue de la reverb et la modulation, puis crée le patch avec les effets de ta pédale. L&#x27;audio ne quitte pas le téléphone : seuls les chiffres mesurés vont à l&#x27;IA.</p>
+<h2>📴 MÊME SANS IA ET SANS INTERNET</h2>
+<p>Le Coach comprend plus de 60 types de commandes en 10 langues, directement sur le téléphone (plus chaud, moins de reverb, delay à 120 bpm, metal, années 80, « encore », « trop »). Gratuit, hors ligne, sans consommer de requêtes.</p>
+<h2>🔌 ON BRANCHE ET C&#x27;EST PARTI</h2>
+<p>La pédale est reconnue dès que tu la branches : pas de boutons, pas de réglages MIDI.</p>
+<h2>📋 ET AUSSI</h2>
+<ul><li>Liste et lecture des patchs de la pédale, avec les noms des effets et des paramètres</li><li>Éditeur de patchs et variantes enregistrées sur le téléphone</li><li>Explication du patch pour débutants</li><li>Accordeur</li><li>Setlist de scène : le bon patch pour chaque morceau, même sur n&#x27;importe quelle pédale MIDI</li><li>Sauvegardes et fiches de son à partager</li></ul>
+<h2>🎸 PÉDALES COMPATIBLES</h2>
+<p>Zoom MultiStomp : MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+, MS-90LP+, MS-50G, MS-60B, MS-70CDR</p>
+<p>Zoom séries G et B : G2 FOUR, G2X FOUR, B2 FOUR, G1 FOUR, G1X FOUR, B1 FOUR, B1X FOUR, G3n, G3Xn, G5n, B3n, G6, G11, B6, G1on, G1Xon, B1on, B1Xon, G3, G3X, B3</p>
+<p>Boss : Katana MkII et MkI, GT-100, GT-1000 / GT-1000CORE</p>
+<p>Valeton GP-200 · NUX Mighty Lite BT MkII</p>
+<p>Line 6 HX Stomp et toute pédale MIDI : changement de patch depuis la setlist</p>
+<p>La première pédale testée à fond est la Zoom MS-50G. Les autres modèles fonctionnent avec des formats publics et sont marqués « en test » dans l&#x27;app : si tu en as une, d&#x27;un geste tu nous envoies le journal et tu nous aides à la rendre parfaite.</p>
+<h2>🔒 SÉCURITÉ DE LA PÉDALE</h2>
+<p>PatchPilot n&#x27;envoie jamais de réinitialisation d&#x27;usine et n&#x27;efface jamais de fichiers dans la pédale. Avant de changer un patch, il en fait une sauvegarde.</p>
+<h2>💶 PRIX</h2>
+<p>Téléchargement gratuit et pendant 5 jours tout est activé, avec l&#x27;assistant IA en essai (jusqu&#x27;à 50 requêtes par jour). Ensuite restent gratuits pour toujours la reconnaissance de la pédale, la lecture des patchs, le Coach sans IA, l&#x27;accordeur et une setlist de 3 morceaux.</p>
+<p>Version complète : 6,99 € une seule fois, avec l&#x27;assistant IA inclus pendant 12 mois (25 requêtes par jour). Ensuite renouvellement à 2,99 € pour 12 mois de plus, ou 100 requêtes en plus à 1,99 € qui n&#x27;expirent jamais.</p>
+<p>Il faut : un téléphone ou une tablette Android avec USB (OTG) et le câble de la pédale. L&#x27;assistant IA a besoin d&#x27;internet.</p>
+<p>Zoom, Boss, Valeton, NUX et Line 6 sont des marques de leurs propriétaires respectifs. PatchPilot est une app indépendante, non affiliée à ces fabricants.</p>
+<footer><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/privacy.html">Privacy</a> · <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/">English</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/it/">Italiano</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/es/">Español</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/fr/">Français</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/de/">Deutsch</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/pt/">Português</a></p><p>Zoom, Boss, Valeton, NUX, Line 6: trademarks of their owners. PatchPilot is an independent project.<br>Made by Francesco Rizzo.</p></footer>
+</main>
+</body>
+</html>
