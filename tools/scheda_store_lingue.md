@@ -59,7 +59,7 @@ PatchPilot nunca envía el reseteo de fábrica ni borra archivos del pedal. Ante
 
 💶 PRECIO
 Descarga gratis y durante 5 días lo tienes todo activo, con el asistente de IA en prueba (hasta 50 peticiones al día). Después siguen gratis para siempre el reconocimiento del pedal, la lectura de patches, el Coach sin IA, el afinador y un setlist de 3 canciones.
-Versión completa: 6,99 € un solo pago, con el asistente de IA incluido 12 meses (25 peticiones al día). Después, renovación a 2,99 € por 12 meses más, o 100 peticiones extra por 1,99 € que no caducan.
+Versión completa: 4,99 € un solo pago, con el asistente de IA incluido 12 meses (300 peticiones en 12 meses, como máximo 10 al día). Después, renovación a 2,99 € por 12 meses más, o 100 peticiones extra por 1,99 € que no caducan.
 
 Necesitas: un teléfono o tablet Android con USB (OTG) y el cable para el pedal. El asistente de IA necesita internet.
 
@@ -120,7 +120,7 @@ PatchPilot n'envoie jamais de réinitialisation d'usine et n'efface jamais de fi
 
 💶 PRIX
 Téléchargement gratuit et pendant 5 jours tout est activé, avec l'assistant IA en essai (jusqu'à 50 requêtes par jour). Ensuite restent gratuits pour toujours la reconnaissance de la pédale, la lecture des patchs, le Coach sans IA, l'accordeur et une setlist de 3 morceaux.
-Version complète : 6,99 € une seule fois, avec l'assistant IA inclus pendant 12 mois (25 requêtes par jour). Ensuite renouvellement à 2,99 € pour 12 mois de plus, ou 100 requêtes en plus à 1,99 € qui n'expirent jamais.
+Version complète : 4,99 € une seule fois, avec l'assistant IA inclus pendant 12 mois (300 requêtes sur 12 mois, 10 par jour au maximum). Ensuite renouvellement à 2,99 € pour 12 mois de plus, ou 100 requêtes en plus à 1,99 € qui n'expirent jamais.
 
 Il faut : un téléphone ou une tablette Android avec USB (OTG) et le câble de la pédale. L'assistant IA a besoin d'internet.
 
@@ -181,7 +181,7 @@ PatchPilot sendet nie einen Werksreset und löscht nie Dateien im Pedal. Bevor e
 
 💶 PREIS
 Kostenloser Download, 5 Tage lang ist alles freigeschaltet, mit dem KI-Assistenten im Test (bis zu 50 Anfragen pro Tag). Danach bleiben Pedalerkennung, Patch-Lesen, der Coach ohne KI, das Stimmgerät und eine Setlist mit 3 Songs für immer kostenlos.
-Vollversion: 6,99 € einmalig, mit KI-Assistent für 12 Monate inklusive (25 Anfragen pro Tag). Danach Verlängerung für 2,99 € um weitere 12 Monate oder 100 zusätzliche Anfragen für 1,99 €, die nie verfallen.
+Vollversion: 4,99 € einmalig, mit KI-Assistent für 12 Monate inklusive (300 Anfragen in 12 Monaten, höchstens 10 pro Tag). Danach Verlängerung für 2,99 € um weitere 12 Monate oder 100 zusätzliche Anfragen für 1,99 €, die nie verfallen.
 
 Du brauchst: ein Android-Telefon oder -Tablet mit USB (OTG) und das Kabel für dein Pedal. Der KI-Assistent braucht Internet.
 
@@ -242,7 +242,7 @@ O PatchPilot nunca envia o reset de fábrica e nunca apaga arquivos da pedaleira
 
 💶 PREÇO
 Baixe grátis e por 5 dias tem tudo liberado, com o assistente de IA em teste (até 50 pedidos por dia). Depois continuam grátis para sempre o reconhecimento da pedaleira, a leitura dos patches, o Coach sem IA, o afinador e um setlist de 3 músicas.
-Versão completa: 6,99 € uma única vez, com o assistente de IA incluído por 12 meses (25 pedidos por dia). Depois, renovação por 2,99 € por mais 12 meses, ou 100 pedidos extras por 1,99 € que nunca expiram.
+Versão completa: 4,99 € uma única vez, com o assistente de IA incluído por 12 meses (300 pedidos em 12 meses, no máximo 10 por dia). Depois, renovação por 2,99 € por mais 12 meses, ou 100 pedidos extras por 1,99 € que nunca expiram.
 
 Você precisa de: um celular ou tablet Android com USB (OTG) e o cabo da pedaleira. O assistente de IA precisa de internet.
 

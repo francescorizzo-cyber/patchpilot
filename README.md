@@ -13,7 +13,7 @@
 [![macOS](https://img.shields.io/badge/⬇_Download-macOS-555555?style=for-the-badge&logo=apple&logoColor=white)](../../releases/latest)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-android)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
-[![Full version](https://img.shields.io/badge/🔑_Full_version-€6.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#-full-version-699-one-time-only)
+[![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#-full-version-699-one-time-only)
 
 🌐 **Website:** https://francescorizzo-cyber.github.io/patchpilot/ · 🇮🇹 *[Italiano più sotto](#italiano)*
 
@@ -124,7 +124,7 @@ Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or
 - 🎼 Patch reading and editor, variations, patch explained for beginners, tuner, setlist and stage mode, backup.
 - 🔑 **Same prices as on the computer** (see below), bought inside the app with Google Play.
 
-## 🔑 Full version: €6.99, one time only
+## 🔑 Full version: €4.99, one time only
 
 **7 days with everything on**, AI assistant included (up to 50 requests a day). After that, what you need to use
 your pedal **stays free forever**: recognition, patch reading, editor, knobs from the computer, tuner, backup inside the program, 3-song setlist.
@@ -136,12 +136,12 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 | Setlist | 3 songs | unlimited + stage mode |
 | Backup export and sound sheets, search, compare | — | ✅ |
 | Variants | — | ✅ |
-| AI: ask for a sound, coach, sound from a song, teacher | 5-day trial, up to 50 a day | ✅ 25 requests a day for 12 months |
+| AI: ask for a sound, coach, sound from a song, teacher | 7-day trial, up to 50 a day | ✅ 300 AI requests in 12 months (up to 10 a day) |
 
 1. In PatchPilot open the **Support ♥** page and copy your device code (`PP-ABCD-EFGH`).
-2. Pay **€6.99**:
-   - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/7sYeVc6Yb71O9pu3vP63K03)** — paste the device code: the **unlock code appears right after the payment**.
-   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
+2. Pay **€4.99**:
+   - **[💳 Card, Google Pay or Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — paste the device code: the **unlock code appears right after the payment**.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
 
 One code per computer. On Android the full version is bought inside the app, with Google Play.
 Just want to say thanks? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
@@ -197,8 +197,8 @@ Every message to the assistant is one request: "Ask for a sound", every coach st
 | | Requests | Price |
 |---|---|---|
 | **Trial** (no code) | up to 50 a day for 7 days | free |
-| **Full version** | 25 a day for 12 months from first use | included in €6.99 |
-| **AI renewal** after 12 months | 25 a day for another 12 months | [€2.99](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
+| **Full version** | 300 in 12 months from first use (up to 10 a day) | included in €4.99 |
+| **AI renewal** after 12 months | 300 more in 12 months (up to 10 a day) | [€2.99](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 extra requests** | never expire; used automatically when the day's requests or the included months run out | €1.99, as often as you like |
 
 The 100 requests work with the unlocked full version. On computers: **[💳 buy 100 requests by card (€1.99)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** typing your device code, or use the button on the **Support ♥** page; they show up by themselves at your next request. Paid with PayPal? Write to us with your device code: you get an **AI code** to type on the **Support ♥** page. On Android they are bought inside the app with Google Play. When the AI is no longer active, the rest of PatchPilot stays yours forever.
@@ -332,7 +332,7 @@ In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o succe
 - 🎼 Lettura ed editor delle patch, varianti, spiegazione della patch per chi comincia, accordatore, scaletta e modalità palco, backup.
 - 🔑 **Stessi prezzi del computer** (vedi sotto), comprati dentro l'app con Google Play.
 
-## 🔑 Versione completa: 6,99 €, una volta sola
+## 🔑 Versione completa: 4,99 €, una volta sola
 
 **7 giorni con tutto acceso**, assistente AI compreso (fino a 50 richieste al giorno). Poi quello che serve per usare
 il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, editor, manopole dal computer, accordatore, backup nel programma, scaletta di 3 brani.
@@ -344,12 +344,12 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 | Scaletta | 3 brani | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
 | Varianti | — | ✅ |
-| AI: chiedi un suono, coach, suono da un brano, maestro | 7 giorni di prova, fino a 50 al giorno | ✅ 25 richieste al giorno per 12 mesi |
+| AI: chiedi un suono, coach, suono da un brano, maestro | 7 giorni di prova, fino a 50 al giorno | ✅ 300 richieste AI in 12 mesi (massimo 10 al giorno) |
 
 1. In PatchPilot apri la pagina **Sostieni ♥** e copia il codice dispositivo (`PP-ABCD-EFGH`).
-2. Paga **6,99 €**:
-   - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/7sYeVc6Yb71O9pu3vP63K03)** — incolla il codice dispositivo: il **codice di sblocco appare subito dopo il pagamento**.
-   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/6.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
+2. Paga **4,99 €**:
+   - **[💳 Carta, Google Pay o Apple Pay (Stripe)](https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01)** — incolla il codice dispositivo: il **codice di sblocco appare subito dopo il pagamento**.
+   - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
 
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
 Vuoi solo dire grazie? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
@@ -405,8 +405,8 @@ Ogni messaggio all'assistente è una richiesta: «Chiedi un suono», ogni passo 
 | | Richieste | Prezzo |
 |---|---|---|
 | **Prova** (senza codice) | fino a 50 al giorno per 7 giorni | gratis |
-| **Versione completa** | 25 al giorno per 12 mesi dal primo uso | inclusa nei 6,99 € |
-| **Rinnovo AI** dopo i 12 mesi | 25 al giorno per altri 12 mesi | [2,99 €](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
+| **Versione completa** | 300 in 12 mesi dal primo uso (massimo 10 al giorno) | inclusa nei 4,99 € |
+| **Rinnovo AI** dopo i 12 mesi | altre 300 in 12 mesi (massimo 10 al giorno) | [2,99 €](https://buy.stripe.com/eVq9ASdmz85SdFKd6p63K04) |
 | **100 richieste in più** | non scadono mai; si usano da sole quando finiscono quelle del giorno o i mesi inclusi | 1,99 €, quante volte vuoi |
 
 Le 100 richieste valgono con la versione completa sbloccata. Sul computer: **[💳 compra 100 richieste con la carta (1,99 €)](https://buy.stripe.com/00w9AS1DRdqc6di5DX63K02)** scrivendo il codice dispositivo, oppure dal pulsante nella pagina **Sostieni ♥**; compaiono da sole alla richiesta successiva. Paghi con PayPal? Scrivici con il codice dispositivo: ricevi un **codice AI** da scrivere nella pagina **Sostieni ♥**. Su Android si comprano dentro l'app con Google Play. Quando l'AI non è più attiva, il resto di PatchPilot resta tuo per sempre.
