@@ -146,6 +146,17 @@ your pedal **stays free forever**: recognition, patch reading, editor, knobs fro
 One code per computer. On Android the full version is bought inside the app, with Google Play.
 Just want to say thanks? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
 
+### 💬 What to say to the coach: examples
+
+Write the way you'd talk to a guitarist friend: no knob or effect names needed.
+
+- **To start, “Ask for a sound”:** *“70s crunch like AC/DC”* · *“bright clean for arpeggios”* · *“warm lead with a long delay”* · *“tight metal distortion, no hiss”* · *“ambient sound with a huge reverb”* · *“SRV-style blues”*
+- **To fine-tune:** *“too muddy”* · *“more aggressive”* · *“less distorted”* · *“more bass”* · *“cut through the mix more”* · *“like before but cleaner”* · *“you do it”*
+- **On the effects:** *“add a light chorus”* · *“remove the delay”* · *“shorter reverb”* · *“80s tempo delay”* · *“switch on a compressor”*
+- **If you don't like it:** *“go back”* · *“start over”* · *“explain what you changed”*
+
+The coach uses only your pedal's effects and changes 1–3 things at a time. Every message is one request.
+
 ### 🤖 AI assistant: free and paid requests
 
 Every message to the assistant is one request: "Ask for a sound", every coach step, "Tone from a song", "Explain this patch". The rest of PatchPilot uses no requests.
@@ -309,6 +320,17 @@ il pedale **resta gratis per sempre**: riconoscimento, lettura delle patch, edit
 
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
 Vuoi solo dire grazie? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
+
+### 💬 Cosa dire al coach: esempi
+
+Scrivi come parleresti a un amico chitarrista: non servono nomi di manopole né di effetti.
+
+- **Per partire, «Dimmi il suono»:** *«crunch anni '70 alla AC/DC»* · *«pulito brillante per arpeggi»* · *«lead caldo con delay lungo»* · *«distorsione metal stretta, senza fruscio»* · *«suono ambient con riverbero enorme»* · *«blues alla SRV»*
+- **Per rifinire:** *«troppo impastato»* · *«più aggressivo»* · *«meno distorto»* · *«più bassi»* · *«più presente nel mix»* · *«come prima ma più pulito»* · *«fallo tu»*
+- **Sugli effetti:** *«aggiungi un chorus leggero»* · *«togli il delay»* · *«riverbero più corto»* · *«delay a tempo, anni '80»* · *«accendi un compressore»*
+- **Se non ti piace:** *«torna indietro»* · *«rifallo da capo»* · *«spiegami cosa hai cambiato»*
+
+Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogni frase è una richiesta.
 
 ### 🤖 Assistente AI: richieste gratis e a pagamento
 
