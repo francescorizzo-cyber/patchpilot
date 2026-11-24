@@ -164,8 +164,13 @@ def nav(t, other_url, other_label):
             f'<a href="{t["home"]}#senza-ai">{"Coach"}</a><span class="sp"></span><a href="{other_url}">{other_label}</a></div></nav>\n')
 
 
+# Offri un caffè (24/11/2026)
+CAFFE = {'it': '☕ Ti è utile? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Offri un caffè allo sviluppatore</a> (importo libero).', 'en': '☕ Useful to you? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Buy the developer a coffee</a> (any amount).'}
+
+
 def foot(t):
-    return (f'<footer><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="{SITE}privacy.html">Privacy</a> · '
+    caffe = CAFFE["it" if t["lang"] == "it" else "en"]
+    return (f'<footer><p class="caffe">{caffe}</p><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="{SITE}privacy.html">Privacy</a> · '
             f'<a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> · '
             f'<a href="{SITE}">English</a> · <a href="{SITE}it/">Italiano</a> · <a href="{SITE}es/">Español</a> · <a href="{SITE}fr/">Français</a> · '
             f'<a href="{SITE}de/">Deutsch</a> · <a href="{SITE}pt/">Português</a></p><p>{t["indep"]}<br>Made by Francesco Rizzo.</p></footer>\n</main>\n</body>\n</html>\n')

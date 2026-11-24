@@ -145,7 +145,7 @@ Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — then write to **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: the unlock code arrives by email, usually within a day.
 
 One code per computer. On Android the full version is bought inside the app, with Google Play.
-Just want to say thanks? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
+Just want to say thanks? **[☕ Buy the developer a coffee](https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05)** (card, any amount) or **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**. In the Android app: Settings › Support ♥ › ☕ (€1.99, through Google Play).
 
 ### 💬 What to say to the coach: examples
 
@@ -354,7 +354,7 @@ viene ancora **riconosciuto**, ma per comandarlo (lettura delle patch, manopole,
    - **[🅿️ PayPal](https://paypal.me/AutoFonicMixer/4.99EUR)** — poi scrivi ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@gmail.com)**: il codice di sblocco arriva per email, di solito entro un giorno.
 
 Un codice per ogni computer. Su Android la versione completa si compra dentro l'app, con Google Play.
-Vuoi solo dire grazie? **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**.
+Vuoi solo dire grazie? **[☕ Offri un caffè allo sviluppatore](https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05)** (carta, importo libero) oppure **[paypal.me/AutoFonicMixer](https://paypal.me/AutoFonicMixer)**. Nell'app Android: Impostazioni › Sostieni ♥ › ☕ (1,99 €, con Google Play).
 
 ### 💬 Cosa dire al coach: esempi
 

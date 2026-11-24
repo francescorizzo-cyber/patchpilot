@@ -19,6 +19,8 @@ BASE = "https://francescorizzo-cyber.github.io/patchpilot/"
 GH = "https://github.com/francescorizzo-cyber/patchpilot"
 STRIPE = "https://buy.stripe.com/00w6oG96j0DqcBG5DX63K01"
 PAYPAL = "https://paypal.me/AutoFonicMixer/4.99EUR"
+# Offri un caffè (24/11/2026): link Stripe a importo libero, in fondo a ogni pagina.
+CAFFE = {'it': '☕ Ti è utile? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Offri un caffè allo sviluppatore</a> (importo libero).', 'en': '☕ Useful to you? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Buy the developer a coffee</a> (any amount).', 'es': '☕ ¿Te resulta útil? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Invita un café al desarrollador</a> (importe libre).', 'fr': '☕ Utile pour vous ? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Offrez un café au développeur</a> (montant libre).', 'de': '☕ Hilfreich? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Spendier dem Entwickler einen Kaffee</a> (beliebiger Betrag).', 'pt': '☕ Foi útil? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Pague um café ao desenvolvedor</a> (valor livre).'}
 MAIL = "autofonic.mixer@gmail.com"
 
 N = '<span class="new">0.9.1</span>'
@@ -361,7 +363,7 @@ def page(lang):
     w(f'<h2 id="faq">{d["faq_h"]}</h2>')
     for q, a in d["faq"]:
         w(f'<details><summary>{q}</summary><p>{a}</p></details>')
-    w(f'\n<footer>\n<p>{d["foot"][0]}</p>\n<p>{d["foot"][1]}</p>\n</footer>\n</main>\n</body>\n</html>\n')
+    w(f'\n<footer>\n<p class="caffe">{CAFFE.get(lang, CAFFE["en"])}</p>\n<p>{d["foot"][0]}</p>\n<p>{d["foot"][1]}</p>\n</footer>\n</main>\n</body>\n</html>\n')
     return "\n".join(o)
 
 
