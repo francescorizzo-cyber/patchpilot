@@ -115,7 +115,7 @@ Then **plug the pedal in with its USB cable**: that's it. *(Close Guitar Lab or 
 
 ### 📱 Android
 
-Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or later with USB host (OTG) and a USB-C/OTG cable.
+**On Google Play:** [https://play.google.com/store/apps/details?id=it.rizzo.patchpilot](https://play.google.com/store/apps/details?id=it.rizzo.patchpilot) (only there). Android 8.0 or later with USB host (OTG) and a USB-C/OTG cable.
 
 - 🔌 **Just plug it in**: the pedal is recognized by itself, no buttons and no MIDI settings.
 - 💬 **AI sound coach**: type "more distortion" or "80s delay", the AI turns the knobs, switches effects on and adds the missing ones, then tells you in one line what it did. Every step can be undone.
@@ -324,7 +324,7 @@ Poi **collega il pedale con il suo cavo USB**: fatto. *(Chiudi prima Guitar Lab 
 
 ### 📱 Android
 
-In arrivo, **solo su Google Play** (il link comparirà qui). Android 8.0 o successivo con USB host (OTG) e un cavo USB-C/OTG.
+**Su Google Play:** [https://play.google.com/store/apps/details?id=it.rizzo.patchpilot](https://play.google.com/store/apps/details?id=it.rizzo.patchpilot) (solo lì). Android 8.0 o successivo con USB host (OTG) e un cavo USB-C/OTG.
 
 - 🔌 **Collega e basta**: il pedale viene riconosciuto da solo, niente pulsanti e niente impostazioni MIDI.
 - 💬 **Coach del suono con l'AI**: scrivi «più distorto» o «delay anni '80», l'AI gira le manopole, accende gli effetti e aggiunge quelli che mancano, poi ti dice in una riga cosa ha fatto. Ogni passo si annulla.
