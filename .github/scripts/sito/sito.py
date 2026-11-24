@@ -39,7 +39,7 @@ L["en"] = dict(
     b_dl="Download for Windows · Mac · Linux", b_play="Android: coming soon on Google Play", b_full="Full version · €4.99", b_test="5-minute test guide", testurl="TEST.md#english",
     shot_alt="PatchPilot: the pedal-shaped main screen for MS-50G+, G2 FOUR and G11",
     stats=[("37", "pedals: 30 Zoom + 7 Boss, Valeton, NUX, Line 6"), ("+", "any MIDI pedal for the setlist"), ("€4.99", "one time only")],
-    ver=f"📦 <strong>Today's download is 0.9.0.</strong> Everything marked {N} — automatic connection, the AI that sets the sound on the pedal, the coach, sound from a song, variants, 10 languages and the new pedals — comes with <strong>0.9.1</strong>, the next update.",
+    ver=f"📦 <strong>Today's download is 0.9.0.</strong> Everything marked {N} — automatic connection, the AI that sets the sound on the pedal, the coach, sound from a song, variants, 13 languages and the new pedals — comes with <strong>0.9.1</strong>, the next update.",
     beta=f"🧪 <strong>Beta.</strong> Tested on a real <strong>Zoom MS-50G</strong>; on the other models everything works the same way, with a <em>“Model in testing”</em> notice and a <strong>“Send the log…”</strong> button. Got one? <a href=\"{GH}/blob/main/TEST.md#english\">Help us in 5 minutes</a>.",
     how_h="How it works: three steps", how_lead="You don't need to know what a compressor is, which knob is which, or how your model's menus work.",
     steps=[
@@ -70,7 +70,7 @@ L["en"] = dict(
             ("🏷️", "Real names", "Effects and knobs with their real names and limits, in knob or fader view."),
             ("🎸", "Needle tuner", "Big on the screen, readable from across the room."),
             ("🖼️", "Your pedal on the screen", "The main page draws your model, with display, knobs and switches."),
-            ("🌍", "10 languages", f"English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski. {N}"),
+            ("🌍", "13 languages", f"English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski, Polski, Nederlands, 日本語. {N}"),
         ]),
         ("Keep your sounds safe", [
             ("💾", "Automatic backup", "Every patch to a dated file, to reopen even without the pedal."),
@@ -167,7 +167,7 @@ L["it"] = dict(
     b_dl="Scarica per Windows · Mac · Linux", b_play="Android: in arrivo su Google Play", b_full="Versione completa · 4,99 €", b_test="Guida di prova in 5 minuti", testurl="TEST.md#italiano",
     shot_alt="PatchPilot: la schermata principale a forma di pedale per MS-50G+, G2 FOUR e G11",
     stats=[("37", "pedali: 30 Zoom + 7 Boss, Valeton, NUX, Line 6"), ("+", "qualsiasi pedale MIDI per la scaletta"), ("4,99 €", "una volta sola")],
-    ver=f"📦 <strong>Il download di oggi è la 0.9.0.</strong> Tutto quello che è segnato {N} — collegamento automatico, l'AI che imposta il suono sul pedale, il coach, il suono preso da un brano, le varianti, le 10 lingue e i nuovi pedali — arriva con la <strong>0.9.1</strong>, il prossimo aggiornamento.",
+    ver=f"📦 <strong>Il download di oggi è la 0.9.0.</strong> Tutto quello che è segnato {N} — collegamento automatico, l'AI che imposta il suono sul pedale, il coach, il suono preso da un brano, le varianti, le 13 lingue e i nuovi pedali — arriva con la <strong>0.9.1</strong>, il prossimo aggiornamento.",
     beta=f"🧪 <strong>Beta.</strong> Provata su uno <strong>Zoom MS-50G</strong> vero; sugli altri modelli funziona tutto allo stesso modo, con l'avviso <em>«Modello in prova»</em> e il pulsante <strong>«Manda il registro…»</strong>. Ne hai uno? <a href=\"{GH}/blob/main/TEST.md#italiano\">Aiutaci in 5 minuti</a>.",
     how_h="Come funziona: tre passi", how_lead="Non serve sapere cos'è un compressore, quale manopola è quale o come funzionano i menu del tuo modello.",
     steps=[
@@ -198,7 +198,7 @@ L["it"] = dict(
             ("🏷️", "Nomi veri", "Effetti e manopole con i loro nomi e limiti, a manopole o a fader."),
             ("🎸", "Accordatore a lancetta", "Grande sullo schermo, si legge anche da lontano."),
             ("🖼️", "Il tuo pedale sullo schermo", "La pagina principale disegna il tuo modello, con display, manopole e interruttori."),
-            ("🌍", "10 lingue", f"Italiano, English, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski. {N}"),
+            ("🌍", "13 lingue", f"Italiano, English, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski, Polski, Nederlands, 日本語. {N}"),
         ]),
         ("Suoni al sicuro", [
             ("💾", "Backup automatico", "Tutte le patch in un file con data, da riaprire anche senza pedale."),

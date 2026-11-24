@@ -76,7 +76,7 @@ Then you play: **setlist, stage mode and songs that follow the tempo** tell you 
 **Community**
 - 📚 **[Patch library](https://francescorizzo-cyber.github.io/patchpilot/libreria/)**: patches shared by users, free (CC0), searchable by song, artist, genre and pedal; share yours with one click
 - 🙋 **Tester page**: your pedal is not listed? A guided, listen-only recording helps us add it
-- 🌍 **10 languages** 🆕: English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski
+- 🌍 **13 languages** 🆕: English, Italiano, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski, Polski, Nederlands, 日本語
 
 ## 🎚️ Supported pedals: 37 + any MIDI pedal
 
@@ -161,7 +161,7 @@ The coach uses only your pedal's effects and changes 1–3 things at a time. Eve
 ### 📴 Offline AI for simple things, online AI for complex ones
 
 The coach decides by itself: it uses **offline AI** on the phone for the simpler operations (more than 60 kinds of commands, no internet, no requests used) and **online AI** for the more complex ones. It is included in the 7-day trial and in the full version. Write in your own language: it understands
-🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
+🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski · 🇵🇱 Polski · 🇳🇱 Nederlands · 🇯🇵 日本語
 and answers in the language of the app.
 
 What it can do:
@@ -285,7 +285,7 @@ Poi suoni: **scaletta, modalità palco e brani che seguono il tempo** ti dicono 
 **Comunità**
 - 📚 **[Libreria di patch](https://francescorizzo-cyber.github.io/patchpilot/it/libreria/)**: patch condivise da chi usa PatchPilot, libere (CC0), da cercare per brano, artista, genere e pedale; condividi la tua con un clic
 - 🙋 **Pagina Tester**: il tuo pedale non c'è? Una registrazione guidata che ascolta soltanto ci aiuta ad aggiungerlo
-- 🌍 **10 lingue** 🆕: italiano, English, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski
+- 🌍 **13 lingue** 🆕: italiano, English, Français, Español, Deutsch, Português, Svenska, Dansk, Slovenščina, Hrvatski, Polski, Nederlands, 日本語
 
 ## 🎚️ Pedali supportati: 37 + qualsiasi pedale MIDI
 
@@ -370,7 +370,7 @@ Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogn
 ### 📴 AI offline per le cose semplici, AI online per quelle complesse
 
 Il coach decide da solo: usa l'**AI offline** sul telefono per le operazioni più semplici (oltre 60 tipi di comandi, senza internet e senza consumare richieste) e l'**AI online** per quelle più complesse. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
-🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
+🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski · 🇵🇱 Polski · 🇳🇱 Nederlands · 🇯🇵 日本語
 e risponde nella lingua dell'app.
 
 Cosa sa fare:
