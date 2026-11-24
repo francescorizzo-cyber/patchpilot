@@ -132,7 +132,7 @@ Coming soon, **only on Google Play** (the link will appear here). Android 8.0 or
 | | After the 7-day trial | Full version |
 |---|:---:|:---:|
 | Pedal recognition | ✅ | ✅ |
-| Patch reading, knobs, coach without AI, tuner, patch change per song | — | ✅ |
+| Patch reading, knobs, coach with offline AI, tuner, patch change per song | — | ✅ |
 | Log, Tester page, patch library | ✅ | ✅ |
 | Setlist | 3 songs (without the pedal) | unlimited + stage mode |
 | Backup export and sound sheets, search, compare | — | ✅ |
@@ -158,9 +158,9 @@ Write the way you'd talk to a guitarist friend: no knob or effect names needed.
 
 The coach uses only your pedal's effects and changes 1–3 things at a time. Every message is one request.
 
-### 📴 Coach without AI: 10 languages, offline, free
+### 📴 Offline AI for simple things, online AI for complex ones
 
-In the Android app the coach also works **without AI**: it understands more than 60 kinds of commands directly on the phone, with no internet and no requests used. It is included in the 7-day trial and in the full version. Write in your own language: it understands
+The coach decides by itself: it uses **offline AI** on the phone for the simpler operations (more than 60 kinds of commands, no internet, no requests used) and **online AI** for the more complex ones. It is included in the 7-day trial and in the full version. Write in your own language: it understands
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
 and answers in the language of the app.
 
@@ -172,7 +172,7 @@ What it can do:
 - **Knobs by name:** *delay mix to 30%*, *Time 450 ms*, *gain to maximum*, *turn up the reverb mix*
 - **19 styles:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, '80s, surf, grunge, lead, rhythm, acoustic
 - **Conversation:** *again*, *too much*, *a bit…*, *much…*; several commands in one sentence
-- **Tone from a song** without AI: the measured sound becomes settings right on the phone
+- **Tone from a song** with offline AI: the measured sound becomes settings right on the phone
 
 Examples, also complex:
 
@@ -341,7 +341,7 @@ viene ancora **riconosciuto**, ma per comandarlo (lettura delle patch, manopole,
 | | Dopo i 7 giorni di prova | Versione completa |
 |---|:---:|:---:|
 | Riconoscimento del pedale | ✅ | ✅ |
-| Lettura delle patch, manopole, coach senza AI, accordatore, cambio patch per brano | — | ✅ |
+| Lettura delle patch, manopole, coach con AI offline, accordatore, cambio patch per brano | — | ✅ |
 | Registro, pagina Tester, libreria di patch | ✅ | ✅ |
 | Scaletta | 3 brani (senza pedale) | senza limiti + modalità palco |
 | Esportazione del backup e schede suono, ricerca, confronto | — | ✅ |
@@ -367,9 +367,9 @@ Scrivi come parleresti a un amico chitarrista: non servono nomi di manopole né 
 
 Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogni frase è una richiesta.
 
-### 📴 Coach senza AI: 10 lingue, senza internet, gratis
+### 📴 AI offline per le cose semplici, AI online per quelle complesse
 
-Nell'app Android il coach funziona anche **senza AI**: capisce oltre 60 tipi di comandi direttamente sul telefono, senza internet e senza consumare richieste. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
+Il coach decide da solo: usa l'**AI offline** sul telefono per le operazioni più semplici (oltre 60 tipi di comandi, senza internet e senza consumare richieste) e l'**AI online** per quelle più complesse. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski
 e risponde nella lingua dell'app.
 
@@ -381,7 +381,7 @@ Cosa sa fare:
 - **Manopole per nome:** *Mix del delay al 30%*, *Time 450 ms*, *Gain al massimo*, *alza il Mix del riverbero*
 - **19 stili:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, anni '80, surf, grunge, assolo, ritmica, acustico
 - **Conversazione:** *ancora*, *troppo*, *un po'…*, *molto…*; più comandi nella stessa frase
-- **Suono da un brano** senza AI: il suono misurato diventa impostazioni direttamente sul telefono
+- **Suono da un brano** con l'AI offline: il suono misurato diventa impostazioni direttamente sul telefono
 
 Esempi, anche complessi:
 
