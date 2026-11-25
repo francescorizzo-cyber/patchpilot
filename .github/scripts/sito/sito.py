@@ -58,7 +58,7 @@ L["en"] = dict(
     groups=[
         ("Sound, without the manual", [
             ("💬", "Ask for a sound", f"Describe it, PatchPilot builds it on the pedal. On the old MultiStomp family it can even add effects the patch doesn't have. {N}"),
-            ("🎯", "Sound coach", f"Keep talking: it changes 1–3 things at a time, says what it touched, and every step can be undone. {N}"),
+            ("🎯", "Sound coach", f"Keep talking: it changes 1–3 things at a time, says what it touched, and every step can be undone. What it solves on the device (offline AI) is <strong>free and unlimited</strong>, and it learns the phrases solved online so it can redo them offline next time. {N}"),
             ("🎵", "Sound from a song", f"20–30 s from a file or the microphone: distortion, tone, delay repeats, reverb tail and modulation measured on your computer — audio never leaves it. {N}"),
             ("🎓", "The teacher", f"<em>Explain this patch</em>: what each effect and knob does, how they work together, and a small experiment to try. {N}"),
             ("🎛️", "Knobs turned for you", f"Move a knob in the editor and it moves on the pedal. {N}"),
@@ -186,7 +186,7 @@ L["it"] = dict(
     groups=[
         ("Il suono, senza il manuale", [
             ("💬", "Chiedi un suono", f"Lo descrivi, PatchPilot lo costruisce sul pedale. Sulla famiglia dei vecchi MultiStomp può anche aggiungere effetti che la patch non ha. {N}"),
-            ("🎯", "Coach del suono", f"Continui a parlare: cambia 1–3 cose alla volta, dice cosa ha toccato e ogni passo si può annullare. {N}"),
+            ("🎯", "Coach del suono", f"Continui a parlare: cambia 1–3 cose alla volta, dice cosa ha toccato e ogni passo si può annullare. Quello che risolve sul dispositivo (AI offline) è <strong>gratis e senza limiti</strong>, e impara le frasi risolte online per rifarle offline la volta dopo. {N}"),
             ("🎵", "Suono preso da un brano", f"20–30 s da file o dal microfono: distorsione, timbro, ripetizioni del delay, coda del riverbero e modulazione misurati sul tuo computer — l'audio non esce mai. {N}"),
             ("🎓", "Il maestro", f"<em>Spiegami questa patch</em>: a cosa serve ogni effetto e ogni manopola, come lavorano insieme e un piccolo esperimento da provare. {N}"),
             ("🎛️", "Manopole girate per te", f"Muovi una manopola nell'editor e si muove sul pedale. {N}"),

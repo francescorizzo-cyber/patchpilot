@@ -160,7 +160,7 @@ The coach uses only your pedal's effects and changes 1–3 things at a time. Eve
 
 ### 📴 Offline AI for simple things, online AI for complex ones
 
-The coach decides by itself: it uses **offline AI** on the phone for the simpler operations (more than 60 kinds of commands, no internet, no requests used) and **online AI** for the more complex ones. It is included in the 7-day trial and in the full version. Write in your own language: it understands
+The coach decides by itself: it uses **offline AI** on the phone for the simpler operations (more than 60 kinds of commands and 16 guitarist styles, no internet, **free and unlimited**) and **online AI** for the more complex ones. It does the part it understands right away and sends only the rest online, and it learns the phrases solved online so it can redo them offline next time. It is included in the 7-day trial and in the full version. Write in your own language: it understands
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski · 🇵🇱 Polski · 🇳🇱 Nederlands · 🇯🇵 日本語
 and answers in the language of the app.
 
@@ -369,7 +369,7 @@ Il coach usa solo gli effetti del tuo pedale e cambia 1–3 cose alla volta. Ogn
 
 ### 📴 AI offline per le cose semplici, AI online per quelle complesse
 
-Il coach decide da solo: usa l'**AI offline** sul telefono per le operazioni più semplici (oltre 60 tipi di comandi, senza internet e senza consumare richieste) e l'**AI online** per quelle più complesse. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
+Il coach decide da solo: usa l'**AI offline** sul telefono per le operazioni più semplici (oltre 60 tipi di comandi e 16 stili di chitarristi, senza internet, **gratis e senza limiti**) e l'**AI online** per quelle più complesse. Fa subito la parte che capisce e manda online solo il resto, e impara le frasi risolte online per rifarle offline la volta dopo. È compreso nei 7 giorni di prova e nella versione completa. Scrivi nella tua lingua: capisce
 🇮🇹 Italiano · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇩🇪 Deutsch · 🇵🇹 Português · 🇸🇪 Svenska · 🇩🇰 Dansk · 🇸🇮 Slovenščina · 🇭🇷 Hrvatski · 🇵🇱 Polski · 🇳🇱 Nederlands · 🇯🇵 日本語
 e risponde nella lingua dell'app.
 
