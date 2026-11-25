@@ -173,6 +173,10 @@ What it can do:
 - **19 styles:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, '80s, surf, grunge, lead, rhythm, acoustic
 - **Conversation:** *again*, *too much*, *a bit…*, *much…*; several commands in one sentence
 - **Tone from a song** with offline AI: the measured sound becomes settings right on the phone
+- **Explain this patch**, offline and free: write *“explain this patch”* and the coach tells you what each effect does and what its main knobs do
+- **Reorder patches:** hold a patch in the list and choose where to move it: the two patches swap places on the pedal (old MultiStomps, with AUTO SAVE on; the backup is made first and the result is checked)
+- **Same volume for all patches:** the phone listens to each patch while you play the same riff and tells you how much to raise or lower its PATCH LEVEL
+- **Community library with likes:** on the library page you can like patches (one like per person) and sort by *Most liked*
 
 Examples, also complex:
 
@@ -382,6 +386,10 @@ Cosa sa fare:
 - **19 stili:** metal, rock, blues, jazz, funky, country, punk, pop, reggae, dub, doom, post-rock, ambient, anni '80, surf, grunge, assolo, ritmica, acustico
 - **Conversazione:** *ancora*, *troppo*, *un po'…*, *molto…*; più comandi nella stessa frase
 - **Suono da un brano** con l'AI offline: il suono misurato diventa impostazioni direttamente sul telefono
+- **Spiegami questa patch**, offline e gratis: scrivi *«spiegami questa patch»* e il coach dice a cosa serve ogni effetto e cosa fanno le manopole principali
+- **Riordinare le patch:** tieni premuta una patch nell'elenco e scegli dove spostarla: le due patch si scambiano di posto sul pedale (vecchi MultiStomp, con AUTO SAVE acceso; prima si fa il backup e alla fine l'app controlla)
+- **Volumi uguali fra le patch:** il telefono ascolta ogni patch mentre suoni lo stesso giro e ti dice di quanto alzare o abbassare il PATCH LEVEL
+- **Libreria della comunità con i voti:** nella pagina della libreria metti ♥ alle patch che ti piacciono (un voto a persona) e le ordini per *più votate*
 
 Esempi, anche complessi:
 

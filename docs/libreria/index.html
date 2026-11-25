@@ -37,6 +37,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 .item h3{margin:0 0 4px}.meta{color:var(--muted);font-size:15px}.fx span{display:inline-block;font:13px monospace;border:1px solid var(--line);border-radius:8px;padding:1px 6px;margin:2px}
 .fx span.off{opacity:.5}.bar{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.bar input,.bar select{font:inherit;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text)}
 .empty{background:var(--panel);border-radius:14px;padding:18px}
+.vote{float:right;border:1px solid var(--line);background:none;color:inherit;border-radius:20px;padding:4px 12px;font-size:15px;cursor:pointer}.vote.on{color:#e25555;border-color:#e25555}
 </style>
 </head>
 <body>
@@ -48,7 +49,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <p class="lead">Patches for Zoom pedals made and shared by PatchPilot users: search by song, artist or pedal, look at the effects and open the file in PatchPilot. All patches are free for everyone (CC0).</p>
 </header>
 <p class="note" style="border-left-color:var(--green)">📚 <strong>The library is open, from PatchPilot 0.9.</strong> In the computer program you find <em>Patch → Share in the library</em>: one click fills in the form, an automatic check verifies the patch, and once approved it appears here.</p>
-<div class="bar"><input id="q" type="search" placeholder="Search song, artist, patch, author…" aria-label="Search song, artist, patch, author…"><select id="m" aria-label="All pedals"><option value="">All pedals</option></select>
+<div class="bar"><input id="q" type="search" placeholder="Search song, artist, patch, author…" aria-label="Search song, artist, patch, author…"><select id="m" aria-label="All pedals"><option value="">All pedals</option></select><select id="o" aria-label="Order"><option value="date">Newest</option><option value="votes">Most liked</option></select>
 <a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/issues/new?template=4_libreria.yml">Share a patch</a></div>
 <div id="list" class="lib"></div>
 <h2>How it works</h2><ol><li><strong>Share:</strong> in PatchPilot, <em>Patch</em> page → <strong>Condividi nella libreria…</strong> (share in the library). Choose the patch, write your name and, if you like, song, artist, genre and notes.</li><li><strong>Check:</strong> the form on GitHub opens already filled in. An automatic check verifies the patch within a minute. No GitHub account? Send it by email from the same window.</li><li><strong>Library:</strong> once approved the patch appears on this page and in the <a href="https://github.com/francescorizzo-cyber/patchpilot/tree/main/docs/libreria/patch">public repository</a>, free for everyone.</li><li><strong>Use:</strong> download the file and open it in PatchPilot with <em>Importa…</em>: you get the sound sheet with effects and values. Sending it straight to the pedal will come after the tests on real pedals.</li></ol><p><small>Only the patch is shared (which effects and with which values), never Zoom's effect files. Patches are CC0: anyone can use and change them.</small></p>
@@ -58,7 +59,11 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 </main>
 <script>
 // Il testo delle patch arriva da chi le condivide: si inserisce solo con textContent, mai come HTML.
-const T = {"none": "No patches found.", "dl": "Download the file", "by": "by", "fx": "effects", "empty": "No patches yet: be the first one to share!"};
+// Voti (25/11/2026): li tiene il servizio di PatchPilot; un voto per patch per persona.
+const VOTES = "https://patchpilot-ai.autofonic-mixer.workers.dev";
+let votes = {};
+const mine = new Set(JSON.parse(localStorage.getItem("pp-voti") || "[]"));
+const T = {"like": "Like", "none": "No patches found.", "dl": "Download the file", "by": "by", "fx": "effects", "empty": "No patches yet: be the first one to share!"};
 const BASE = "";
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 let all = [];
@@ -67,9 +72,16 @@ function show() {
   const box = document.getElementById("list"); box.replaceChildren();
   if (!all.length) { box.append(el("div", "empty", T.empty)); return; }
   const hits = all.filter(p => (!m || p.model === m) && (!q || [p.name, p.song, p.artist, p.author, p.genre, p.notes].join(" ").toLowerCase().includes(q)));
+  if (document.getElementById("o").value === "votes") hits.sort((a, b) => (votes[b.id] || 0) - (votes[a.id] || 0));
   if (!hits.length) { box.append(el("div", "empty", T.none)); return; }
   for (const p of hits) {
     const it = el("article", "item"); it.id = "p" + p.id;
+    const v = el("button", "vote" + (mine.has(p.id) ? " on" : ""), "♥ " + (votes[p.id] || 0)); v.title = T.like;
+    v.onclick = () => { if (mine.has(p.id)) return;
+      fetch(VOTES + "/voto", {method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({id: p.id})})
+        .then(r => r.json()).then(d => { if (!d.ok) return; mine.add(p.id); localStorage.setItem("pp-voti", JSON.stringify([...mine]));
+          votes[p.id] = d.voti; v.className = "vote on"; v.textContent = "♥ " + d.voti; }).catch(() => {}); };
+    it.append(v);
     it.append(el("h3", null, p.name + (p.song ? " · " + p.song : "")));
     it.append(el("div", "meta", [p.model, p.artist, p.genre, T.by + " " + p.author, p.date].filter(Boolean).join(" · ")));
     if (p.notes) it.append(el("p", null, p.notes));
@@ -89,6 +101,8 @@ fetch(BASE + "index.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
 }).catch(() => show());
 document.getElementById("q").addEventListener("input", show);
 document.getElementById("m").addEventListener("change", show);
+document.getElementById("o").addEventListener("change", show);
+fetch(VOTES + "/voti").then(r => r.json()).then(d => { votes = d.voti || {}; show(); }).catch(() => {});
 </script>
 </body>
 </html>
