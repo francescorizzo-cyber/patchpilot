@@ -4,7 +4,8 @@
 
 # 🎛️ PatchPilot
 
-### Plug in your pedal. Say the sound you want. PatchPilot sets it up for you.
+### 💬 Chat with your pedal. Tell it the sound you want: it sets itself up.
+#### 🇮🇹 Chatta con il tuo pedale. Digli che suono vuoi: si imposta da solo.
 
 **37 pedals**: **30 Zoom** (MultiStomp, MultiStomp+, G/B FOUR, G1on, G3, G6, G11, B6…) **+ 7 Boss, Valeton, NUX and Line 6** — plus any MIDI pedal — on **Windows, macOS & Linux**, soon on **Android**
 
