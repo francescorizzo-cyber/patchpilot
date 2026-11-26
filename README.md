@@ -10,7 +10,7 @@
 
 [![Windows](https://img.shields.io/badge/⬇_Download-Windows-0078d4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/⬇_Download-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)](../../releases/latest)
-[![macOS](https://img.shields.io/badge/⬇_Download-macOS-555555?style=for-the-badge&logo=apple&logoColor=white)](../../releases/latest)
+[![macOS](https://img.shields.io/badge/⬇_Download-macOS_0.9.0-555555?style=for-the-badge&logo=apple&logoColor=white)](../../releases/tag/v0.9.0)
 [![Google Play](https://img.shields.io/badge/Google_Play-coming_soon-45b86e?style=for-the-badge&logo=googleplay&logoColor=white)](#-android)
 [![Testers](https://img.shields.io/badge/🙋_Testers-wanted-0e4a57?style=for-the-badge)](TEST.md#english)
 [![Full version](https://img.shields.io/badge/🔑_Full_version-€4.99-003087?style=for-the-badge&logo=paypal&logoColor=white)](#-full-version-699-one-time-only)
@@ -28,7 +28,7 @@ chooses the effects, sets the knobs **on your pedal** and tells you in one line 
 
 You don't need to know what a compressor is, which knob is which, or how your model's menus work.
 
-> 📦 **Today's download is version 0.9.0.** Everything marked **🆕** comes with **0.9.1**, the next update (coming soon).
+> 📦 **Today's download is version 0.9.2** for Windows and Linux, with everything marked **🆕**. Mac: [version 0.9.0](https://github.com/francescorizzo-cyber/patchpilot/releases/tag/v0.9.0) stays available, no longer updated.
 > 🧪 **Beta**: tested on a real **Zoom MS-50G**; the other models still wait for testers. [Got one? Help us in 5 minutes](TEST.md#english).
 
 ## ✨ How it works: three steps, no settings
@@ -108,7 +108,7 @@ Save the file and send it to **[autofonic.mixer@gmail.com](mailto:autofonic.mixe
 From **[Releases](../../releases/latest)**, Java included:
 
 - **Windows 10/11**: `PatchPilot-x.y.z-windows-x64-setup.exe` (installer) or `…-portatile.zip` (no install). If SmartScreen warns you: **More info → Run anyway**.
-- **macOS**: `…-macos-arm64.dmg` (Apple Silicon M1–M4) or `…-macos-x64.dmg` (Intel). Drag PatchPilot into Applications; the first time **System Settings → Privacy & Security → Open Anyway**. *Mac testers wanted.*
+- **macOS** (version 0.9.0, [here](../../releases/tag/v0.9.0)): `…-macos-arm64.dmg` (Apple Silicon M1–M4) or `…-macos-x64.dmg` (Intel). Drag PatchPilot into Applications; the first time **System Settings → Privacy & Security → Open Anyway**. *Mac testers wanted.*
 - **Linux**: `…-linux-x64.deb` (`sudo apt install ./PatchPilot-….deb`) or `…-linux-x64.tar.gz` (run `PatchPilot/bin/PatchPilot`).
 
 Then **plug the pedal in with its USB cable**: that's it. *(Close Guitar Lab or other editors first: the pedal talks to one program at a time.)*
@@ -241,7 +241,7 @@ imposta le manopole **sul tuo pedale** e ti dice in una riga cosa ha fatto.
 
 Non serve sapere cos'è un compressore, quale manopola è quale o come funzionano i menu del tuo modello.
 
-> 📦 **Il download di oggi è la versione 0.9.0.** Tutto quello che è segnato **🆕** arriva con la **0.9.1**, il prossimo aggiornamento (in arrivo).
+> 📦 **Il download di oggi è la versione 0.9.2** per Windows e Linux, con tutto quello che è segnato **🆕**. Mac: resta la [versione 0.9.0](https://github.com/francescorizzo-cyber/patchpilot/releases/tag/v0.9.0), non più aggiornata.
 > 🧪 **Beta**: provata su uno **Zoom MS-50G** vero; gli altri modelli aspettano i tester. [Ne hai uno? Aiutaci in 5 minuti](TEST.md#italiano).
 
 ## ✨ Come funziona: tre passi, nessuna impostazione
@@ -321,7 +321,7 @@ Salva il file e mandalo ad **[autofonic.mixer@gmail.com](mailto:autofonic.mixer@
 Da **[Releases](../../releases/latest)**, con Java incluso:
 
 - **Windows 10/11**: `PatchPilot-x.y.z-windows-x64-setup.exe` (installatore) oppure `…-portatile.zip` (senza installazione). Se SmartScreen avvisa: **Ulteriori informazioni → Esegui comunque**.
-- **macOS**: `…-macos-arm64.dmg` (Apple Silicon M1–M4) oppure `…-macos-x64.dmg` (Intel). Trascina PatchPilot in Applicazioni; la prima volta **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque**. *Cerchiamo tester con il Mac.*
+- **macOS** (versione 0.9.0, [qui](../../releases/tag/v0.9.0)): `…-macos-arm64.dmg` (Apple Silicon M1–M4) oppure `…-macos-x64.dmg` (Intel). Trascina PatchPilot in Applicazioni; la prima volta **Impostazioni di Sistema → Privacy e sicurezza → Apri comunque**. *Cerchiamo tester con il Mac.*
 - **Linux**: `…-linux-x64.deb` (`sudo apt install ./PatchPilot-….deb`) oppure `…-linux-x64.tar.gz` (avvia `PatchPilot/bin/PatchPilot`).
 
 Poi **collega il pedale con il suo cavo USB**: fatto. *(Chiudi prima Guitar Lab o altri editor: il pedale parla con un programma alla volta.)*
