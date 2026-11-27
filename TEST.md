@@ -10,7 +10,7 @@ Every tested pedal makes the AI coach more accurate for everyone with the same m
 
 ### 📱 On Android (recommended)
 1. Install PatchPilot from Google Play and connect the pedal with a USB-OTG cable.
-2. Open **Settings** → tap **🧪 Help the developer: test my pedal** (gold button in the middle of the page).
+2. Open **Settings** → tap **🧪 Help the developer: test my pedal** (gold button in the **Pedal** section).
 3. Wait about a minute and **don't touch the pedal**. PatchPilot moves a knob by one step and back, switches an effect off and on, and on the first test of a model tries which effects the pedal accepts. Everything is put back exactly as it was. Then the report is sent by itself.
 4. Write to us (below) your **pedal model** and the **time of the test**.
 
@@ -36,7 +36,7 @@ Ogni pedale provato rende il Coach AI più preciso per tutti quelli che hanno lo
 
 ### 📱 Su Android (consigliato)
 1. Installa PatchPilot da Google Play e collega il pedale con un cavo USB-OTG.
-2. Apri **Impostazioni** → tocca **🧪 Aiuta lo sviluppatore: prova il mio pedale** (pulsante dorato a metà pagina).
+2. Apri **Impostazioni** → tocca **🧪 Aiuta lo sviluppatore: prova il mio pedale** (pulsante dorato nella sezione **Pedale**).
 3. Aspetta circa un minuto **senza toccare il pedale**. PatchPilot gira una manopola di un passo e la rimette, spegne e riaccende un effetto e, la prima volta per un modello, prova quali effetti il pedale accetta. Rimette tutto esattamente com'era. Poi il rapporto parte da solo.
 4. Scrivici (vedi sotto) il **modello del pedale** e l'**ora della prova**.
 
