@@ -282,17 +282,17 @@ LANG_PAGES = {
 
 # (27/11/2026) Video, screenshot Android e invito ai tester, in ogni lingua
 EXTRA = {
-    "es": ("Mira cómo funciona con un Zoom MS-70CDR", "🙋 ¿Tienes un pedal Zoom, Boss, Valeton o NUX? Hazte tester: 5 minutos y la versión completa gratis."),
-    "fr": ("Regarde comment ça marche avec un Zoom MS-70CDR", "🙋 Tu as une pédale Zoom, Boss, Valeton ou NUX ? Deviens testeur : 5 minutes et la version complète offerte."),
-    "de": ("So funktioniert es mit einem Zoom MS-70CDR", "🙋 Du hast ein Zoom-, Boss-, Valeton- oder NUX-Pedal? Werde Tester: 5 Minuten und die Vollversion gratis."),
-    "pt": ("Vê como funciona com um Zoom MS-70CDR", "🙋 Tens um pedal Zoom, Boss, Valeton ou NUX? Torna-te tester: 5 minutos e a versão completa de oferta."),
-    "nl": ("Zo werkt het met een Zoom MS-70CDR", "🙋 Heb je een Zoom-, Boss-, Valeton- of NUX-pedaal? Word tester: 5 minuten en de volledige versie gratis."),
-    "pl": ("Zobacz, jak to działa z Zoom MS-70CDR", "🙋 Masz efekt Zoom, Boss, Valeton lub NUX? Zostań testerem: 5 minut i pełna wersja w prezencie."),
-    "sv": ("Så fungerar det med en Zoom MS-70CDR", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bli testare: 5 minuter och fullversionen gratis."),
-    "da": ("Sådan virker det med en Zoom MS-70CDR", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bliv tester: 5 minutter og den fulde version gratis."),
-    "hr": ("Pogledaj kako radi sa Zoom MS-70CDR", "🙋 Imaš Zoom, Boss, Valeton ili NUX pedal? Postani tester: 5 minuta i puna verzija na poklon."),
-    "sl": ("Poglej, kako deluje z Zoom MS-70CDR", "🙋 Imaš pedal Zoom, Boss, Valeton ali NUX? Postani preizkuševalec: 5 minut in polna različica v dar."),
-    "ja": ("Zoom MS-70CDR での動作を見る", "🙋 Zoom・Boss・Valeton・NUX のペダルをお持ちですか？テスターになると、5分でフルバージョンを無料でプレゼント。"),
+    "es": ("Mira cómo funciona: igual con todos los pedales que se conectan", "🙋 ¿Tienes un pedal Zoom, Boss, Valeton o NUX? Hazte tester: 5 minutos y la versión completa gratis."),
+    "fr": ("Regarde comment ça marche : pareil avec toutes les pédales qui se connectent", "🙋 Tu as une pédale Zoom, Boss, Valeton ou NUX ? Deviens testeur : 5 minutes et la version complète offerte."),
+    "de": ("So funktioniert es: genauso mit allen Pedalen, die sich verbinden", "🙋 Du hast ein Zoom-, Boss-, Valeton- oder NUX-Pedal? Werde Tester: 5 Minuten und die Vollversion gratis."),
+    "pt": ("Vê como funciona: igual com todos os pedais que se ligam", "🙋 Tens um pedal Zoom, Boss, Valeton ou NUX? Torna-te tester: 5 minutos e a versão completa de oferta."),
+    "nl": ("Zo werkt het: hetzelfde met alle pedalen die verbinden", "🙋 Heb je een Zoom-, Boss-, Valeton- of NUX-pedaal? Word tester: 5 minuten en de volledige versie gratis."),
+    "pl": ("Zobacz, jak to działa: tak samo z każdym podłączanym efektem", "🙋 Masz efekt Zoom, Boss, Valeton lub NUX? Zostań testerem: 5 minut i pełna wersja w prezencie."),
+    "sv": ("Så fungerar det: likadant med alla pedaler som kan anslutas", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bli testare: 5 minuter och fullversionen gratis."),
+    "da": ("Sådan virker det: det samme med alle pedaler, der kan tilsluttes", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bliv tester: 5 minutter og den fulde version gratis."),
+    "hr": ("Pogledaj kako radi: jednako sa svim pedalima koji se spajaju", "🙋 Imaš Zoom, Boss, Valeton ili NUX pedal? Postani tester: 5 minuta i puna verzija na poklon."),
+    "sl": ("Poglej, kako deluje: enako z vsemi pedali, ki se povežejo", "🙋 Imaš pedal Zoom, Boss, Valeton ali NUX? Postani preizkuševalec: 5 minut in polna različica v dar."),
+    "ja": ("動作を見る：接続できるすべてのペダルで同じように使えます", "🙋 Zoom・Boss・Valeton・NUX のペダルをお持ちですか？テスターになると、5分でフルバージョンを無料でプレゼント。"),
 }
 VIDEO = "QWVtaYc4J7A"
 TESTS = "https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english"
