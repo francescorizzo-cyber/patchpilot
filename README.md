@@ -22,6 +22,13 @@
 
 </div>
 
+> **📱 Android 0.9.2 – chat with your pedal** · 🇮🇹 *chatta con il tuo pedale*
+> ▶️ [Video: PatchPilot with a Zoom MS-70CDR](https://youtu.be/QWVtaYc4J7A) — your pedal answers in the first person,
+> every change is **✓ verified on the pedal**, it suggests **only effects your model really has**, **＋ FX** on the screen,
+> 👎 to report a wrong answer, quick commands tailored to your pedal.
+> *Il pedale risponde in prima persona, ogni modifica è **✓ verificata sul pedale**, propone **solo gli effetti che il tuo
+> modello ha davvero**, **＋ FX** sullo schermo, 👎 per segnalare una risposta sbagliata, comandi rapidi adatti al tuo pedale.*
+
 Multi-effects pedals are full of sounds, but getting the one you hear in your head means menus, tiny displays,
 and knowing which of dozens of knobs to turn. **PatchPilot does that part for you.** You plug in the cable and
 write what you want — *“warm blues crunch”*, *“less reverb, more presence for the solo”* — and PatchPilot

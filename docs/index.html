@@ -120,7 +120,7 @@
    "name": "Which pedals does it support?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G; the others are in test."
+    "text": "30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G and MS-70CDR; the others are in test."
    }
   },
   {
@@ -227,6 +227,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 .say{display:inline-block;background:#ffb5471f;border:1px solid #ffb54755;border-radius:12px;padding:2px 10px;margin:3px 2px;font-style:italic;color:var(--text)}
 .new{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 8px;margin-left:4px;background:#ffb54722;color:var(--gold);border:1px solid #ffb54766;vertical-align:middle}
 .safe{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.safe div{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.video{position:relative;aspect-ratio:16/9;max-width:900px;margin:12px auto 18px;border-radius:14px;overflow:hidden;background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
@@ -246,7 +247,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 </div></div>
 <main>
 <p class="note">📦 <strong>Today's download is 0.9.2</strong> for Windows and Linux, with everything marked <span class="new">0.9.1</span>. Mac: version <a href="https://github.com/francescorizzo-cyber/patchpilot/releases/tag/v0.9.0">0.9.0</a> stays available, no longer updated.</p>
-<p class="note" style="border-left-color:var(--green)">🧪 <strong>Beta.</strong> Tested on a real <strong>Zoom MS-50G</strong>; on the other models everything works the same way, with a <em>“Model in testing”</em> notice and a <strong>“Send the log…”</strong> button. Got one? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english">Help us in 5 minutes</a>.</p>
+<p class="note" style="border-left-color:var(--green)">🧪 <strong>Beta.</strong> Tested on a real <strong>Zoom MS-50G</strong> and, on Android, <strong>MS-70CDR</strong>; on the other models everything works the same way, with a <em>“Model in testing”</em> notice and a <strong>“Send the log…”</strong> button. Got one? <a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english">Help us in 5 minutes</a>.</p>
 <h2 id="how">How it works: three steps</h2>
 <p class="lead">You don't need to know what a compressor is, which knob is which, or how your model's menus work.</p>
 <div class="steps">
@@ -306,8 +307,8 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <p>Every pedal has its own page: <a href="https://francescorizzo-cyber.github.io/patchpilot/pedals/">see what PatchPilot does with yours</a>.</p>
 <div class="tw"><table>
 <tr><th>Pedals</th><th>Recognised by itself</th><th>Reads the patches</th><th>PatchPilot sets the sound</th><th>Status</th></tr>
-<tr><td><strong>Zoom MS-50G</strong></td><td class=c>✅</td><td>✅ all 50 + backup</td><td>✅ in one go, effects included</td><td>✅ <strong>tested on a real pedal</strong></td></tr>
-<tr><td>Zoom MS-60B · MS-70CDR · G1on · G1Xon · B1on · B1Xon · G3 · G3X · B3 <span class="new">0.9.1</span></td><td class=c>✅</td><td>✅ + backup</td><td>✅ in one go, effects included</td><td>🧪 in test</td></tr>
+<tr><td><strong>Zoom MS-50G · MS-70CDR</strong> <span class="new">0.9.2</span></td><td class=c>✅</td><td>✅ all 50 + backup</td><td>✅ in one go, effects included</td><td>✅ <strong>tested on a real pedal</strong></td></tr>
+<tr><td>Zoom MS-60B · G1on · G1Xon · B1on · B1Xon · G3 · G3X · B3 <span class="new">0.9.1</span></td><td class=c>✅</td><td>✅ + backup</td><td>✅ in one go, effects included</td><td>🧪 in test</td></tr>
 <tr><td>Zoom MS-50G+ · MS-60B+ · MS-70CDR+ · MS-80IR+ · MS-200D+ · MS-90LP+</td><td class=c>✅</td><td>✅ + tuner</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
 <tr><td>Zoom G2 FOUR · G2X FOUR · B2 FOUR</td><td class=c>✅</td><td>✅ + tuner</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
 <tr><td>Zoom G1 FOUR · G1X FOUR · B1 FOUR · B1X FOUR · G3n · G3Xn · G5n · B3n</td><td class=c>✅</td><td class=c>✅</td><td>✅ one change at a time <span class="new">0.9.1</span></td><td>🧪 in test</td></tr>
@@ -328,6 +329,23 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 </div>
 <h2 id="android">📱 Android app <span class="tag n">coming soon on Google Play</span></h2>
 <p class="lead">The same PatchPilot on your phone or tablet, with a USB-C or OTG cable: no computer in the rehearsal room or on stage. It will be released <strong>on Google Play only</strong>.</p>
+<h3>New in 0.9.2: chat with your pedal <span class="new">0.9.2</span></h3>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/QWVtaYc4J7A" title="PatchPilot with a Zoom MS-70CDR" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<div class="grid">
+<div class="card f"><div class="ico" aria-hidden="true">💬</div><p><strong>Your pedal answers.</strong> It speaks in the first person and tells you what it changed, also on its own display.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">✅</div><p><strong>Verified on the pedal.</strong> After every change the app reads the pedal back: “✓ verified on the pedal”, or it tells you clearly what did not change.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">🎛️</div><p><strong>Only real effects.</strong> It suggests only effects your model and firmware really have, checked on real pedals.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">➕</div><p><strong>＋ FX on the screen.</strong> The screen becomes the pedal: tap ＋ FX to add an effect.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">👎</div><p><strong>Wrong answer?</strong> Tap 👎: that exchange reaches the developer and helps fix the AI.</p></div>
+<div class="card f"><div class="ico" aria-hidden="true">⚡</div><p><strong>Quick commands for your pedal.</strong> No “Distortion” on a pedal without distortion; shared phrases make the offline coach smarter for everyone with your model.</p></div>
+</div>
+<div class="gal">
+<figure><img src="img/android-092-chat-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android: chat with your pedal"></figure>
+<figure><img src="img/android-092-parla-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android: keep talking"></figure>
+<figure><img src="img/android-092-fx-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android: add an effect"></figure>
+<figure><img src="img/android-092-effetto-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android: effect knobs"></figure>
+</div>
+
 <div class="grid">
 <div class="card f"><div class="ico" aria-hidden="true">👆</div><p><strong>One finger.</strong> Swipe on the pedal: left/right changes model, up/down changes song.</p></div>
 <div class="card f"><div class="ico" aria-hidden="true">🔌</div><p><strong>Just plug it in.</strong> Your pedal is recognized as soon as you connect the cable: no buttons, no MIDI settings.</p></div>
@@ -405,7 +423,7 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 <h2 id="faq">Frequently asked questions</h2>
 <details><summary>Do I need to know how my pedal works?</summary><p>No. You plug it in and describe the sound in your own words: PatchPilot chooses the effects and sets the knobs on the pedal, then tells you in one line what it did. If you want to learn, “Explain this patch” explains every effect and knob.</p></details>
 <details><summary>Can PatchPilot ruin my patches?</summary><p>PatchPilot works on the patch in use, like turning the pedal's own knobs, and never saves over your patches. Before the first change it saves a dated backup of all patches (on pedals that allow it). Factory reset and file deletion are blocked forever.</p></details>
-<details><summary>Which pedals does it support?</summary><p>30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G; the others are in test.</p></details>
+<details><summary>Which pedals does it support?</summary><p>30 Zoom pedals — MS-50G, MS-60B, MS-70CDR, the MultiStomp+ series, G1on/B1on, G3/B3, G1/B1 FOUR, G2/B2 FOUR, G3n, G5n, G6, G11, B6 — plus Boss Katana MkI/MkII, GT-100, GT-1000, Valeton GP-200, NUX Mighty Lite BT MkII, Line 6 HX Stomp and any MIDI pedal for patch changes. Tested on a real MS-50G and MS-70CDR; the others are in test.</p></details>
 <details><summary>Can it copy the sound of a song?</summary><p>With 0.9.1: load 20–30 seconds of a song or play it to the microphone. PatchPilot measures distortion, tone, delay, reverb and modulation on your computer and the AI builds a close patch with your pedal's effects. It works best with the guitar alone. The audio never leaves your computer.</p></details>
 <details><summary>Is there an Android app for Zoom MultiStomp pedals?</summary><p>Zoom's Guitar Lab apps for these pedals are mostly for iPhone. PatchPilot's Android app is coming soon on Google Play, with automatic pedal recognition, the AI sound coach and tone from a song; today PatchPilot runs on Windows, macOS and Linux.</p></details>
 <details><summary>Is PatchPilot an alternative to Guitar Lab?</summary><p>Yes, and it also runs on Linux and works with older models such as the MS-50G, G1on and G3 that have no app. It doesn't install Zoom's effect files: for those you still need Zoom's software.</p></details>
