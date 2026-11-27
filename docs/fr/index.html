@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PatchPilot – éditeur pour pédales Zoom, Boss, Valeton, NUX avec IA : décris le son, il se règle sur la pédale</title>
-<meta name="description" content="Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.">
+<meta name="description" content="Discute avec ta pédale : dis-lui le son que tu veux, elle se règle toute seule.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://francescorizzo-cyber.github.io/patchpilot/fr/">
 <link rel="alternate" hreflang="en" href="https://francescorizzo-cyber.github.io/patchpilot/">
@@ -13,11 +13,18 @@
 <link rel="alternate" hreflang="fr" href="https://francescorizzo-cyber.github.io/patchpilot/fr/">
 <link rel="alternate" hreflang="de" href="https://francescorizzo-cyber.github.io/patchpilot/de/">
 <link rel="alternate" hreflang="pt" href="https://francescorizzo-cyber.github.io/patchpilot/pt/">
+<link rel="alternate" hreflang="nl" href="https://francescorizzo-cyber.github.io/patchpilot/nl/">
+<link rel="alternate" hreflang="pl" href="https://francescorizzo-cyber.github.io/patchpilot/pl/">
+<link rel="alternate" hreflang="sv" href="https://francescorizzo-cyber.github.io/patchpilot/sv/">
+<link rel="alternate" hreflang="da" href="https://francescorizzo-cyber.github.io/patchpilot/da/">
+<link rel="alternate" hreflang="hr" href="https://francescorizzo-cyber.github.io/patchpilot/hr/">
+<link rel="alternate" hreflang="sl" href="https://francescorizzo-cyber.github.io/patchpilot/sl/">
+<link rel="alternate" hreflang="ja" href="https://francescorizzo-cyber.github.io/patchpilot/ja/">
 <link rel="alternate" hreflang="x-default" href="https://francescorizzo-cyber.github.io/patchpilot/">
 <link rel="icon" href="https://francescorizzo-cyber.github.io/patchpilot/img/icona.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="PatchPilot – éditeur pour pédales Zoom, Boss, Valeton, NUX avec IA : décris le son, il se règle sur la pédale">
-<meta property="og:description" content="Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.">
+<meta property="og:description" content="Discute avec ta pédale : dis-lui le son que tu veux, elle se règle toute seule.">
 <meta property="og:image" content="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg">
 <meta property="og:site_name" content="PatchPilot">
 <meta property="og:url" content="https://francescorizzo-cyber.github.io/patchpilot/fr/">
@@ -42,7 +49,7 @@
   "name": "Francesco Rizzo"
  },
  "inLanguage": "fr",
- "description": "Écris « plus chaud » et ta pédale change de son : l'IA règle le patch pour toi."
+ "description": "Discute avec ta pédale : dis-lui le son que tu veux, elle se règle toute seule."
 }
 </script>
 <style>
@@ -98,48 +105,48 @@ small,footer{color:var(--muted)}a{color:var(--blue)}footer{margin-top:3em;font-s
 .say{display:inline-block;background:#ffb5471f;border:1px solid #ffb54755;border-radius:12px;padding:2px 10px;margin:3px 2px;font-style:italic;color:var(--text)}
 .new{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 8px;margin-left:4px;background:#ffb54722;color:var(--gold);border:1px solid #ffb54766;vertical-align:middle}
 .safe{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.safe div{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.video{position:relative;aspect-ratio:16/9;max-width:900px;margin:12px auto 18px;border-radius:14px;overflow:hidden;background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
 
 <nav><div class="in"><img src="https://francescorizzo-cyber.github.io/patchpilot/img/icona.png" width="30" height="30" alt=""><b>PATCHPILOT</b><a href="https://francescorizzo-cyber.github.io/patchpilot/fr/">Home</a><a href="https://francescorizzo-cyber.github.io/patchpilot/pedals/">Pédales compatibles</a><a href="https://francescorizzo-cyber.github.io/patchpilot/fr/#senza-ai">Coach</a><span class="sp"></span><a href="https://francescorizzo-cyber.github.io/patchpilot/">English</a></div></nav>
 
-<div class="hero"><div class="in"><p class="k">Discute avec ta pédale</p><h1>Écris « plus chaud » et ta pédale change de son : l&#x27;IA règle le patch pour toi.</h1>
+<div class="hero"><div class="in"><p class="k">Éditeur de pédales multi-effets avec IA</p><h1>Discute avec ta pédale : dis-lui le son que tu veux, elle se règle toute seule.</h1>
 <div class="btns"><a class="btn" href="https://github.com/francescorizzo-cyber/patchpilot/releases/latest">Télécharger pour Windows · Mac · Linux</a><span class="btn o">Android : bientôt sur Google Play</span><a class="btn o" href="https://francescorizzo-cyber.github.io/patchpilot/pedals/">Pédales compatibles</a></div>
 <img class="shot" src="https://francescorizzo-cyber.github.io/patchpilot/img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg" width="1100" height="800" alt="PatchPilot"></div></div>
 <main>
-<p>Écris « plus chaud » et ta pédale change de son. Pour de vrai, sur la pédale.</p>
-<p>Branche ton multi-effets au téléphone avec un câble USB, décris le son avec tes mots et l&#x27;assistant IA de PatchPilot tourne les boutons, allume les effets et ajoute ce qui manque. Pas de menus, pas de manuel.</p>
-<p>Un exemple réel, avec une Zoom MS-50G :</p>
-<p>Toi : « Plus chaud » → l&#x27;assistant ajoute un overdrive doux avant le delay.</p>
-<p>Toi : « Ajoute un filtre » → le filtre va en fin de chaîne. Chaque étape s&#x27;annule d&#x27;un geste.</p>
-<h2>🎛️ LE COACH DU SON AVEC L&#x27;IA</h2>
-<p>Dis-le avec tes mots : « plus de distorsion », « un delay années 80 », « moins de reverb, plus chaud ». L&#x27;assistant lit le patch de ta pédale, tourne les boutons, allume ou éteint les effets et, si besoin, ajoute celui qui manque. Puis il t&#x27;explique en une ligne ce qu&#x27;il a changé.</p>
-<ul><li>Continue à parler : « encore un peu », « maintenant plus clair ». Chaque étape peut être annulée.</li><li>Chaque étape est enregistrée comme variante.</li><li>Pas besoin de savoir quel bouton tourner : PatchPilot le fait.</li></ul>
+<h2>▶️ Regarde comment ça marche avec un Zoom MS-70CDR</h2><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/QWVtaYc4J7A" title="PatchPilot" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<div class="gal"><figure><img src="https://francescorizzo-cyber.github.io/patchpilot/img/android-092-chat-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android"></figure><figure><img src="https://francescorizzo-cyber.github.io/patchpilot/img/android-092-fx-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android"></figure></div>
+<p class="note"><a href="https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english"><strong>🙋 Tu as une pédale Zoom, Boss, Valeton ou NUX ? Deviens testeur : 5 minutes et la version complète offerte.</strong></a></p>
+<p>Discute avec ta pédale. Dis-lui le son que tu veux : elle se règle toute seule.</p>
+<p>Branche ta pédale multi-effets au téléphone avec le câble USB, écris « plus chaud » ou « un delay années 80 » et PatchPilot tourne les boutons, active les effets et ajoute ce qui manque. Pour de vrai, sur la pédale.</p>
+<h2>🎛️ DISCUTE AVEC TA PÉDALE</h2>
+<ul><li>Ta pédale répond à la première personne et te dit ce qu&#x27;elle a changé.</li><li>Après chaque modification, PatchPilot relit la pédale et vérifie que tout est arrivé : « ✓ vérifié sur la pédale ».</li><li>Elle ne propose que les effets que ton modèle possède vraiment.</li><li>Continue à parler : « encore », « trop », « maintenant plus clair ». Chaque étape s&#x27;annule d&#x27;un geste.</li></ul>
 <h2>🎵 LE SON D&#x27;UN MORCEAU</h2>
-<p>Fais écouter 20 à 30 secondes d&#x27;un morceau ou de ton enregistrement. PatchPilot mesure sur le téléphone la distorsion, le timbre, les répétitions du delay, la queue de la reverb et la modulation, puis crée le patch avec les effets de ta pédale. L&#x27;audio ne quitte pas le téléphone : seuls les chiffres mesurés vont à l&#x27;IA.</p>
-<h2>📴 MÊME SANS IA ET SANS INTERNET</h2>
-<p>Le Coach comprend plus de 60 types de commandes en 13 langues, directement sur le téléphone (plus chaud, moins de reverb, delay à 120 bpm, metal, années 80, « encore », « trop »). Gratuit, hors ligne, sans consommer de requêtes.</p>
-<h2>🔌 ON BRANCHE ET C&#x27;EST PARTI</h2>
-<p>La pédale est reconnue dès que tu la branches : pas de boutons, pas de réglages MIDI.</p>
+<p>Fais écouter 20 à 30 secondes d&#x27;une chanson : PatchPilot mesure sur le téléphone distorsion, timbre, delay, réverbération et modulation, puis crée le patch avec les effets de ta pédale. L&#x27;audio ne quitte jamais le téléphone.</p>
+<h2>📴 MÊME SANS INTERNET</h2>
+<p>Le Coach comprend plus de 60 commandes directement sur le téléphone, en 13 langues, gratuitement. Et il apprend : les phrases qui ont marché se font sans IA la fois suivante.</p>
+<h2>🖐️ LA PÉDALE EN MAIN</h2>
+<p>L&#x27;écran devient la pédale : afficheur, boutons et footswitchs comme les vrais. « ＋ FX » pour ajouter des effets, accordeur à aiguille, mode scène, setlist, thème clair pour jouer en extérieur.</p>
+<h2>🔌 BRANCHE ET C&#x27;EST PARTI</h2>
+<p>Ta pédale est reconnue toute seule : pas de boutons, pas de réglages MIDI.</p>
 <h2>📋 ET AUSSI</h2>
-<ul><li>Liste et lecture des patchs de la pédale, avec les noms des effets et des paramètres</li><li>Éditeur de patchs et variantes enregistrées sur le téléphone</li><li>Explication du patch pour débutants</li><li>Accordeur</li><li>Setlist de scène : le bon patch pour chaque morceau, même sur n&#x27;importe quelle pédale MIDI</li><li>Sauvegardes et fiches de son à partager</li></ul>
+<ul><li>Lecture et éditeur de patchs, avec noms des effets et paramètres</li><li>Chaque effet expliqué pour les débutants</li><li>Volume identique entre les patchs, mesuré au micro</li><li>Sauvegardes et variantes enregistrées sur le téléphone</li></ul>
 <h2>🎸 PÉDALES COMPATIBLES</h2>
-<p>Zoom MultiStomp : MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+, MS-90LP+, MS-50G, MS-60B, MS-70CDR</p>
-<p>Zoom séries G et B : G2 FOUR, G2X FOUR, B2 FOUR, G1 FOUR, G1X FOUR, B1 FOUR, B1X FOUR, G3n, G3Xn, G5n, B3n, G6, G11, B6, G1on, G1Xon, B1on, B1Xon, G3, G3X, B3</p>
-<p>Boss : Katana MkII et MkI, GT-100, GT-1000 / GT-1000CORE</p>
+<p>Zoom MultiStomp: MS-50G+, MS-60B+, MS-70CDR+, MS-80IR+, MS-200D+, MS-90LP+, MS-50G, MS-60B, MS-70CDR</p>
+<p>Zoom G / B: G2 FOUR, G2X FOUR, B2 FOUR, G1 FOUR, G1X FOUR, B1 FOUR, B1X FOUR, G3n, G3Xn, G5n, B3n, G6, G11, B6, G1on, G1Xon, B1on, B1Xon, G3, G3X, B3</p>
+<p>Boss: Katana MkII / MkI, GT-100, GT-1000 / GT-1000CORE</p>
 <p>Valeton GP-200 · NUX Mighty Lite BT MkII</p>
-<p>Line 6 HX Stomp et toute pédale MIDI : changement de patch depuis la setlist</p>
-<p>La première pédale testée à fond est la Zoom MS-50G. Les autres modèles fonctionnent avec des formats publics et sont marqués « en test » dans l&#x27;app : si tu en as une, d&#x27;un geste tu nous envoies le journal et tu nous aides à la rendre parfaite.</p>
+<p>Line 6 HX Stomp + MIDI</p>
+<p>Testées à fond : Zoom MS-50G et MS-70CDR. Les autres modèles sont « en test » : d&#x27;un geste tu nous aides à les rendre parfaits.</p>
 <h2>🔒 SÉCURITÉ DE LA PÉDALE</h2>
-<p>PatchPilot n&#x27;envoie jamais de réinitialisation d&#x27;usine et n&#x27;efface jamais de fichiers dans la pédale. Avant de changer un patch, il en fait une sauvegarde.</p>
+<p>PatchPilot ne fait jamais de réinitialisation d&#x27;usine et ne supprime jamais de fichiers sur la pédale. Il sauvegarde un patch avant de le modifier.</p>
 <h2>💶 PRIX</h2>
-<p>Téléchargement gratuit et pendant 7 jours tout est activé, avec l&#x27;assistant IA en essai (jusqu&#x27;à 50 requêtes par jour). Ensuite PatchPilot reconnaît toujours la pédale ; pour la piloter, il faut la version complète.</p>
-<p>Version complète : 4,99 € une seule fois, avec l&#x27;assistant IA inclus pendant 12 mois (300 requêtes sur 12 mois, 10 par jour au maximum). Ensuite renouvellement à 2,99 € pour 12 mois de plus, ou 100 requêtes en plus à 1,99 € qui n&#x27;expirent jamais.</p>
-<p>Il faut : un téléphone ou une tablette Android avec USB (OTG) et le câble de la pédale. L&#x27;assistant IA a besoin d&#x27;internet.</p>
-<p>Zoom, Boss, Valeton, NUX et Line 6 sont des marques de leurs propriétaires respectifs. PatchPilot est une app indépendante, non affiliée à ces fabricants.</p>
-<footer>
-<p class="caffe">☕ Utile pour vous ? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Offrez un café au développeur</a> (montant libre).</p><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/privacy.html">Privacy</a> · <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/">English</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/it/">Italiano</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/es/">Español</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/fr/">Français</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/de/">Deutsch</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/pt/">Português</a></p><p>Zoom, Boss, Valeton, NUX, Line 6: trademarks of their owners. PatchPilot is an independent project.<br>Made by Francesco Rizzo.</p></footer>
+<p>Gratuit avec tout activé pendant 7 jours, assistant IA compris. Version complète : 4,99 € une seule fois, avec 300 requêtes IA sur 12 mois. Ensuite renouvellement à 2,99 € ou 100 requêtes en plus à 1,99 €.</p>
+<p>Il te faut un téléphone Android avec USB (OTG) et le câble de ta pédale. L&#x27;IA en ligne a besoin d&#x27;internet.</p>
+<p>Zoom, Boss, Valeton, NUX et Line 6 sont des marques de leurs propriétaires respectifs. PatchPilot est une app indépendante.</p>
+<footer><p class="caffe">☕ Useful to you? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK2rL63K05">Buy the developer a coffee</a> (any amount).</p><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/privacy.html">Privacy</a> · <a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/">English</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/it/">Italiano</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/es/">Español</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/fr/">Français</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/de/">Deutsch</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/pt/">Português</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/nl/">Nederlands</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/pl/">Polski</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/sv/">Svenska</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/da/">Dansk</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/hr/">Hrvatski</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/sl/">Slovenščina</a> · <a href="https://francescorizzo-cyber.github.io/patchpilot/ja/">日本語</a></p><p>Zoom, Boss, Valeton, NUX, Line 6: trademarks of their owners. PatchPilot is an independent project.<br>Made by Francesco Rizzo.</p></footer>
 </main>
 </body>
 </html>

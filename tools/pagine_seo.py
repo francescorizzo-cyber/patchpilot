@@ -169,11 +169,13 @@ CAFFE = {'it': '☕ Ti è utile? <a href="https://buy.stripe.com/cNi9ASciv0DqdFK
 
 
 def foot(t):
-    caffe = CAFFE["it" if t["lang"] == "it" else "en"]
+    caffe = CAFFE["it" if t.get("lang") == "it" else "en"]
     return (f'<footer><p class="caffe">{caffe}</p><p><a href="https://github.com/francescorizzo-cyber/patchpilot">GitHub</a> · <a href="{SITE}privacy.html">Privacy</a> · '
             f'<a href="mailto:autofonic.mixer@gmail.com">autofonic.mixer@gmail.com</a> · '
             f'<a href="{SITE}">English</a> · <a href="{SITE}it/">Italiano</a> · <a href="{SITE}es/">Español</a> · <a href="{SITE}fr/">Français</a> · '
-            f'<a href="{SITE}de/">Deutsch</a> · <a href="{SITE}pt/">Português</a></p><p>{t["indep"]}<br>Made by Francesco Rizzo.</p></footer>\n</main>\n</body>\n</html>\n')
+            f'<a href="{SITE}de/">Deutsch</a> · <a href="{SITE}pt/">Português</a> · <a href="{SITE}nl/">Nederlands</a> · <a href="{SITE}pl/">Polski</a> · '
+            f'<a href="{SITE}sv/">Svenska</a> · <a href="{SITE}da/">Dansk</a> · <a href="{SITE}hr/">Hrvatski</a> · <a href="{SITE}sl/">Slovenščina</a> · <a href="{SITE}ja/">日本語</a></p>'
+            f'<p>{t["indep"]}<br>Made by Francesco Rizzo.</p></footer>\n</main>\n</body>\n</html>\n')
 
 
 def app_ld(t, url, name_extra):
@@ -182,7 +184,7 @@ def app_ld(t, url, name_extra):
             "applicationSubCategory": f"{name_extra} editor and AI tone coach",
             "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
             "downloadUrl": RELEASES, "author": {"@type": "Person", "name": "Francesco Rizzo"},
-            "inLanguage": ["en", "it", "es", "fr", "de", "pt", "sv", "da", "sl", "hr"]}
+            "inLanguage": ["en", "it", "es", "fr", "de", "pt", "nl", "pl", "sv", "da", "sl", "hr", "ja"]}
 
 
 def write(rel, text):
@@ -261,17 +263,45 @@ LANG_PAGES = {
                title="PatchPilot – Editor für Zoom-, Boss-, Valeton- und NUX-Pedale mit KI: Sound beschreiben, das Pedal stellt sich ein", sec="Deutsch"),
     "pt": dict(name="Português", h="Editor de pedaleiras multiefeitos com IA", dl="Baixar para Windows · Mac · Linux", android="Android: em breve no Google Play", pedals="Pedaleiras compatíveis",
                title="PatchPilot – editor de pedaleiras Zoom, Boss, Valeton, NUX com IA: diga o som e ele se ajusta na pedaleira", sec="Português"),
+    # (27/11/2026) Nuove lingue, come l'app
+    "nl": dict(name="Nederlands", h="Editor voor multi-effectpedalen met AI", dl="Download voor Windows · Linux", android="Android: binnenkort op Google Play", pedals="Ondersteunde pedalen",
+               title="PatchPilot – editor voor Zoom-, Boss-, Valeton- en NUX-pedalen met AI: beschrijf de sound, het pedaal stelt zich in", sec="Nederlands"),
+    "pl": dict(name="Polski", h="Edytor multiefektów gitarowych z AI", dl="Pobierz dla Windows · Linux", android="Android: wkrótce w Google Play", pedals="Obsługiwane urządzenia",
+               title="PatchPilot – edytor efektów Zoom, Boss, Valeton, NUX z AI: opisz brzmienie, a efekt ustawi się sam", sec="Polski"),
+    "sv": dict(name="Svenska", h="Redigerare för multieffektpedaler med AI", dl="Ladda ner för Windows · Linux", android="Android: snart på Google Play", pedals="Pedaler som stöds",
+               title="PatchPilot – redigerare för Zoom-, Boss-, Valeton- och NUX-pedaler med AI: beskriv ljudet, pedalen ställer in sig", sec="Svenska"),
+    "da": dict(name="Dansk", h="Editor til multieffektpedaler med AI", dl="Download til Windows · Linux", android="Android: snart på Google Play", pedals="Understøttede pedaler",
+               title="PatchPilot – editor til Zoom-, Boss-, Valeton- og NUX-pedaler med AI: beskriv lyden, pedalen indstiller sig", sec="Dansk"),
+    "hr": dict(name="Hrvatski", h="Uređivač multiefekt pedala s AI-jem", dl="Preuzmi za Windows · Linux", android="Android: uskoro na Google Playu", pedals="Podržani pedali",
+               title="PatchPilot – uređivač Zoom, Boss, Valeton i NUX pedala s AI-jem: opiši zvuk, pedal se sam podesi", sec="Hrvatski"),
+    "sl": dict(name="Slovenščina", h="Urejevalnik multiefektnih pedalov z AI", dl="Prenos za Windows · Linux", android="Android: kmalu na Google Play", pedals="Podprti pedali",
+               title="PatchPilot – urejevalnik pedalov Zoom, Boss, Valeton in NUX z AI: opiši zvok, pedal se nastavi sam", sec="Slovenščina"),
+    "ja": dict(name="日本語", h="AI搭載マルチエフェクター・エディター", dl="Windows · Linux 版をダウンロード", android="Android：まもなく Google Play で公開", pedals="対応ペダル",
+               title="PatchPilot – Zoom・Boss・Valeton・NUX ペダル用AIエディター：欲しい音を伝えるとペダルが自動設定", sec="日本語"),
 }
+
+# (27/11/2026) Video, screenshot Android e invito ai tester, in ogni lingua
+EXTRA = {
+    "es": ("Mira cómo funciona con un Zoom MS-70CDR", "🙋 ¿Tienes un pedal Zoom, Boss, Valeton o NUX? Hazte tester: 5 minutos y la versión completa gratis."),
+    "fr": ("Regarde comment ça marche avec un Zoom MS-70CDR", "🙋 Tu as une pédale Zoom, Boss, Valeton ou NUX ? Deviens testeur : 5 minutes et la version complète offerte."),
+    "de": ("So funktioniert es mit einem Zoom MS-70CDR", "🙋 Du hast ein Zoom-, Boss-, Valeton- oder NUX-Pedal? Werde Tester: 5 Minuten und die Vollversion gratis."),
+    "pt": ("Vê como funciona com um Zoom MS-70CDR", "🙋 Tens um pedal Zoom, Boss, Valeton ou NUX? Torna-te tester: 5 minutos e a versão completa de oferta."),
+    "nl": ("Zo werkt het met een Zoom MS-70CDR", "🙋 Heb je een Zoom-, Boss-, Valeton- of NUX-pedaal? Word tester: 5 minuten en de volledige versie gratis."),
+    "pl": ("Zobacz, jak to działa z Zoom MS-70CDR", "🙋 Masz efekt Zoom, Boss, Valeton lub NUX? Zostań testerem: 5 minut i pełna wersja w prezencie."),
+    "sv": ("Så fungerar det med en Zoom MS-70CDR", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bli testare: 5 minuter och fullversionen gratis."),
+    "da": ("Sådan virker det med en Zoom MS-70CDR", "🙋 Har du en Zoom-, Boss-, Valeton- eller NUX-pedal? Bliv tester: 5 minutter og den fulde version gratis."),
+    "hr": ("Pogledaj kako radi sa Zoom MS-70CDR", "🙋 Imaš Zoom, Boss, Valeton ili NUX pedal? Postani tester: 5 minuta i puna verzija na poklon."),
+    "sl": ("Poglej, kako deluje z Zoom MS-70CDR", "🙋 Imaš pedal Zoom, Boss, Valeton ali NUX? Postani preizkuševalec: 5 minut in polna različica v dar."),
+    "ja": ("Zoom MS-70CDR での動作を見る", "🙋 Zoom・Boss・Valeton・NUX のペダルをお持ちですか？テスターになると、5分でフルバージョンを無料でプレゼント。"),
+}
+VIDEO = "QWVtaYc4J7A"
+TESTS = "https://github.com/francescorizzo-cyber/patchpilot/blob/main/TEST.md#english"
 
 
 def store_text(code):
-    """Descrizione breve e completa della scheda Play in quella lingua (docs/play/SCHEDA_STORE_LINGUE.md del progetto sorgente, copiata in tools/)."""
-    src = open(os.path.join(os.path.dirname(__file__), "scheda_store_lingue.md"), encoding="utf-8").read()
-    head_word = {"es": "## Español", "fr": "## Français", "de": "## Deutsch", "pt": "## Português"}[code]
-    sec = src.split(head_word, 1)[1].split("\n---", 1)[0]
-    short_d = re.search(r"\(m[aá]x\.? 80\)\s*:?\s*\n`([^`]*)`", sec).group(1)
-    full = re.split(r"\*\*[^*]+\*\*\s*:?\s*\n", sec)[-1].strip()
-    return short_d, full
+    """(27/11/2026) Descrizione breve e completa della scheda Play 0.9.3 in quella lingua (tools/scheda_store_0.9.3.json)."""
+    d = json.load(open(os.path.join(os.path.dirname(__file__), "scheda_store_0.9.3.json"), encoding="utf-8"))[code]
+    return d["short"], d["full"]
 
 
 def md_to_html(text):
@@ -287,7 +317,7 @@ def md_to_html(text):
         if l.startswith("•"):
             items.append(l[1:].strip()); continue
         flush()
-        if re.match(r"^[^\w\s«»\"'(]{1,3}\s+[A-ZÀ-ÜÄÖ0-9]", l) and l.upper() == l:
+        if re.match(r"^[^\w\s«»\"'(„“”「]{1,3}\s+\S", l) and l.upper() == l:
             out.append(f"<h2>{E(l)}</h2>")
         else:
             out.append(f"<p>{E(l)}</p>")
@@ -306,6 +336,10 @@ def lang_page(code):
            f'<div class="hero"><div class="in"><p class="k">{d["h"]}</p><h1>{E(short_d)}</h1>',
            f'<div class="btns"><a class="btn" href="{RELEASES}">{d["dl"]}</a><span class="btn o">{d["android"]}</span><a class="btn o" href="{SITE}pedals/">{d["pedals"]}</a></div>',
            f'<img class="shot" src="{SITE}img/patchpilot-zoom-pedal-editor-windows-mac-linux.jpg" width="1100" height="800" alt="PatchPilot"></div></div>\n<main>',
+           f'<h2>▶️ {E(EXTRA[code][0])}</h2><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{VIDEO}" title="PatchPilot" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>',
+           f'<div class="gal"><figure><img src="{SITE}img/android-092-chat-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android"></figure>'
+           f'<figure><img src="{SITE}img/android-092-fx-en.jpg" width="540" height="960" loading="lazy" alt="PatchPilot Android"></figure></div>',
+           f'<p class="note"><a href="{TESTS}"><strong>{E(EXTRA[code][1])}</strong></a></p>',
            md_to_html(full), foot(t)]
     write(code, "\n".join(out))
     return url
