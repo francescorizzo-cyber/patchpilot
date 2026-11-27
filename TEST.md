@@ -1,51 +1,53 @@
-# 🙋 PatchPilot — 5-minute test guide
+# 🙋 PatchPilot — become a tester, get the full version
 
 *[Italiano più sotto](#italiano)*
 
 <a id="english"></a>
 ## English
 
-Thank you! Every pedal you test brings the full editor closer. The beta **only reads** from your pedal: it never writes, saves or deletes anything.
+**Got a Zoom (MultiStomp, G or B series), a Boss, a Valeton or a NUX?** Test it with PatchPilot: it takes 5 minutes and you get the **full version for free**.
+Every tested pedal makes the AI coach more accurate for everyone with the same model.
 
-> The app is in **Italian** for now (English is coming): button names are shown below as they appear.
+### 📱 On Android (recommended)
+1. Install PatchPilot from Google Play and connect the pedal with a USB-OTG cable.
+2. Open **Settings** → tap **🧪 Help the developer: test my pedal** (it is the first button).
+3. Wait about a minute and **don't touch the pedal**. PatchPilot moves a knob by one step and back, switches an effect off and on, and on the first test of a model tries which effects the pedal accepts. Everything is put back exactly as it was. Then the report is sent by itself.
+4. Write to us (below) your **pedal model** and the **time of the test**.
 
-**You need:** your pedal, a Windows, Mac or Linux computer, the pedal's USB cable, PatchPilot from [Releases](../../releases/latest). (The Android app is coming soon on Google Play.)
-Keep the amp volume low and, if you can, back up the patches you care about first.
+### 💻 On Windows or Linux
+1. Download PatchPilot from [Releases](../../releases/latest) and connect the pedal with its USB cable: it is recognised by itself.
+2. Try the **Coach** (“warmer”, “less reverb”), the **patch list** and the **tuner**.
+3. Press **Send the log…** (yellow bar at the top, or **Log** page): a file is saved and an email opens. Attach the file.
 
-| Step | What to do | What to tell us |
-|---|---|---|
-| 1. Connect | **Collega** → *Cerca dispositivi* → *Collega e identifica* | Does the bottom bar show your pedal model? |
-| 2. Reading | **Collega** → tick *Lettura dal pedale* | — |
-| 3. Current patch | **Patch** → *Patch corrente* | Does the name match the pedal display? |
-| 4. Patch list | **Patch** → *Elenca le patch* (wait until it finishes) | Are the names and their order right? |
-| 5. Editor | **Editor** | Do the effects on/off match the pedal? |
-| 6. Tuner | **Accordatore** → *Accendi accordatore*, play a string → *Spegni accordatore* | Does the note match the pedal? |
+### 🎁 The full version
+Write to **autofonic.mixer@gmail.com** (or a private message on Facebook) with the pedal model, the firmware version if you know it, and what worked or didn't. Even “it doesn't connect” helps a lot!
+You get the full version: a **Google Play promo code** on Android, an **unlock code** on the computer.
 
-**Send the result:** **Registro** → *Copia registro* → paste it in an email to **autofonic.mixer@gmail.com**, with pedal model and firmware version.
-Even "step 1 does not work" is very useful!
-
-If something odd happens (sound changes, the pedal freezes, the cable disconnects): **stop**, unplug, and tell us.
+### 🛡️ Safety
+PatchPilot **never** sends a factory reset and **never** deletes files on the pedal. The test changes only the patch in use and puts every byte back. Keep the amp volume low. If something odd happens (the pedal freezes, the cable disconnects): unplug and tell us.
 
 ---
 
 <a id="italiano"></a>
 ## Italiano
 
-Grazie! Ogni pedale provato ci avvicina all'editor completo. La beta **legge soltanto** dal pedale: non scrive, non salva e non cancella nulla.
+**Hai uno Zoom (MultiStomp, serie G o B), un Boss, un Valeton o un NUX?** Provalo con PatchPilot: ci vogliono 5 minuti e ricevi in regalo la **versione completa**.
+Ogni pedale provato rende il Coach AI più preciso per tutti quelli che hanno lo stesso modello.
 
-**Ti servono:** il pedale, un computer Windows, Mac o Linux, il cavo USB del pedale, PatchPilot da [Releases](../../releases/latest). (L'app Android è in arrivo su Google Play.)
-Tieni basso il volume dell'amplificatore e, se puoi, fai prima un backup delle patch a cui tieni.
+### 📱 Su Android (consigliato)
+1. Installa PatchPilot da Google Play e collega il pedale con un cavo USB-OTG.
+2. Apri **Impostazioni** → tocca **🧪 Aiuta lo sviluppatore: prova il mio pedale** (è il primo pulsante).
+3. Aspetta circa un minuto **senza toccare il pedale**. PatchPilot gira una manopola di un passo e la rimette, spegne e riaccende un effetto e, la prima volta per un modello, prova quali effetti il pedale accetta. Rimette tutto esattamente com'era. Poi il rapporto parte da solo.
+4. Scrivici (vedi sotto) il **modello del pedale** e l'**ora della prova**.
 
-| Passo | Cosa fare | Cosa dirci |
-|---|---|---|
-| 1. Collega | **Collega** → *Cerca dispositivi* → *Collega e identifica* | Nella barra in basso compare il modello del tuo pedale? |
-| 2. Lettura | **Collega** → spunta *Lettura dal pedale* | — |
-| 3. Patch corrente | **Patch** → *Patch corrente* | Il nome corrisponde al display del pedale? |
-| 4. Elenco patch | **Patch** → *Elenca le patch* (aspetta che finisca) | Nomi e ordine sono giusti? |
-| 5. Editor | **Editor** | Gli effetti accesi/spenti corrispondono al pedale? |
-| 6. Accordatore | **Accordatore** → *Accendi*, suona una corda → *Spegni* | La nota corrisponde a quella del pedale? |
+### 💻 Su Windows o Linux
+1. Scarica PatchPilot da [Releases](../../releases/latest) e collega il pedale con il suo cavo USB: si riconosce da solo.
+2. Prova il **Coach** («più caldo», «meno riverbero»), l'**elenco delle patch** e l'**accordatore**.
+3. Premi **Manda il registro…** (barra gialla in alto, oppure pagina **Registro**): si salva un file e si apre l'email. Allega il file.
 
-**Invia il risultato:** **Registro** → *Copia registro* → incollalo in un'email a **autofonic.mixer@gmail.com**, con modello e versione firmware del pedale.
-Anche «il passo 1 non funziona» è utilissimo!
+### 🎁 La versione completa
+Scrivi a **autofonic.mixer@gmail.com** (o in privato su Facebook) con il modello del pedale, la versione del firmware se la sai, e cosa ha funzionato o no. Anche «non si collega» è utilissimo!
+Ricevi la versione completa: un **codice promozionale di Google Play** su Android, un **codice di sblocco** sul computer.
 
-Se succede qualcosa di strano (cambia il suono, il pedale si blocca, il cavo si scollega): **fermati**, scollega e avvisaci.
+### 🛡️ Sicurezza
+PatchPilot **non manda mai** il ripristino di fabbrica e **non cancella mai** file nel pedale. La prova cambia solo la patch in uso e rimette ogni byte com'era. Tieni basso il volume dell'amplificatore. Se succede qualcosa di strano (il pedale si blocca, il cavo si scollega): scollega e avvisaci.
